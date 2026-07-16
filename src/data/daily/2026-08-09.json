@@ -1,0 +1,103 @@
+{
+  "gameNumber": 26,
+  "dateSeed": "2026-08-09",
+  "theme": "OLYMPIC MOMENTS",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "OLYMPIC MOMENTS",
+      "clue": "THE GIANT INTRO SHOW WHERE EVERY COUNTRY GETS A FIT CHECK",
+      "answer": "OPENING CEREMONY",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "OLYMPIC MOMENTS",
+      "clue": "THE TOP PRIZE THAT MAKES ATHLETES CRY AND COMMENTATORS WHISPER",
+      "answer": "GOLD MEDAL",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "OLYMPIC MOMENTS",
+      "clue": "THE RACE END SO CLOSE EVERYONE NEEDS TECHNOLOGY AND A PRAYER",
+      "answer": "PHOTO FINISH",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "OLYMPIC MOMENTS",
+      "clue": "THE NARROW APPARATUS WHERE ONE WOBBLE BECOMES NATIONAL STRESS",
+      "answer": "BALANCE BEAM",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "OLYMPIC MOMENTS",
+      "clue": "THE FLAME JOURNEY THAT MAKES RUNNING WITH FIRE SEEM OFFICIAL",
+      "answer": "TORCH RELAY",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "OLYMPIC MOMENTS",
+      "clue": "THE BASKETBALL ROSTER THAT MADE THE REST OF THE WORLD SIGH",
+      "answer": "DREAM TEAM",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "OLYMPIC MOMENTS",
+      "clue": "THE PERFORMANCE THAT MAKES HISTORY AND A MILLION REPLAYS",
+      "answer": "RECORD BREAKER",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "OLYMPIC MOMENTS",
+      "clue": "THE STAND WHERE WINNERS CRY LIKE THE FLAG PERSONALLY RAISED THEM",
+      "answer": "PODIUM TEARS",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "OLYMPIC MOMENTS",
+      "clue": "THE WINTER WIPEOUT THAT MAKES THE WHOLE ROOM GASP",
+      "answer": "ICE SKATING FALL",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "OLYMPIC MOMENTS",
+      "clue": "THE FASTEST RACE WHERE BLINKING FEELS IRRESPONSIBLE",
+      "answer": "SPRINT FINAL",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "OLYMPIC MOMENTS",
+      "clue": "THE SONG MOMENT THAT TURNS CHAMPIONS INTO TEARS",
+      "answer": "NATIONAL ANTHEM",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "THE GOODBYE SHOW WHERE EVERYONE PRETENDS THEY ARE NOT EXHAUSTED",
+      "answer": "CLOSING CEREMONY",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}

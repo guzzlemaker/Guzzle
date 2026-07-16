@@ -1,0 +1,103 @@
+{
+  "gameNumber": 28,
+  "dateSeed": "2026-08-11",
+  "theme": "GUESS THE BRAND",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "GUESS THE BRAND",
+      "clue": "THE ATHLETIC CHECKMARK THAT MAKES SNEAKERS FEEL FASTER",
+      "answer": "NIKE SWOOSH",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "GUESS THE BRAND",
+      "clue": "THE FRUIT ICON THAT CONVINCED EVERYONE CHARGERS SHOULD BE DIFFERENT",
+      "answer": "APPLE LOGO",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "GUESS THE BRAND",
+      "clue": "THE FAST FOOD SYMBOL THAT CHILDREN CAN SPOT FROM HIGHWAY SPEEDS",
+      "answer": "GOLDEN ARCHES",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "GUESS THE BRAND",
+      "clue": "THE COFFEE MERMAID WHO HAS SEEN YOUR MOST EXPENSIVE MORNING",
+      "answer": "STARBUCKS SIREN",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "GUESS THE BRAND",
+      "clue": "THE RED RETAIL CIRCLE THAT SOMEHOW MAKES YOU BUY THROW PILLOWS",
+      "answer": "TARGET BULLSEYE",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "GUESS THE BRAND",
+      "clue": "THE PACKAGE ARROW THAT KNOWS EXACTLY HOW IMPATIENT YOU ARE",
+      "answer": "AMAZON SMILE",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "GUESS THE BRAND",
+      "clue": "THE ELECTRIC CAR LETTER THAT MADE DOOR HANDLES COMPLICATED",
+      "answer": "TESLA T",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "GUESS THE BRAND",
+      "clue": "THE RED SODA WRITING THAT BASICALLY SOUNDS LIKE A HOLIDAY",
+      "answer": "COCA COLA SCRIPT",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "GUESS THE BRAND",
+      "clue": "THE MAGIC KINGDOM OUTLINE THAT MAKES CREDIT CARDS NERVOUS",
+      "answer": "DISNEY CASTLE",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "GUESS THE BRAND",
+      "clue": "THE THREE LINE SPORTS MARK THAT SHOWS UP ON EVERY TRACK JACKET",
+      "answer": "ADIDAS STRIPES",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "GUESS THE BRAND",
+      "clue": "THE FAST FOOD CHIME THAT RINGS MOSTLY AFTER MIDNIGHT",
+      "answer": "TACO BELL",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "THE STREAMING SOUND THAT STARTS BEFORE YOU MAKE BAD SLEEP CHOICES",
+      "answer": "NETFLIX INTRO",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}

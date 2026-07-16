@@ -1,0 +1,103 @@
+{
+  "gameNumber": 9,
+  "dateSeed": "2026-07-23",
+  "theme": "ADULTING 101",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "ADULTING 101",
+      "clue": "THE MONTHLY MONEY DISAPPEARING ACT WITH DUE DATES",
+      "answer": "PAYING BILLS",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "ADULTING 101",
+      "clue": "THE PHONE TASK THAT SOMEHOW REQUIRES A WHOLE PERSONALITY",
+      "answer": "MAKING APPOINTMENTS",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "ADULTING 101",
+      "clue": "THE CLOTHING CYCLE WHERE EVERYTHING IS CLEAN BUT NOTHING IS PUT AWAY",
+      "answer": "DOING LAUNDRY",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "ADULTING 101",
+      "clue": "THE POLICY SHOPPING THAT MAKES YOU MISS BEING A CHILD",
+      "answer": "BUYING INSURANCE",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "ADULTING 101",
+      "clue": "THE COLD BOX ARCHAEOLOGY DIG WHERE CONDIMENTS GO TO RETIRE",
+      "answer": "CLEANING THE FRIDGE",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "ADULTING 101",
+      "clue": "THE GOVERNMENT PAPERWORK EVENT THAT MAKES EVERYONE SUDDENLY HUMBLE",
+      "answer": "FILING TAXES",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "ADULTING 101",
+      "clue": "THE SUNDAY OPTIMISM THAT DIES BY TUESDAY LUNCH",
+      "answer": "MEAL PREPPING",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "ADULTING 101",
+      "clue": "THE CEILING DUST TASK YOU ONLY REMEMBER WHEN BREATHING GETS DRAMATIC",
+      "answer": "CHANGING AIR FILTERS",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "ADULTING 101",
+      "clue": "THE CALENDAR ITEM THAT PREVENTS YOUR HOUSE FROM BECOMING EXPENSIVE",
+      "answer": "SCHEDULING MAINTENANCE",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "ADULTING 101",
+      "clue": "THE BORING PERCENTAGE BATTLE THAT SECRETLY RUNS YOUR FUTURE",
+      "answer": "COMPARING INTEREST RATES",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "ADULTING 101",
+      "clue": "THE ADULT SCORE YOU DIDNT KNOW YOU WERE PLAYING UNTIL IT MATTERED",
+      "answer": "BUILDING CREDIT",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "THE BEDDING ORIGAMI THAT HAS DEFEATED ENTIRE GENERATIONS",
+      "answer": "FOLDING FITTED SHEETS",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}

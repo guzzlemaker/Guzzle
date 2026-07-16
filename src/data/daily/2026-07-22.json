@@ -1,0 +1,103 @@
+{
+  "gameNumber": 8,
+  "dateSeed": "2026-07-22",
+  "theme": "THINGS THAT SHOULD BE ILLEGAL",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "THINGS THAT SHOULD BE ILLEGAL",
+      "clue": "THE VOLUME CRIME WHERE ONE PERSON MAKES THEIR ERRANDS EVERYONES PROBLEM",
+      "answer": "LOUD PHONE CALLS",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "THINGS THAT SHOULD BE ILLEGAL",
+      "clue": "THE FOOTWEAR TRAGEDY THAT RUINS AN ENTIRE PERSONALITY",
+      "answer": "WET SOCKS",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "THINGS THAT SHOULD BE ILLEGAL",
+      "clue": "THE HIGHWAY BEHAVIOR THAT TURNS COMMUTERS INTO VIGILANTES",
+      "answer": "SLOW LEFT LANE",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "THINGS THAT SHOULD BE ILLEGAL",
+      "clue": "THE DIGITAL ROOM WHERE THIRTEEN PEOPLE DISCOVER NO ONE CAN BE NORMAL",
+      "answer": "GROUP TEXT CHAOS",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "THINGS THAT SHOULD BE ILLEGAL",
+      "clue": "THE TERMINAL MOVE THAT DESERVES ITS OWN SECURITY SCREENING",
+      "answer": "AIRPORT LINE CUTTING",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "THINGS THAT SHOULD BE ILLEGAL",
+      "clue": "THE SAD SIDE DISH THAT FEELS LIKE A PERSONAL BETRAYAL",
+      "answer": "COLD FRENCH FRIES",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "THINGS THAT SHOULD BE ILLEGAL",
+      "clue": "THE FINAL BILL SURPRISE THAT MAKES THE ORIGINAL PRICE FICTION",
+      "answer": "HIDDEN SERVICE FEES",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "THINGS THAT SHOULD BE ILLEGAL",
+      "clue": "THE PAINTED RECTANGLE DESIGNED BY SOMEONE WHO HATES DOORS",
+      "answer": "TINY PARKING SPOTS",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "THINGS THAT SHOULD BE ILLEGAL",
+      "clue": "THE ROUTER RIDDLE WRITTEN LIKE A HOSTAGE NOTE",
+      "answer": "BAD WIFI PASSWORDS",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "THINGS THAT SHOULD BE ILLEGAL",
+      "clue": "THE VIDEO INTERRUPTION THAT THINKS YOUR TIME IS A SUGGESTION",
+      "answer": "UNSKIPPABLE ADS",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "THINGS THAT SHOULD BE ILLEGAL",
+      "clue": "THE CONVERSATION MODE THAT FORCES EVERYONE TO MEET YOUR AUNT",
+      "answer": "PUBLIC SPEAKERPHONE",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "THE FREEZER BETRAYAL DISCOVERED EXACTLY WHEN THE DRINK IS READY",
+      "answer": "EMPTY ICE TRAY",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}

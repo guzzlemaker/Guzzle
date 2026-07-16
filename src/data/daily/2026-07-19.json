@@ -1,0 +1,103 @@
+{
+  "gameNumber": 5,
+  "dateSeed": "2026-07-19",
+  "theme": "REDNECK ENGINEERING",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "REDNECK ENGINEERING",
+      "clue": "THE SILVER FIX THAT SAYS NO WARRANTY NO PROBLEM",
+      "answer": "DUCT TAPE HANDLE",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "REDNECK ENGINEERING",
+      "clue": "THE PLASTIC LOOP MIRACLE HOLDING TOGETHER HALF THE COUNTY",
+      "answer": "ZIP TIE REPAIR",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "REDNECK ENGINEERING",
+      "clue": "THE FLOATING BACKYARD SEAT THAT SHOULD NOT PASS INSPECTION",
+      "answer": "LAWN CHAIR BOAT",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "REDNECK ENGINEERING",
+      "clue": "THE SQUARE PLASTIC CLASSIC THAT SOMEHOW BECAME FURNITURE",
+      "answer": "MILK CRATE STORAGE",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "REDNECK ENGINEERING",
+      "clue": "THE BLUE COVER SOLUTION THAT MAKES THE NEIGHBORS SQUINT",
+      "answer": "TARP ROOF FIX",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "REDNECK ENGINEERING",
+      "clue": "THE ELASTIC SECURITY SYSTEM FOR PEOPLE WHO FEAR NO SPEED BUMP",
+      "answer": "BUNGEE CORD LATCH",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "REDNECK ENGINEERING",
+      "clue": "THE FOAM CYLINDER UPGRADE THAT PROTECTS BOTH DOORS AND EGOS",
+      "answer": "POOL NOODLE BUMPER",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "REDNECK ENGINEERING",
+      "clue": "THE LOUD VACUUM ANSWER TO A PROBLEM IT WAS NEVER MEANT TO SOLVE",
+      "answer": "SHOP VAC SOLUTION",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "REDNECK ENGINEERING",
+      "clue": "THE TEMPORARY SLOPE THAT HAS BEEN TEMPORARY SINCE 2017",
+      "answer": "PLYWOOD RAMP",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "REDNECK ENGINEERING",
+      "clue": "THE FIVE GALLON THRONE NOBODY ASKED FOR BUT EVERYONE UNDERSTANDS",
+      "answer": "BUCKET SEAT UPGRADE",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "REDNECK ENGINEERING",
+      "clue": "THE ORANGE WIRE MAZE THAT MAKES ONE OUTLET DO THE WORK OF TWELVE",
+      "answer": "EXTENSION CORD WEB",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "THE BACKYARD SPA IDEA THAT DEFINITELY STARTED WITH HOLD MY DRINK",
+      "answer": "TRUCK BED HOT TUB",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}

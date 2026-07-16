@@ -1,0 +1,103 @@
+{
+  "gameNumber": 20,
+  "dateSeed": "2026-08-03",
+  "theme": "BUCKET LIST",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "BUCKET LIST",
+      "clue": "THE SKY LIGHT SHOW THAT MAKES EVERY TRAVEL PHOTO LOOK UNDERQUALIFIED",
+      "answer": "SEE NORTHERN LIGHTS",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "BUCKET LIST",
+      "clue": "THE ROMANTIC CITY TRIP EVERYONE IMAGINES WITH BETTER SHOES",
+      "answer": "VISIT PARIS",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "BUCKET LIST",
+      "clue": "THE PLANE EXIT IDEA THAT SOUNDS FUN ONLY BEFORE THE DOOR OPENS",
+      "answer": "SKYDIVE ONCE",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "BUCKET LIST",
+      "clue": "THE CROSS COUNTRY DRIVE WHERE PLAYLISTS BECOME LOAD BEARING",
+      "answer": "ROAD TRIP AMERICA",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "BUCKET LIST",
+      "clue": "THE OCEAN SKILL THAT REQUIRES BALANCE AND DELUSION",
+      "answer": "LEARN TO SURF",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "BUCKET LIST",
+      "clue": "THE PERSONAL PROJECT EVERYONE MENTIONS RIGHT BEFORE NOT STARTING",
+      "answer": "WRITE A BOOK",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "BUCKET LIST",
+      "clue": "THE LONG RACE PEOPLE PAY FOR AND THEN DISCUSS FOREVER",
+      "answer": "RUN A MARATHON",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "BUCKET LIST",
+      "clue": "THE NEON CITY DREAM WITH INCREDIBLE FOOD AND ZERO SLEEP",
+      "answer": "GO TO TOKYO",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "BUCKET LIST",
+      "clue": "THE SEA CREATURE EXPERIENCE THAT MAKES VACATION FEEL LIKE A DOCUMENTARY",
+      "answer": "SWIM WITH TURTLES",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "BUCKET LIST",
+      "clue": "THE TENNIS TRIP WITH GRASS COURTS AND POLITE CLAPPING",
+      "answer": "WATCH WIMBLEDON",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "BUCKET LIST",
+      "clue": "THE SUMMIT PLAN THAT SOUNDS INSPIRING UNTIL STAIRS GET INVOLVED",
+      "answer": "CLIMB A MOUNTAIN",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "THE CAREER PAUSE FANTASY WITH A VERY RESPONSIBLE NAME",
+      "answer": "TAKE A SABBATICAL",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}

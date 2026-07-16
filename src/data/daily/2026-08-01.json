@@ -1,0 +1,103 @@
+{
+  "gameNumber": 18,
+  "dateSeed": "2026-08-01",
+  "theme": "THINGS THAT SMELL AMAZING",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "THINGS THAT SMELL AMAZING",
+      "clue": "THE BAKERY CLOUD THAT MAKES CARBS FEEL LIKE A RELIGION",
+      "answer": "FRESH BAKED BREAD",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "THINGS THAT SMELL AMAZING",
+      "clue": "THE YARD SCENT THAT TRICKS PEOPLE INTO ENJOYING CHORES",
+      "answer": "CUT GRASS",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "THINGS THAT SMELL AMAZING",
+      "clue": "THE DEALERSHIP AROMA THAT MAKES DEBT FEEL PREMIUM",
+      "answer": "NEW CAR INTERIOR",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "THINGS THAT SMELL AMAZING",
+      "clue": "THE OUTDOOR HAZE THAT TURNS HOODIES INTO MEMORY STORAGE",
+      "answer": "CAMPFIRE SMOKE",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "THINGS THAT SMELL AMAZING",
+      "clue": "THE WARM FABRIC SCENT THAT MAKES BEING RESPONSIBLE ALMOST WORTH IT",
+      "answer": "CLEAN LAUNDRY",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "THINGS THAT SMELL AMAZING",
+      "clue": "THE MORNING BREW PERFUME THAT CAN FIX EXACTLY ONE PROBLEM",
+      "answer": "COFFEE BREWING",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "THINGS THAT SMELL AMAZING",
+      "clue": "THE STORM SIDEWALK SCENT EVERYONE PRETENDS THEY DISCOVERED",
+      "answer": "RAIN ON PAVEMENT",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "THINGS THAT SMELL AMAZING",
+      "clue": "THE DESSERT AROMA WAX THAT MAKES THE HOUSE LIE",
+      "answer": "VANILLA CANDLE",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "THINGS THAT SMELL AMAZING",
+      "clue": "THE BREAKFAST SIZZLE THAT SUMMONS PEOPLE FROM OTHER ROOMS",
+      "answer": "BACON COOKING",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "THINGS THAT SMELL AMAZING",
+      "clue": "THE CITRUS PEEL MOMENT THAT MAKES YOUR HANDS FEEL LIKE A SPA",
+      "answer": "ORANGE PEELS",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "THINGS THAT SMELL AMAZING",
+      "clue": "THE CLEAN INFANT BOTTLE SCENT THAT SOMEHOW CALMS THE SOUL",
+      "answer": "BABY SHAMPOO",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "THE HOLIDAY PINE SCENT THAT DRAGS DECEMBER INTO THE ROOM",
+      "answer": "CHRISTMAS TREE",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}

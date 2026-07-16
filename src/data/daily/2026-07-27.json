@@ -1,0 +1,103 @@
+{
+  "gameNumber": 13,
+  "dateSeed": "2026-07-27",
+  "theme": "COSTCO ADVENTURES",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "COSTCO ADVENTURES",
+      "clue": "THE TINY TOOTHPICK BUFFET THAT MAKES SHOPPING FEEL LIKE A TOUR",
+      "answer": "FREE SAMPLES",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "COSTCO ADVENTURES",
+      "clue": "THE OVERSIZED VEHICLE YOU PILOT LIKE A WAREHOUSE SHIP",
+      "answer": "GIANT CART",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "COSTCO ADVENTURES",
+      "clue": "THE BIRD PURCHASE THAT HAS HELD THE ECONOMY TOGETHER FOR YEARS",
+      "answer": "ROTISSERIE CHICKEN",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "COSTCO ADVENTURES",
+      "clue": "THE ROLL TOWER THAT MAKES THE GARAGE LOOK PREPARED FOR HISTORY",
+      "answer": "BULK TOILET PAPER",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "COSTCO ADVENTURES",
+      "clue": "THE SNACK BAG BIG ENOUGH TO REQUIRE A HOUSE MEETING",
+      "answer": "FAMILY SIZE SNACKS",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "COSTCO ADVENTURES",
+      "clue": "THE ASPHALT WAR BEFORE THE BULK BUYING EVEN STARTS",
+      "answer": "PARKING LOT BATTLE",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "COSTCO ADVENTURES",
+      "clue": "THE PLASTIC PASS THAT UNLOCKS THE KINGDOM OF VERY LARGE BOXES",
+      "answer": "MEMBERSHIP CARD",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "COSTCO ADVENTURES",
+      "clue": "THE FOOD COURT LEGEND THAT LAUGHS AT INFLATION",
+      "answer": "HOT DOG COMBO",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "COSTCO ADVENTURES",
+      "clue": "THE PARTY TUB YOU BUY FOR SIX PEOPLE AND REGRET WITH HONOR",
+      "answer": "THREE POUND DIP",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "COSTCO ADVENTURES",
+      "clue": "THE GIANT SCREEN DECISION MADE BETWEEN PAPER TOWELS AND VITAMINS",
+      "answer": "IMPULSE TV PURCHASE",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "COSTCO ADVENTURES",
+      "clue": "THE ENDLESS ROWS WHERE TIME AND BUDGET LOSE MEANING",
+      "answer": "WAREHOUSE AISLES",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "THE EXIT GUARDIAN WHO JUDGES YOUR CART WITH A HIGHLIGHTER",
+      "answer": "RECEIPT CHECKER",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}

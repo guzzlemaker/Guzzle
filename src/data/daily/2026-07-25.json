@@ -1,0 +1,103 @@
+{
+  "gameNumber": 11,
+  "dateSeed": "2026-07-25",
+  "theme": "THINGS EVERY DAD OWNS",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "THINGS EVERY DAD OWNS",
+      "clue": "THE FOOTWEAR THAT SAYS ERRANDS ARE A SPORT",
+      "answer": "WHITE SNEAKERS",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "THINGS EVERY DAD OWNS",
+      "clue": "THE BBQ CLICKERS THAT MUST BE TESTED TWICE BY LAW",
+      "answer": "GRILL TONGS",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "THINGS EVERY DAD OWNS",
+      "clue": "THE SMALL METAL AUTHORITY USED TO PROVE A COUCH WILL NOT FIT",
+      "answer": "TAPE MEASURE",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "THINGS EVERY DAD OWNS",
+      "clue": "THE SECOND COLD STORAGE UNIT WHERE BEVERAGES FORM A MILITIA",
+      "answer": "GARAGE FRIDGE",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "THINGS EVERY DAD OWNS",
+      "clue": "THE SUN FADED HAT WITH EMOTIONAL DAMAGE AND LAWN CREDIBILITY",
+      "answer": "OLD BASEBALL CAP",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "THINGS EVERY DAD OWNS",
+      "clue": "THE BATTERY POWERED TOOL TREATED LIKE A FAMILY HEIRLOOM",
+      "answer": "CORDLESS DRILL",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "THINGS EVERY DAD OWNS",
+      "clue": "THE WEEKEND MACHINE THAT MAKES NEIGHBORS COMPETITIVE",
+      "answer": "LAWN MOWER",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "THINGS EVERY DAD OWNS",
+      "clue": "THE SMALL BLADE THAT APPEARS WHEN A PACKAGE NEEDS RESPECT",
+      "answer": "POCKET KNIFE",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "THINGS EVERY DAD OWNS",
+      "clue": "THE PORTABLE THRONE BROUGHT TO EVERY SPORTS FIELD",
+      "answer": "FOLDING CHAIR",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "THINGS EVERY DAD OWNS",
+      "clue": "THE ICE CHEST THAT BECOMES A PERSONALITY DURING SUMMER",
+      "answer": "COOLER FULL OF ICE",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "THINGS EVERY DAD OWNS",
+      "clue": "THE TIE DOWNS GIVEN ONE CONFIDENT TUG BEFORE TEMPTING FATE",
+      "answer": "RATCHET STRAPS",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "THE MYSTERY WIRE ARCHIVE THAT CANNOT BE THROWN AWAY FOR REASONS",
+      "answer": "BOX OF CABLES",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}

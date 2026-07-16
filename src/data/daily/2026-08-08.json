@@ -1,0 +1,103 @@
+{
+  "gameNumber": 25,
+  "dateSeed": "2026-08-08",
+  "theme": "THINGS YOU SECRETLY LOVE",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "THINGS YOU SECRETLY LOVE",
+      "clue": "THE BEAUTIFUL DAY WITH NOTHING ON IT AND NO ONE NEEDING YOU",
+      "answer": "EMPTY CALENDAR",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "THINGS YOU SECRETLY LOVE",
+      "clue": "THE MESSY INFORMATION SNACK YOU CLAIM TO HATE WHILE LEANING IN",
+      "answer": "HOT GOSSIP",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "THINGS YOU SECRETLY LOVE",
+      "clue": "THE BEDDING RESET THAT MAKES LIFE FEEL TEMPORARILY MANAGED",
+      "answer": "CLEAN SHEETS",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "THINGS YOU SECRETLY LOVE",
+      "clue": "THE SOLO HOURS WHERE NOBODY ASKS WHAT IS FOR DINNER",
+      "answer": "ALONE TIME",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "THINGS YOU SECRETLY LOVE",
+      "clue": "THE COLD SLICE THAT SOMEHOW IMPROVES AFTER MIDNIGHT",
+      "answer": "LEFTOVER PIZZA",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "THINGS YOU SECRETLY LOVE",
+      "clue": "THE GRAY SKY EXCUSE TO CANCEL EVERYTHING AND FEEL RIGHT",
+      "answer": "RAINY SUNDAYS",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "THINGS YOU SECRETLY LOVE",
+      "clue": "THE TERMINAL HOBBY OF OBSERVING STRANGERS MAKE WEIRD CHOICES",
+      "answer": "AIRPORT PEOPLE WATCHING",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "THINGS YOU SECRETLY LOVE",
+      "clue": "THE SHELF ARRANGEMENT THAT TRICKS YOU INTO FEELING RICH",
+      "answer": "ORGANIZED PANTRY",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "THINGS YOU SECRETLY LOVE",
+      "clue": "THE GAS STATION SHADES YOU LOSE WITHOUT EMOTIONAL DAMAGE",
+      "answer": "CHEAP SUNGLASSES",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "THINGS YOU SECRETLY LOVE",
+      "clue": "THE CONCRETE REVERB MOMENT WHERE A VOICE GETS MAIN CHARACTER ENERGY",
+      "answer": "PARKING GARAGE ECHO",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "THINGS YOU SECRETLY LOVE",
+      "clue": "THE BEDTIME THAT SOUNDS BORING UNTIL IT BECOMES LUXURY",
+      "answer": "SLEEPY BY NINE",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "THE BLANK PAGES THAT MAKE YOU BELIEVE THIS TIME YOU WILL BE ORGANIZED",
+      "answer": "FRESH NOTEBOOK",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}

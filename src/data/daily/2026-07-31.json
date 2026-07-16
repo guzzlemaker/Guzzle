@@ -1,0 +1,103 @@
+{
+  "gameNumber": 17,
+  "dateSeed": "2026-07-31",
+  "theme": "BAD EXCUSES",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "BAD EXCUSES",
+      "clue": "THE ROADWAY BLAME GAME USED WHEN TIME MANAGEMENT HAS LEFT THE CHAT",
+      "answer": "TRAFFIC WAS CRAZY",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "BAD EXCUSES",
+      "clue": "THE MORNING DEVICE BETRAYAL THAT ALWAYS SOUNDS SUSPICIOUS",
+      "answer": "ALARM DIDNT GO OFF",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "BAD EXCUSES",
+      "clue": "THE BATTERY FUNERAL HELD RIGHT WHEN SOMEONE NEEDED PROOF",
+      "answer": "PHONE DIED",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "BAD EXCUSES",
+      "clue": "THE CLASSIC PET BASED LIE THAT SOMEHOW STILL HAS LEGS",
+      "answer": "DOG ATE HOMEWORK",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "BAD EXCUSES",
+      "clue": "THE DIGITAL DISAPPEARANCE CLAIM MADE WITH ABSOLUTE CONFIDENCE",
+      "answer": "EMAIL GOT LOST",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "BAD EXCUSES",
+      "clue": "THE TECHNICAL SCHEDULE TRAGEDY NOBODY CAN REALLY VERIFY",
+      "answer": "CALENDAR DIDNT SYNC",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "BAD EXCUSES",
+      "clue": "THE VAGUE PRODUCTIVITY FOG THAT EXPLAINS NOTHING AND EVERYTHING",
+      "answer": "I WAS SO BUSY",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "BAD EXCUSES",
+      "clue": "THE LOCATION MISTAKE THAT BUYS EXACTLY SEVEN MINUTES",
+      "answer": "WRONG ADDRESS",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "BAD EXCUSES",
+      "clue": "THE VEHICLE BETRAYAL USED BY PEOPLE WHO OWN KEYS AND PANIC",
+      "answer": "MY CAR WOULDNT START",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "BAD EXCUSES",
+      "clue": "THE DATE CONFUSION DEFENSE THAT MIGHT WORK ONCE",
+      "answer": "I THOUGHT IT WAS TOMORROW",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "BAD EXCUSES",
+      "clue": "THE EMAIL VOID WHERE RESPONSIBILITY GOES TO HIDE",
+      "answer": "SPAM FOLDER",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "THE WIFI BLAME CARD PLAYED DURING ANY AWKWARD SILENCE",
+      "answer": "BAD CONNECTION",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}
