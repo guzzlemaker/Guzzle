@@ -180,6 +180,13 @@ function canAutoFocusInput() {
   );
 }
 
+function shouldUseMobileFocusLock() {
+  return (
+    typeof window !== 'undefined' &&
+    (window.matchMedia?.('(pointer: coarse)').matches || window.innerWidth < 768)
+  );
+}
+
 function isValidEmail(value) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim());
 }
@@ -878,6 +885,15 @@ export default function App() {
     completeCurrentPuzzle('correct');
   }
 
+  function handleAnswerTouchStart(event) {
+    if (showRulesIntro || showLevelIntro || isTransitioning || revealingSolved || !shouldUseMobileFocusLock()) {
+      return;
+    }
+
+    event.preventDefault();
+    inputRef.current?.focus({ preventScroll: true });
+  }
+
   function handleMissed() {
     if (revealingSolved) {
       return;
@@ -1289,10 +1305,13 @@ export default function App() {
                   type="text"
                   value={answer}
                   onChange={(event) => setAnswer(event.target.value)}
+                  onTouchStart={handleAnswerTouchStart}
                   autoCapitalize="none"
                   autoComplete="off"
+                  enterKeyHint="done"
+                  inputMode="text"
                   disabled={showRulesIntro || showLevelIntro || isTransitioning || revealingSolved}
-                  className="h-12 w-full rounded-none border-2 border-black bg-white px-4 text-center text-base font-black uppercase outline-none transition placeholder:text-black/35 focus:shadow-[4px_4px_0_#000] disabled:bg-black/5 sm:h-12 sm:text-lg"
+                  className="h-12 w-full rounded-none border-2 border-black bg-white px-4 text-center text-[16px] font-black uppercase outline-none transition placeholder:text-black/35 focus:shadow-[4px_4px_0_#000] disabled:bg-black/5 sm:h-12 sm:text-lg"
                   placeholder="Enter phrase"
                 />
                 <button

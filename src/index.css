@@ -430,6 +430,10 @@ button {
 }
 
 @media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .level-intro-overlay,
   .rules-intro-overlay {
     padding: 0.75rem;
@@ -500,6 +504,10 @@ button {
 
   .letter-box {
     border-width: 1.5px;
+  }
+
+  form:has(#answer) {
+    margin-top: 0.5rem;
   }
 
 }
