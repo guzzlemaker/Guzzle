@@ -183,7 +183,9 @@ function canAutoFocusInput() {
 function shouldUseMobileFocusLock() {
   return (
     typeof window !== 'undefined' &&
-    (window.matchMedia?.('(pointer: coarse)').matches || window.innerWidth < 768)
+    window.matchMedia?.('(pointer: coarse)').matches &&
+    window.matchMedia?.('(max-width: 430px)').matches &&
+    window.matchMedia?.('(max-height: 860px)').matches
   );
 }
 
