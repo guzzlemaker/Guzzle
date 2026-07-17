@@ -17,14 +17,7 @@ const SOUND_SETTING_KEY = 'guzzle:sound-enabled';
 const DAILY_STATS_KEY = 'guzzle:daily-stats';
 const EMAIL_SIGNUP_KEY = 'guzzle:email-signup';
 const ANALYTICS_KEY = 'guzzle:analytics-events';
-const WEBSITE_URL = 'https://guzzle.me';
-// Placeholder until daily leaderboard rankings are backed by a live backend service.
-const PLACEHOLDER_LEADERBOARD_TOTAL = 127;
-const TODAY_HIGH_SCORE = {
-  solved: 12,
-  total: TOTAL_PUZZLES,
-  time: '2:20',
-};
+const WEBSITE_URL = 'https://guzzlevercel.vercel.app/';
 const AUDIO_SOURCES = {
   whoosh: '/audio/whoosh.mp3',
   success: '/audio/success.mp3',
@@ -179,6 +172,14 @@ function prefersReducedMotion() {
   return window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
 }
 
+function canAutoFocusInput() {
+  return (
+    typeof window !== 'undefined' &&
+    window.matchMedia?.('(pointer: fine)').matches &&
+    window.matchMedia?.('(min-width: 768px)').matches
+  );
+}
+
 function isValidEmail(value) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim());
 }
@@ -204,15 +205,7 @@ function getScoreQuote(score) {
 }
 
 function getTomorrowRankMessage(rank) {
-  if (rank === 1) {
-    return 'DEFEND YOUR TITLE TOMORROW.';
-  }
-
-  if (rank > 10) {
-    return 'MAKE YOUR WAY TO #1 TOMORROW.';
-  }
-
-  return 'CAN YOU FINISH #1 AGAIN TOMORROW?';
+  return 'COME BACK TOMORROW AND IMPROVE YOUR RACE.';
 }
 
 function trackAnalyticsEvent(eventName, details = {}) {
@@ -633,7 +626,7 @@ export default function App() {
       theme: selectedSet.theme,
       solved: correctCount,
       missed: missedCount,
-      dailyRank: performanceRank,
+      dailyRankStatus: 'backend_not_connected',
       totalPuzzles: TOTAL_PUZZLES,
       timeMs: resultMs,
     });
@@ -658,7 +651,6 @@ export default function App() {
     finishedAt,
     isComplete,
     missedCount,
-    performanceRank,
     raceLabel,
     selectedSet.theme,
     selectedSetIndex,
@@ -715,8 +707,8 @@ export default function App() {
   }, [completedCount, isComplete, isTransitioning, puzzleStartedAt, revealingSolved, showLevelIntro, showRulesIntro]);
 
   useEffect(() => {
-    if (!isComplete && !showRulesIntro && !showLevelIntro && !revealingSolved) {
-      inputRef.current?.focus();
+    if (!isComplete && !showRulesIntro && !showLevelIntro && !revealingSolved && canAutoFocusInput()) {
+      inputRef.current?.focus({ preventScroll: true });
     }
   }, [completedCount, isComplete, revealingSolved, showLevelIntro, showRulesIntro]);
 
@@ -896,7 +888,7 @@ export default function App() {
 
   async function handleShare() {
     const shareTitle = selectedSetIndex === 0 ? `GUZZLE #${dailyNumber}` : `${raceLabel} - ${selectedSet.theme}`;
-    const shareText = `\u{1F3C1} I finished ${shareTitle} in ${resultTime}.\nRank: #${performanceRank} of ${PLACEHOLDER_LEADERBOARD_TOTAL}\nSolved: ${correctCount}/${TOTAL_PUZZLES}.\nCan you beat me?\n\nPlay GUZZLE: ${WEBSITE_URL}`;
+    const shareText = `\u{1F3C1} I finished ${shareTitle} in ${resultTime}.\nSolved: ${correctCount}/${TOTAL_PUZZLES}.\nCan you beat me?\n\nPlay GUZZLE: ${WEBSITE_URL}`;
 
     try {
       await navigator.clipboard.writeText(shareText);
@@ -905,7 +897,7 @@ export default function App() {
         theme: selectedSet.theme,
         solved: correctCount,
         missed: missedCount,
-        dailyRank: performanceRank,
+        dailyRankStatus: 'backend_not_connected',
         time: resultTime,
       });
       setShareStatus('Copied result to clipboard.');
@@ -920,7 +912,7 @@ export default function App() {
           theme: selectedSet.theme,
           solved: correctCount,
           missed: missedCount,
-          dailyRank: performanceRank,
+          dailyRankStatus: 'backend_not_connected',
           time: resultTime,
         });
         setShareStatus('Shared.');
@@ -1230,11 +1222,9 @@ export default function App() {
                   Start Race
                 </button>
                 <div className="rules-high-score" aria-label="Today's highest score">
-                  <span>Today&apos;s Highest Score</span>
-                  <strong>
-                    {TODAY_HIGH_SCORE.solved}/{TODAY_HIGH_SCORE.total} solved - {TODAY_HIGH_SCORE.time}
-                  </strong>
-                  <small>Most solves, then fastest time</small>
+                  <span>Live Daily Scores</span>
+                  <strong>Coming Soon</strong>
+                  <small>Real rankings need the leaderboard backend</small>
                 </div>
               </div>
             </div>
@@ -1343,17 +1333,14 @@ export default function App() {
                     </h2>
                     <div className="mx-auto mt-2 w-fit border-2 border-black bg-white px-6 py-2.5 shadow-[3px_3px_0_#000]">
                       <p className="text-[0.58rem] font-black uppercase tracking-[0.2em] text-black/60">
-                        Today&apos;s Rank
+                        Daily Rank
                       </p>
-                      {/* TODO: Replace this placeholder leaderboard position with live backend ranking data. */}
-                      <p className="mt-1 flex items-end justify-center gap-2 text-6xl font-black leading-none sm:text-7xl">
-                        <span>#{performanceRank}</span>
-                        <span className="pb-1 text-sm uppercase tracking-[0.12em] text-black/55 sm:text-base">
-                          of {PLACEHOLDER_LEADERBOARD_TOTAL}
-                        </span>
+                      {/* TODO: Replace this display with live backend ranking data. */}
+                      <p className="mt-1 text-3xl font-black uppercase leading-none sm:text-5xl">
+                        Coming Soon
                       </p>
                       <p className="mt-1 text-[0.56rem] font-black uppercase tracking-[0.12em] text-black/50">
-                        Solved first, then time
+                        Real players, solved first, then time
                       </p>
                     </div>
                     <p className="mx-auto mt-2 max-w-md text-sm font-bold leading-snug text-black/65">
