@@ -511,6 +511,7 @@ export default function App() {
   const [emailStatus, setEmailStatus] = useState('');
   const [emailSubmitting, setEmailSubmitting] = useState(false);
   const [emailSubmitted, setEmailSubmitted] = useState(Boolean(getStoredEmailSignup()));
+  const [isAnswerFocused, setIsAnswerFocused] = useState(false);
   const inputRef = useRef(null);
   const advanceTimeoutRef = useRef(null);
   const transitionTimeoutRef = useRef(null);
@@ -891,7 +892,20 @@ export default function App() {
     }
 
     event.preventDefault();
+    setIsAnswerFocused(true);
+    window.requestAnimationFrame(() => window.scrollTo(0, 0));
     inputRef.current?.focus({ preventScroll: true });
+  }
+
+  function handleAnswerFocus() {
+    setIsAnswerFocused(true);
+    if (shouldUseMobileFocusLock()) {
+      window.requestAnimationFrame(() => window.scrollTo(0, 0));
+    }
+  }
+
+  function handleAnswerBlur() {
+    setIsAnswerFocused(false);
   }
 
   function handleMissed() {
@@ -1092,9 +1106,13 @@ export default function App() {
   }
 
   return (
-    <main className="min-h-screen bg-[#f7f7f4] px-3 py-2 text-black sm:px-5 sm:py-3">
-      <section className="mx-auto flex min-h-[calc(100vh-1rem)] w-full max-w-5xl flex-col">
-        <header className="border-b-2 border-black/40 pb-2">
+    <main
+      className={`min-h-screen bg-[#f7f7f4] px-3 py-2 text-black sm:px-5 sm:py-3 ${
+        isAnswerFocused && !isComplete ? 'mobile-typing' : ''
+      }`}
+    >
+      <section className="game-shell mx-auto flex min-h-[calc(100vh-1rem)] w-full max-w-5xl flex-col">
+        <header className="game-header border-b-2 border-black/40 pb-2">
           <div className="grid grid-cols-[minmax(0,1fr)_auto] items-start gap-2 sm:gap-4">
             <div className="min-w-0">
               <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
@@ -1160,7 +1178,7 @@ export default function App() {
           </div>
         </header>
 
-        <div className="relative flex flex-1 items-start justify-center py-3 sm:py-4">
+        <div className="game-stage relative flex flex-1 items-start justify-center py-3 sm:py-4">
           {revealingSolved && feedback && (
             <div
               className={`celebration-burst pointer-events-none absolute left-1/2 top-10 z-20 border-2 border-black px-5 py-3 text-sm font-black uppercase tracking-[0.2em] shadow-[4px_4px_0_#000] ${
@@ -1254,30 +1272,30 @@ export default function App() {
 
           {!isComplete ? (
             <article
-              className={`w-full transition-opacity duration-300 ${
+              className={`gameplay-panel w-full transition-opacity duration-300 ${
                 showRulesIntro || showLevelIntro || isTransitioning ? 'opacity-0' : 'opacity-100'
               }`}
             >
-              <div className="mb-3 flex items-end justify-between gap-4">
+              <div className="clue-block mb-3 flex items-end justify-between gap-4">
                 <div className="min-w-0 flex-1">
-                  <p className="mb-1 text-[0.62rem] font-black uppercase tracking-[0.24em] text-black/60 sm:text-xs">
+                  <p className="clue-category mb-1 text-[0.62rem] font-black uppercase tracking-[0.24em] text-black/60 sm:text-xs">
                     {activePuzzle.category}
                   </p>
-                  <h1 className="max-w-4xl text-xl font-black uppercase leading-[1.04] tracking-normal text-black sm:text-3xl lg:text-4xl">
+                  <h1 className="clue-title max-w-4xl text-xl font-black uppercase leading-[1.04] tracking-normal text-black sm:text-3xl lg:text-4xl">
                     {activePuzzle.clue}
                   </h1>
                 </div>
               </div>
 
-              <div className="mb-2 flex items-center justify-between gap-4 sm:hidden">
+              <div className="mobile-difficulty mb-2 flex items-center justify-between gap-4 sm:hidden">
                 <span className="text-[0.65rem] font-black uppercase tracking-[0.2em]">{activePuzzle.difficulty}</span>
               </div>
 
-              <div className="relative rounded-sm bg-white p-2 shadow-[0_14px_34px_rgba(0,0,0,0.07)] sm:p-3">
+              <div className="board-shell relative rounded-sm bg-white p-2 shadow-[0_14px_34px_rgba(0,0,0,0.07)] sm:p-3">
                 <PhraseBoard dateKey={gameKey} puzzle={activePuzzle} solved={revealingSolved} />
               </div>
 
-              <div className="mt-2 flex flex-col gap-2 border-t-2 border-black/40 pt-2 sm:mt-3 sm:flex-row sm:items-center sm:justify-between">
+              <div className="revealed-row mt-2 flex flex-col gap-2 border-t-2 border-black/40 pt-2 sm:mt-3 sm:flex-row sm:items-center sm:justify-between">
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="mr-1 text-[0.56rem] font-black uppercase tracking-[0.18em]">Always revealed:</span>
                   {REVEALED_LABEL.map((letter, index) => (
@@ -1294,7 +1312,7 @@ export default function App() {
                 </span>
               </div>
 
-              <form className="mx-auto mt-3 flex w-full max-w-xl flex-col gap-2 sm:mt-4" onSubmit={handleSubmit}>
+              <form className="answer-form mx-auto mt-3 flex w-full max-w-xl flex-col gap-2 sm:mt-4" onSubmit={handleSubmit}>
                 <label className="sr-only" htmlFor="answer">
                   Answer
                 </label>
@@ -1305,6 +1323,8 @@ export default function App() {
                   type="text"
                   value={answer}
                   onChange={(event) => setAnswer(event.target.value)}
+                  onFocus={handleAnswerFocus}
+                  onBlur={handleAnswerBlur}
                   onTouchStart={handleAnswerTouchStart}
                   autoCapitalize="none"
                   autoComplete="off"
@@ -1317,13 +1337,13 @@ export default function App() {
                 <button
                   type="submit"
                   disabled={showRulesIntro || showLevelIntro || isTransitioning || revealingSolved}
-                  className="h-12 w-full rounded-none border-2 border-black bg-black px-5 text-sm font-black uppercase tracking-[0.2em] text-white transition active:translate-x-0.5 active:translate-y-0.5 disabled:cursor-wait disabled:bg-black/70"
+                  className="answer-submit h-12 w-full rounded-none border-2 border-black bg-black px-5 text-sm font-black uppercase tracking-[0.2em] text-white transition active:translate-x-0.5 active:translate-y-0.5 disabled:cursor-wait disabled:bg-black/70"
                 >
                   Submit
                 </button>
               </form>
 
-              <div className="mt-2 min-h-6 text-center" aria-live="polite">
+              <div className="feedback-row mt-2 min-h-6 text-center" aria-live="polite">
                 {feedback && (
                   <p
                     className={`text-sm font-black uppercase tracking-[0.14em] ${

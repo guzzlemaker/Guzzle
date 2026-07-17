@@ -510,6 +510,80 @@ button {
     margin-top: 0.5rem;
   }
 
+  .mobile-typing {
+    height: 100dvh;
+    overflow: hidden;
+    padding: 0.35rem;
+  }
+
+  .mobile-typing .game-shell {
+    min-height: calc(100dvh - 0.7rem);
+  }
+
+  .mobile-typing .game-header {
+    display: none;
+  }
+
+  .mobile-typing .game-stage {
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .mobile-typing .gameplay-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    max-height: calc(100dvh - 0.7rem);
+    overflow: hidden;
+  }
+
+  .mobile-typing .clue-block {
+    margin-bottom: 0;
+  }
+
+  .mobile-typing .clue-category,
+  .mobile-typing .mobile-difficulty,
+  .mobile-typing .revealed-row {
+    display: none;
+  }
+
+  .mobile-typing .clue-title {
+    font-size: clamp(0.95rem, 4.8vw, 1.3rem);
+    line-height: 1;
+    max-height: 3em;
+    overflow: hidden;
+  }
+
+  .mobile-typing .board-shell {
+    box-shadow: none;
+    padding: 0.35rem;
+  }
+
+  .mobile-typing .phrase-board {
+    gap: 0.06rem;
+    max-width: min(100%, calc((100dvh - 10rem) * 3.5));
+  }
+
+  .mobile-typing .letter-box {
+    border-width: 1px;
+    font-size: clamp(0.5rem, 3vw, 0.95rem);
+  }
+
+  .mobile-typing .answer-form {
+    gap: 0.35rem;
+    margin-top: 0.25rem;
+  }
+
+  .mobile-typing #answer,
+  .mobile-typing .answer-submit {
+    height: 44px;
+  }
+
+  .mobile-typing .feedback-row {
+    margin-top: 0;
+    min-height: 1rem;
+  }
+
 }
 
 @media (prefers-reduced-motion: reduce) {
