@@ -512,10 +512,14 @@ export default function App() {
   const [emailSubmitting, setEmailSubmitting] = useState(false);
   const [emailSubmitted, setEmailSubmitted] = useState(Boolean(getStoredEmailSignup()));
   const [isAnswerFocused, setIsAnswerFocused] = useState(false);
+  const [keyboardOpen, setKeyboardOpen] = useState(false);
+  const [keyboardHeight, setKeyboardHeight] = useState(0);
   const inputRef = useRef(null);
+  const puzzleContainerRef = useRef(null);
   const advanceTimeoutRef = useRef(null);
   const transitionTimeoutRef = useRef(null);
   const introTimeoutRef = useRef(null);
+  const keyboardScrollTimeoutRef = useRef(null);
   const audioRefs = useRef({});
   const currentAudioRef = useRef(null);
   const puzzleLockedRef = useRef(false);
@@ -546,6 +550,31 @@ export default function App() {
   const tomorrowRankMessage = getTomorrowRankMessage(performanceRank);
   const hasNextRace = selectedSetIndex < puzzleSets.length - 1;
   const isNextDailyReady = countdownToTomorrow <= 0;
+
+  useEffect(() => {
+    const viewport = window.visualViewport;
+
+    if (!viewport) {
+      return undefined;
+    }
+
+    const handleViewportChange = () => {
+      const nextKeyboardHeight = Math.max(0, window.innerHeight - viewport.height - viewport.offsetTop);
+      const nextKeyboardOpen = nextKeyboardHeight > 120;
+
+      setKeyboardOpen(nextKeyboardOpen);
+      setKeyboardHeight(nextKeyboardOpen ? nextKeyboardHeight : 0);
+    };
+
+    viewport.addEventListener('resize', handleViewportChange);
+    viewport.addEventListener('scroll', handleViewportChange);
+    handleViewportChange();
+
+    return () => {
+      viewport.removeEventListener('resize', handleViewportChange);
+      viewport.removeEventListener('scroll', handleViewportChange);
+    };
+  }, []);
 
   useEffect(() => {
     window.localStorage.setItem(
@@ -747,6 +776,7 @@ export default function App() {
       window.clearTimeout(advanceTimeoutRef.current);
       window.clearTimeout(transitionTimeoutRef.current);
       window.clearTimeout(introTimeoutRef.current);
+      window.clearTimeout(keyboardScrollTimeoutRef.current);
     };
   }, []);
 
@@ -793,6 +823,24 @@ export default function App() {
     });
   }
 
+  function dismissAnswerKeyboard() {
+    inputRef.current?.blur();
+    setIsAnswerFocused(false);
+    setKeyboardOpen(false);
+    setKeyboardHeight(0);
+    window.clearTimeout(keyboardScrollTimeoutRef.current);
+  }
+
+  function scrollPuzzleAboveKeyboard() {
+    window.clearTimeout(keyboardScrollTimeoutRef.current);
+    keyboardScrollTimeoutRef.current = window.setTimeout(() => {
+      puzzleContainerRef.current?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }, 250);
+  }
+
   function advanceAfterReveal(nextCompleted) {
     advanceTimeoutRef.current = window.setTimeout(() => {
       setIsTransitioning(true);
@@ -830,6 +878,7 @@ export default function App() {
       return;
     }
 
+    dismissAnswerKeyboard();
     puzzleLockedRef.current = true;
     const nextCompleted = completedCount + 1;
     const isFinalPuzzle = nextCompleted === TOTAL_PUZZLES;
@@ -866,6 +915,8 @@ export default function App() {
 
   function handleSubmit(event) {
     event.preventDefault();
+    inputRef.current?.blur();
+    setIsAnswerFocused(false);
 
     if (revealingSolved) {
       return;
@@ -893,19 +944,20 @@ export default function App() {
 
     event.preventDefault();
     setIsAnswerFocused(true);
-    window.requestAnimationFrame(() => window.scrollTo(0, 0));
+    scrollPuzzleAboveKeyboard();
     inputRef.current?.focus({ preventScroll: true });
   }
 
   function handleAnswerFocus() {
     setIsAnswerFocused(true);
     if (shouldUseMobileFocusLock()) {
-      window.requestAnimationFrame(() => window.scrollTo(0, 0));
+      scrollPuzzleAboveKeyboard();
     }
   }
 
   function handleAnswerBlur() {
     setIsAnswerFocused(false);
+    window.clearTimeout(keyboardScrollTimeoutRef.current);
   }
 
   function handleMissed() {
@@ -1109,7 +1161,8 @@ export default function App() {
     <main
       className={`min-h-screen bg-[#f7f7f4] px-3 py-2 text-black sm:px-5 sm:py-3 ${
         isAnswerFocused && !isComplete ? 'mobile-typing' : ''
-      }`}
+      } ${keyboardOpen && !isComplete ? 'keyboard-open' : ''}`}
+      style={{ '--keyboard-height': `${keyboardHeight}px` }}
     >
       <section className="game-shell mx-auto flex min-h-[calc(100vh-1rem)] w-full max-w-5xl flex-col">
         <header className="game-header border-b-2 border-black/40 pb-2">
@@ -1272,10 +1325,17 @@ export default function App() {
 
           {!isComplete ? (
             <article
+              ref={puzzleContainerRef}
               className={`gameplay-panel w-full transition-opacity duration-300 ${
                 showRulesIntro || showLevelIntro || isTransitioning ? 'opacity-0' : 'opacity-100'
               }`}
             >
+              <div className="keyboard-timer" aria-hidden={!keyboardOpen}>
+                <span>{isComplete ? `${TOTAL_PUZZLES}/${TOTAL_PUZZLES}` : `Lap ${completedCount + 1}/${TOTAL_PUZZLES}`}</span>
+                <strong>{isComplete ? resultTime : displayTimeLeft}</strong>
+                <span>Score {correctCount}/{TOTAL_PUZZLES}</span>
+              </div>
+
               <div className="clue-block mb-3 flex items-end justify-between gap-4">
                 <div className="min-w-0 flex-1">
                   <p className="clue-category mb-1 text-[0.62rem] font-black uppercase tracking-[0.24em] text-black/60 sm:text-xs">
@@ -1326,9 +1386,9 @@ export default function App() {
                   onFocus={handleAnswerFocus}
                   onBlur={handleAnswerBlur}
                   onTouchStart={handleAnswerTouchStart}
-                  autoCapitalize="none"
+                  autoCapitalize="characters"
                   autoComplete="off"
-                  enterKeyHint="done"
+                  enterKeyHint="go"
                   inputMode="text"
                   disabled={showRulesIntro || showLevelIntro || isTransitioning || revealingSolved}
                   className="h-12 w-full rounded-none border-2 border-black bg-white px-4 text-center text-[16px] font-black uppercase outline-none transition placeholder:text-black/35 focus:shadow-[4px_4px_0_#000] disabled:bg-black/5 sm:h-12 sm:text-lg"
