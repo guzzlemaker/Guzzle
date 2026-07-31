@@ -17,7 +17,7 @@ const SOUND_SETTING_KEY = 'guzzle:sound-enabled';
 const DAILY_STATS_KEY = 'guzzle:daily-stats';
 const EMAIL_SIGNUP_KEY = 'guzzle:email-signup';
 const ANALYTICS_KEY = 'guzzle:analytics-events';
-const WEBSITE_URL = 'https://guzzlevercel.vercel.app/';
+const WEBSITE_URL = 'https://playguzzle.com';
 const AUDIO_SOURCES = {
   whoosh: '/audio/whoosh.mp3',
   success: '/audio/success.mp3',

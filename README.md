@@ -32,11 +32,11 @@ This project is ready for Vercel with the default Vite settings.
 - Build command: `npm run build`
 - Output directory: `dist`
 
-Placeholder production URL in share copy: `https://guzzle.me`
+Production URL in share copy: `https://playguzzle.com`
 
-Recommended production domain: `guzzle.me`
+Recommended production domain: `playguzzle.com`
 
-After deploying, point the `guzzle.me` DNS records to Vercel from the domain registrar, then add `guzzle.me` inside the Vercel project Domains settings.
+After deploying, point the `playguzzle.com` DNS records to Vercel from the domain registrar, then add `playguzzle.com` inside the Vercel project Domains settings.
 
 ## Monthly Puzzle Workflow
 
