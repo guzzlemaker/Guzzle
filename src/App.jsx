@@ -1358,11 +1358,11 @@ export default function App() {
               </div>
 
               <div className="revealed-row mt-2 flex flex-col gap-2 border-t-2 border-black/40 pt-2 sm:mt-3 sm:flex-row sm:items-center sm:justify-between">
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="mr-1 text-[0.56rem] font-black uppercase tracking-[0.18em]">Always revealed:</span>
+                <div className="revealed-content flex flex-wrap items-center gap-2">
+                  <span className="revealed-label mr-1 text-[0.56rem] font-black uppercase tracking-[0.18em]">Always revealed:</span>
                   {REVEALED_LABEL.map((letter, index) => (
                     <span
-                      className="grid h-6 w-6 place-items-center rounded border-2 border-black bg-white text-xs font-black shadow-[1px_1px_0_#000] sm:h-7 sm:w-7 sm:text-sm"
+                      className="revealed-letter grid h-6 w-6 place-items-center rounded border-2 border-black bg-white text-xs font-black shadow-[1px_1px_0_#000] sm:h-7 sm:w-7 sm:text-sm"
                       key={`${letter}-${index}`}
                     >
                       {letter}

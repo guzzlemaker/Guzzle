@@ -506,12 +506,54 @@ button {
     max-width: min(100%, calc((100dvh - 20rem) * 3.5));
   }
 
+  .board-shell {
+    padding: 0.45rem;
+  }
+
+  .answer-form {
+    margin-top: 0.55rem;
+  }
+
   .letter-box {
     border-width: 1.5px;
   }
 
   form:has(#answer) {
     margin-top: 0.5rem;
+  }
+
+  .revealed-row {
+    align-items: center;
+    flex-direction: row;
+    gap: 0.3rem;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .revealed-content {
+    align-items: center;
+    flex: 1 1 auto;
+    flex-wrap: nowrap;
+    gap: clamp(0.16rem, 1.5vw, 0.42rem);
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .revealed-label {
+    flex: 0 1 auto;
+    font-size: clamp(0.42rem, 2.15vw, 0.56rem);
+    letter-spacing: clamp(0.06em, 1vw, 0.16em);
+    margin-right: 0;
+    min-width: 0;
+    white-space: nowrap;
+  }
+
+  .revealed-letter {
+    border-width: 1.5px;
+    flex: 0 0 clamp(1.15rem, 6.4vw, 1.55rem);
+    font-size: clamp(0.68rem, 3.5vw, 0.85rem);
+    height: clamp(1.15rem, 6.4vw, 1.55rem);
+    width: clamp(1.15rem, 6.4vw, 1.55rem);
   }
 
 }
@@ -633,11 +675,11 @@ button {
     padding-top: 0.25rem;
   }
 
-  .mobile-typing .revealed-row span:first-child {
+  .mobile-typing .revealed-label {
     display: none;
   }
 
-  .mobile-typing .revealed-row span:not(:first-child) {
+  .mobile-typing .revealed-letter {
     font-size: 0.66rem;
     height: 1.25rem;
     width: 1.25rem;
