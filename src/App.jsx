@@ -1,4 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { GUZZLE_TIMEZONE, SITE_URL } from './config/guzzle.js';
+import { getMsUntilNextOfficialDay, getOfficialDateKey, selectDailyAndBonusTrack } from './lib/daily.js';
+import { recordAnalyticsEvent } from './lib/analytics.js';
 
 const dailyModules = import.meta.glob('./data/daily/*.json', { eager: true });
 const dailySets = Object.entries(dailyModules)
@@ -16,8 +19,7 @@ const TRANSITION_DELAY_MS = 450;
 const SOUND_SETTING_KEY = 'guzzle:sound-enabled';
 const DAILY_STATS_KEY = 'guzzle:daily-stats';
 const EMAIL_SIGNUP_KEY = 'guzzle:email-signup';
-const ANALYTICS_KEY = 'guzzle:analytics-events';
-const WEBSITE_URL = 'https://playguzzle.com';
+const ANONYMOUS_ID_KEY = 'guzzle:anonymous-id';
 const AUDIO_SOURCES = {
   whoosh: '/audio/whoosh.mp3',
   success: '/audio/success.mp3',
@@ -45,7 +47,7 @@ function normalizeAnswer(value) {
 }
 
 function getTodayKey() {
-  return new Date().toISOString().slice(0, 10);
+  return getOfficialDateKey(new Date(), GUZZLE_TIMEZONE);
 }
 
 function formatTime(ms) {
@@ -214,23 +216,19 @@ function getScoreQuote(score) {
 }
 
 function getTomorrowRankMessage(rank) {
-  return 'COME BACK TOMORROW AND IMPROVE YOUR RACE.';
+  if (rank === 1) {
+    return 'DEFEND YOUR TITLE TOMORROW.';
+  }
+
+  if (rank > 10) {
+    return 'MAKE YOUR WAY TO #1 TOMORROW.';
+  }
+
+  return 'CAN YOU FINISH #1 AGAIN TOMORROW?';
 }
 
 function trackAnalyticsEvent(eventName, details = {}) {
-  try {
-    const currentEvents = JSON.parse(window.localStorage.getItem(ANALYTICS_KEY) ?? '[]');
-    const event = {
-      eventName,
-      details,
-      timestamp: new Date().toISOString(),
-    };
-
-    // TODO: Send this event to an analytics/backend service before public launch.
-    window.localStorage.setItem(ANALYTICS_KEY, JSON.stringify([...currentEvents.slice(-199), event]));
-  } catch {
-    // Analytics should never interrupt the race.
-  }
+  recordAnalyticsEvent(eventName, details);
 }
 
 function getPreviousDateKey(dateKey) {
@@ -239,10 +237,20 @@ function getPreviousDateKey(dateKey) {
 }
 
 function getMsUntilTomorrow() {
-  const now = new Date();
-  const tomorrow = new Date(now);
-  tomorrow.setHours(24, 0, 0, 0);
-  return tomorrow.getTime() - now.getTime();
+  return getMsUntilNextOfficialDay(new Date(), GUZZLE_TIMEZONE);
+}
+
+function getAnonymousId() {
+  try {
+    const stored = window.localStorage.getItem(ANONYMOUS_ID_KEY);
+    if (stored) return stored;
+
+    const generated = crypto.randomUUID ? crypto.randomUUID() : `guest-${Date.now()}-${Math.random()}`;
+    window.localStorage.setItem(ANONYMOUS_ID_KEY, generated);
+    return generated;
+  } catch {
+    return `guest-${Date.now()}`;
+  }
 }
 
 function formatCountdown(ms) {
@@ -447,27 +455,26 @@ function PhraseBoard({ dateKey, puzzle, solved }) {
 
 export default function App() {
   const todayKey = getTodayKey();
-  const todaySet = dailySets.find((set) => set.dateSeed === todayKey);
-  const nextScheduledSet = dailySets.find((set) => set.dateSeed > todayKey);
-  const hasTodaysPuzzle = Boolean(todaySet);
-  const dailySetIndex = Math.max(0, dailySets.findIndex((set) => set.dateSeed === todayKey));
-  const puzzleSets = useMemo(
-    () =>
-      hasTodaysPuzzle
-        ? [dailySets[dailySetIndex], ...dailySets.filter((_, index) => index !== dailySetIndex)]
-        : dailySets,
-    [dailySetIndex, hasTodaysPuzzle],
+  const { daily: dailyTrack, bonus: bonusTrack, nextScheduledSet } = useMemo(
+    () => selectDailyAndBonusTrack(dailySets, todayKey),
+    [todayKey],
   );
+  const hasTodaysPuzzle = Boolean(dailyTrack);
+  const puzzleSets = useMemo(() => [dailyTrack, bonusTrack].filter(Boolean), [bonusTrack, dailyTrack]);
   const [selectedSetIndex, setSelectedSetIndex] = useState(0);
   const selectedSet = puzzleSets[selectedSetIndex] ?? puzzleSets[0] ?? {
     dateSeed: todayKey,
+    scheduledDate: todayKey,
+    id: `${todayKey}:daily:guzzle`,
+    trackType: 'daily',
     theme: 'GUZZLE',
     puzzles: [],
   };
   const gameKey = `${selectedSet.dateSeed}:${selectedSet.theme}`;
   const storageKey = `guzzle:${gameKey}`;
+  const dailyStorageKey = dailyTrack ? `guzzle:${dailyTrack.dateSeed}:${dailyTrack.theme}` : '';
   const initialNow = useMemo(() => Date.now(), [storageKey]);
-  const initialProgress = null;
+  const initialProgress = getStoredProgress(storageKey);
   const initialElapsedMs =
     initialProgress?.finishedAt && initialProgress?.startedAt
       ? initialProgress.finishedAt - initialProgress.startedAt
@@ -486,6 +493,7 @@ export default function App() {
   const [missedCount, setMissedCount] = useState(
     initialProgress?.missedCount ?? initialProgress?.skippedCount ?? 0,
   );
+  const [incorrectCount, setIncorrectCount] = useState(initialProgress?.incorrectCount ?? 0);
   const [outcomes, setOutcomes] = useState(initialProgress?.outcomes ?? []);
   const [puzzleStartedAt, setPuzzleStartedAt] = useState(
     initialProgress?.puzzleStartedAt ??
@@ -513,6 +521,21 @@ export default function App() {
   const [emailStatus, setEmailStatus] = useState('');
   const [emailSubmitting, setEmailSubmitting] = useState(false);
   const [emailSubmitted, setEmailSubmitted] = useState(Boolean(getStoredEmailSignup()));
+  const [anonymousId] = useState(getAnonymousId);
+  const [displayName, setDisplayName] = useState('');
+  const [leaderboard, setLeaderboard] = useState({
+    configured: false,
+    entries: [],
+    playerEntry: null,
+    totalEntries: 0,
+    loading: false,
+    error: '',
+  });
+  const [resultSubmission, setResultSubmission] = useState({
+    submittedKey: '',
+    status: 'idle',
+    message: '',
+  });
   const [isAnswerFocused, setIsAnswerFocused] = useState(false);
   const [keyboardOpen, setKeyboardOpen] = useState(false);
   const [keyboardHeight, setKeyboardHeight] = useState(0);
@@ -526,6 +549,7 @@ export default function App() {
   const currentAudioRef = useRef(null);
   const puzzleLockedRef = useRef(false);
   const confettiPlayedRef = useRef(false);
+  const suppressNextPersistRef = useRef(false);
 
   const isComplete = completedCount >= TOTAL_PUZZLES;
   const activePuzzle = selectedSet.puzzles[Math.min(completedCount, TOTAL_PUZZLES - 1)] ?? {
@@ -549,8 +573,14 @@ export default function App() {
   const performanceRank = getPerformanceRank(correctCount, TOTAL_PUZZLES, resultMs);
   const accuracy = Math.round((correctCount / TOTAL_PUZZLES) * 100);
   const scoreQuote = getScoreQuote(correctCount);
-  const tomorrowRankMessage = getTomorrowRankMessage(performanceRank);
-  const hasNextRace = selectedSetIndex < puzzleSets.length - 1;
+  const displayedRank = leaderboard.playerEntry?.rank ?? performanceRank;
+  const displayedRankTotal = leaderboard.configured ? leaderboard.totalEntries : 127;
+  const tomorrowRankMessage = leaderboard.configured
+    ? getTomorrowRankMessage(displayedRank)
+    : 'COME BACK TOMORROW AND IMPROVE YOUR RANK.';
+  const dailyProgress = dailyStorageKey ? getStoredProgress(dailyStorageKey) : null;
+  const dailyCompleted = selectedSetIndex === 0 ? isComplete : Boolean(dailyProgress?.finishedAt || dailyProgress?.completedCount >= TOTAL_PUZZLES);
+  const hasNextRace = selectedSetIndex < puzzleSets.length - 1 && dailyCompleted;
   const isNextDailyReady = countdownToTomorrow <= 0;
 
   useEffect(() => {
@@ -579,6 +609,11 @@ export default function App() {
   }, []);
 
   useEffect(() => {
+    if (suppressNextPersistRef.current) {
+      suppressNextPersistRef.current = false;
+      return;
+    }
+
     window.localStorage.setItem(
       storageKey,
       JSON.stringify({
@@ -587,6 +622,7 @@ export default function App() {
         completedCount,
         correctCount,
         missedCount,
+        incorrectCount,
         outcomes,
         puzzleStartedAt,
         rulesSeen: !showRulesIntro,
@@ -597,6 +633,7 @@ export default function App() {
     completedCount,
     correctCount,
     finishedAt,
+    incorrectCount,
     missedCount,
     outcomes,
     puzzleStartedAt,
@@ -697,6 +734,119 @@ export default function App() {
     statsRecorded,
     todayKey,
   ]);
+
+  useEffect(() => {
+    if (!isComplete || !finishedAt || !startedAt) {
+      return;
+    }
+
+    const submissionKey = `${selectedSet.id}:${finishedAt}`;
+    if (resultSubmission.submittedKey === submissionKey) {
+      return;
+    }
+
+    const submitResult = async () => {
+      setResultSubmission({ submittedKey: submissionKey, status: 'submitting', message: '' });
+
+      try {
+        const response = await fetch('/api/submit-result', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({
+            anonymousId,
+            displayName,
+            officialDate: todayKey,
+            trackType: selectedSet.trackType ?? (selectedSetIndex === 0 ? 'daily' : 'bonus'),
+            trackId: selectedSet.id,
+            startedAt,
+            completedAt: finishedAt,
+            elapsedMilliseconds: finishedAt - startedAt,
+            totalPuzzles: TOTAL_PUZZLES,
+            correctAnswers: correctCount,
+            incorrectAnswers: incorrectCount,
+            timeouts: missedCount,
+            clientVersion: 'phase1-web',
+          }),
+        });
+        const data = await response.json();
+
+        setResultSubmission({
+          submittedKey: submissionKey,
+          status: response.ok ? 'submitted' : 'error',
+          message: data.message ?? '',
+        });
+      } catch {
+        setResultSubmission({
+          submittedKey: submissionKey,
+          status: 'error',
+          message: 'Result saved locally. Leaderboard submission failed.',
+        });
+      }
+    };
+
+    submitResult();
+  }, [
+    anonymousId,
+    correctCount,
+    displayName,
+    finishedAt,
+    incorrectCount,
+    isComplete,
+    missedCount,
+    resultSubmission.submittedKey,
+    selectedSet.id,
+    selectedSet.trackType,
+    selectedSetIndex,
+    startedAt,
+    todayKey,
+  ]);
+
+  useEffect(() => {
+    if (!isComplete) {
+      return undefined;
+    }
+
+    let cancelled = false;
+
+    const loadLeaderboard = async () => {
+      setLeaderboard((current) => ({ ...current, loading: true, error: '' }));
+
+      try {
+        const params = new URLSearchParams({
+          officialDate: todayKey,
+          trackType: selectedSet.trackType ?? (selectedSetIndex === 0 ? 'daily' : 'bonus'),
+          anonymousId,
+        });
+        const response = await fetch(`/api/leaderboard?${params.toString()}`);
+        const data = await response.json();
+
+        if (!cancelled) {
+          setLeaderboard({
+            configured: Boolean(data.configured),
+            entries: data.entries ?? [],
+            playerEntry: data.playerEntry ?? null,
+            totalEntries: data.totalEntries ?? 0,
+            loading: false,
+            error: response.ok ? '' : data.message ?? 'Leaderboard unavailable.',
+          });
+        }
+      } catch {
+        if (!cancelled) {
+          setLeaderboard((current) => ({
+            ...current,
+            loading: false,
+            error: 'Leaderboard unavailable.',
+          }));
+        }
+      }
+    };
+
+    loadLeaderboard();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [anonymousId, isComplete, resultSubmission.status, selectedSet.trackType, selectedSetIndex, todayKey]);
 
   useEffect(() => {
     if (!isComplete || !finishedAt || confettiPlayedRef.current || prefersReducedMotion()) {
@@ -888,12 +1038,15 @@ export default function App() {
     setOutcomes((current) => [...current, outcome]);
     setAnswer('');
     setRevealingSolved(true);
-    trackAnalyticsEvent(outcome === 'correct' ? 'puzzle_solved' : 'puzzle_missed', {
+    trackAnalyticsEvent(outcome === 'correct' ? 'answer_correct' : 'puzzle_timeout', {
       race: raceLabel,
       theme: selectedSet.theme,
+      officialDate: todayKey,
+      trackType: selectedSet.trackType ?? (selectedSetIndex === 0 ? 'daily' : 'bonus'),
+      trackId: selectedSet.id,
       puzzleLevel: activePuzzle.level,
+      puzzleIndex: completedCount + 1,
       category: activePuzzle.category,
-      answer: activePuzzle.answer,
       difficulty: activePuzzle.difficulty,
       timeLeftMs,
     });
@@ -931,6 +1084,16 @@ export default function App() {
     }
 
     if (normalizeAnswer(answer) !== normalizeAnswer(activePuzzle.answer)) {
+      setIncorrectCount((current) => current + 1);
+      trackAnalyticsEvent('answer_incorrect', {
+        race: raceLabel,
+        theme: selectedSet.theme,
+        officialDate: todayKey,
+        trackType: selectedSet.trackType ?? (selectedSetIndex === 0 ? 'daily' : 'bonus'),
+        trackId: selectedSet.id,
+        puzzleIndex: completedCount + 1,
+        difficulty: activePuzzle.difficulty,
+      });
       setFeedback('Not the phrase. Keep racing.');
       setFeedbackTone('error');
       return;
@@ -972,7 +1135,7 @@ export default function App() {
 
   async function handleShare() {
     const shareTitle = selectedSetIndex === 0 ? `GUZZLE #${dailyNumber}` : `${raceLabel} - ${selectedSet.theme}`;
-    const shareText = `\u{1F3C1} I finished ${shareTitle} in ${resultTime}.\nSolved: ${correctCount}/${TOTAL_PUZZLES}.\nCan you beat me?\n\nPlay GUZZLE: ${WEBSITE_URL}`;
+    const shareText = `\u{1F3C1} I finished ${shareTitle} in ${resultTime}.\nSolved: ${correctCount}/${TOTAL_PUZZLES}.\nCan you beat me?\n\nPlay GUZZLE: ${SITE_URL}`;
 
     try {
       await navigator.clipboard.writeText(shareText);
@@ -1007,7 +1170,7 @@ export default function App() {
     }
   }
 
-  function handleEmailSubmit(event) {
+  async function handleEmailSubmit(event) {
     event.preventDefault();
     const trimmedEmail = email.trim();
 
@@ -1024,17 +1187,40 @@ export default function App() {
     setEmailStatus('');
 
     try {
-      // TODO: Replace this local placeholder with the GUZZLE backend/email service after launch validation.
+      const response = await fetch('/api/subscribe-email', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({
+          email: trimmedEmail,
+          anonymousId,
+          officialDate: todayKey,
+          source: 'post_daily_leaderboard',
+        }),
+      });
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.message || 'Signup failed. Please try again.');
+      }
+
       window.localStorage.setItem(EMAIL_SIGNUP_KEY, trimmedEmail);
       trackAnalyticsEvent('email_submitted', {
         race: raceLabel,
         theme: selectedSet.theme,
+        officialDate: todayKey,
+        source: 'post_daily_leaderboard',
       });
       setEmail(trimmedEmail);
       setEmailSubmitted(true);
       setEmailStatus('');
-    } catch {
-      setEmailStatus('Signup failed. Please try again.');
+    } catch (error) {
+      trackAnalyticsEvent('email_submission_failed', {
+        race: raceLabel,
+        theme: selectedSet.theme,
+        officialDate: todayKey,
+        source: 'post_daily_leaderboard',
+      });
+      setEmailStatus(error.message || 'Signup failed. Please try again.');
     } finally {
       setEmailSubmitting(false);
     }
@@ -1046,12 +1232,15 @@ export default function App() {
     window.clearTimeout(introTimeoutRef.current);
     if (clearStoredProgress) {
       window.localStorage.removeItem(storageKey);
+    } else {
+      suppressNextPersistRef.current = true;
     }
     setStartedAt(null);
     setFinishedAt(null);
     setCompletedCount(0);
     setCorrectCount(0);
     setMissedCount(0);
+    setIncorrectCount(0);
     setOutcomes([]);
     setPuzzleStartedAt(null);
     setAnswer('');
@@ -1097,6 +1286,11 @@ export default function App() {
     const nextSetIndex = Number(event.target.value) - 1;
 
     if (!Number.isInteger(nextSetIndex) || nextSetIndex < 0 || nextSetIndex >= puzzleSets.length) {
+      return;
+    }
+
+    if (nextSetIndex > 0 && !dailyCompleted) {
+      setFeedback("Finish Today's GUZZLE to unlock the Bonus Track.");
       return;
     }
 
@@ -1203,7 +1397,7 @@ export default function App() {
                   className="max-w-[13.5rem] border-2 border-black bg-white px-2.5 py-1.5 text-[0.56rem] font-black uppercase tracking-[0.08em] text-black shadow-[2px_2px_0_#000] sm:max-w-none"
                 >
                   {puzzleSets.map((set, index) => (
-                    <option value={index + 1} key={set.dateSeed}>
+                    <option value={index + 1} key={`${set.dateSeed}-${set.trackType}`} disabled={index > 0 && !dailyCompleted}>
                       {getRaceLabel(index)} - {set.theme}
                     </option>
                   ))}
@@ -1436,17 +1630,29 @@ export default function App() {
                       <p className="text-[0.58rem] font-black uppercase tracking-[0.2em] text-black/60">
                         Daily Rank
                       </p>
-                      {/* TODO: Replace this display with live backend ranking data. */}
                       <p className="mt-1 text-3xl font-black uppercase leading-none sm:text-5xl">
-                        Coming Soon
+                        #{displayedRank}
+                        {leaderboard.configured && (
+                          <span className="ml-2 text-base sm:text-xl">of {displayedRankTotal}</span>
+                        )}
                       </p>
                       <p className="mt-1 text-[0.56rem] font-black uppercase tracking-[0.12em] text-black/50">
-                        Real players, solved first, then time
+                        Solved first, then time
                       </p>
                     </div>
                     <p className="mx-auto mt-2 max-w-md text-sm font-bold leading-snug text-black/65">
                       You solved {correctCount}/{TOTAL_PUZZLES} in {resultTime}.
                     </p>
+                    {leaderboard.loading && (
+                      <p className="mt-1 text-xs font-black uppercase tracking-[0.12em] text-black/50">
+                        Loading live rank...
+                      </p>
+                    )}
+                    {leaderboard.error && (
+                      <p className="mt-1 text-xs font-bold text-black/55">
+                        {leaderboard.error}
+                      </p>
+                    )}
                     <p className="mx-auto mt-2 max-w-sm text-sm font-black uppercase leading-snug tracking-[0.08em] text-black">
                       {scoreQuote}
                     </p>
@@ -1497,10 +1703,10 @@ export default function App() {
                           className="block text-sm font-black uppercase leading-tight tracking-[0.08em] sm:text-base"
                           htmlFor="email-signup"
                         >
-                          Race against the world.
+                          Race again tomorrow.
                         </label>
                         <p className="mt-1 text-xs font-bold leading-snug text-black/60">
-                          Never miss a race. Climb tomorrow&apos;s leaderboard.
+                          Get tomorrow&apos;s Guzzle reminder and see how you ranked.
                         </p>
                         <div className="mt-2 grid gap-2 sm:grid-cols-[1fr_auto]">
                           <input
@@ -1530,9 +1736,82 @@ export default function App() {
                         <p className="mt-1 min-h-4 text-xs font-bold text-rose-700" aria-live="polite">
                           {emailStatus}
                         </p>
+                        <p className="mt-1 text-[0.62rem] font-bold leading-snug text-black/50">
+                          By submitting, you agree to receive GUZZLE reminders. Unsubscribe support and a full Privacy
+                          Policy will be connected before email campaigns launch.{' '}
+                          <a className="underline" href="/privacy">
+                            Privacy Policy
+                          </a>
+                        </p>
                       </>
                     )}
                   </form>
+
+                  <form
+                    className="border-2 border-black bg-[#f7f7f4] p-3"
+                    onSubmit={(event) => {
+                      event.preventDefault();
+                      handleEmailSubmit(event);
+                    }}
+                  >
+                    <p className="text-xs font-black uppercase tracking-[0.16em]">Play GUZZLE at Home</p>
+                    <p className="mt-1 text-xs font-bold text-black/60">Coming soon. Join the interest list.</p>
+                    <button
+                      type="button"
+                      onClick={async () => {
+                        if (!isValidEmail(email)) {
+                          setEmailStatus('Enter your email above first.');
+                          return;
+                        }
+
+                        setEmailSubmitting(true);
+                        setEmailStatus('');
+                        try {
+                          const response = await fetch('/api/subscribe-email', {
+                            method: 'POST',
+                            headers: { 'content-type': 'application/json' },
+                            body: JSON.stringify({
+                              email,
+                              anonymousId,
+                              officialDate: todayKey,
+                              source: 'physical_game_interest',
+                            }),
+                          });
+                          const data = await response.json();
+                          if (!response.ok) throw new Error(data.message);
+                          setEmailSubmitted(true);
+                          window.localStorage.setItem(EMAIL_SIGNUP_KEY, email.trim());
+                        } catch (error) {
+                          setEmailStatus(error.message || 'Interest signup failed. Please try again.');
+                        } finally {
+                          setEmailSubmitting(false);
+                        }
+                      }}
+                      className="mt-2 min-h-11 w-full border-2 border-black bg-white px-3 text-xs font-black uppercase tracking-[0.14em] transition active:translate-x-0.5 active:translate-y-0.5"
+                    >
+                      I Want the Home Game
+                    </button>
+                  </form>
+
+                  <div className="border-2 border-black bg-white p-3">
+                    <label
+                      className="block text-xs font-black uppercase tracking-[0.18em] text-black/60"
+                      htmlFor="display-name"
+                    >
+                      Leaderboard Name
+                    </label>
+                    <input
+                      id="display-name"
+                      type="text"
+                      value={displayName}
+                      onChange={(event) => setDisplayName(event.target.value.slice(0, 24))}
+                      className="mt-2 h-11 w-full border-2 border-black bg-white px-3 text-sm font-black uppercase outline-none focus:shadow-[3px_3px_0_#000]"
+                      placeholder="Guest Racer"
+                    />
+                    <p className="mt-1 text-xs font-bold text-black/55">
+                      Public name only. Email is never shown.
+                    </p>
+                  </div>
 
                   <button
                     type="button"
@@ -1583,6 +1862,28 @@ export default function App() {
                         </span>
                       </li>
                     </ul>
+                  </div>
+
+                  <div className="border-2 border-black bg-white p-3">
+                    <p className="text-xs font-black uppercase tracking-[0.18em] text-black/60">Daily Leaderboard</p>
+                    {leaderboard.configured && leaderboard.entries.length > 0 ? (
+                      <ol className="mt-2 grid gap-1 text-xs font-bold">
+                        {leaderboard.entries.slice(0, 10).map((entry) => (
+                          <li className="flex min-w-0 justify-between gap-3 border-b border-black/10 pb-1" key={entry.id}>
+                            <span className="min-w-0 truncate">
+                              #{entry.rank} {entry.displayName}
+                            </span>
+                            <span className="shrink-0 font-mono">
+                              {entry.correctAnswers}/{TOTAL_PUZZLES}
+                            </span>
+                          </li>
+                        ))}
+                      </ol>
+                    ) : (
+                      <p className="mt-2 text-xs font-bold text-black/55">
+                        Live leaderboard appears here after Supabase is connected.
+                      </p>
+                    )}
                   </div>
 
                   <button

@@ -15,6 +15,7 @@ npm run dev
 
 ```bash
 npm run validate:puzzles
+npm test
 npm run build
 ```
 
@@ -37,6 +38,8 @@ Production URL in share copy: `https://playguzzle.com`
 Recommended production domain: `playguzzle.com`
 
 After deploying, point the `playguzzle.com` DNS records to Vercel from the domain registrar, then add `playguzzle.com` inside the Vercel project Domains settings.
+
+Phase 1 backend setup, Supabase migration steps, and Vercel environment variables are documented in `SETUP.md`.
 
 ## Monthly Puzzle Workflow
 
