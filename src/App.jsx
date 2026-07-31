@@ -182,15 +182,6 @@ function canAutoFocusInput() {
   );
 }
 
-function shouldUseMobileFocusLock() {
-  return (
-    typeof window !== 'undefined' &&
-    window.matchMedia?.('(pointer: coarse)').matches &&
-    window.matchMedia?.('(max-width: 430px)').matches &&
-    window.matchMedia?.('(max-height: 860px)').matches
-  );
-}
-
 function isValidEmail(value) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim());
 }
@@ -1102,22 +1093,8 @@ export default function App() {
     completeCurrentPuzzle('correct');
   }
 
-  function handleAnswerTouchStart(event) {
-    if (showRulesIntro || showLevelIntro || isTransitioning || revealingSolved || !shouldUseMobileFocusLock()) {
-      return;
-    }
-
-    event.preventDefault();
-    setIsAnswerFocused(true);
-    scrollPuzzleAboveKeyboard();
-    inputRef.current?.focus({ preventScroll: true });
-  }
-
   function handleAnswerFocus() {
     setIsAnswerFocused(true);
-    if (shouldUseMobileFocusLock()) {
-      scrollPuzzleAboveKeyboard();
-    }
   }
 
   function handleAnswerBlur() {
@@ -1355,9 +1332,7 @@ export default function App() {
 
   return (
     <main
-      className={`min-h-screen bg-[#f7f7f4] px-3 py-2 text-black sm:px-5 sm:py-3 ${
-        isAnswerFocused && !isComplete ? 'mobile-typing' : ''
-      } ${keyboardOpen && !isComplete ? 'keyboard-open' : ''}`}
+      className="min-h-screen bg-[#f7f7f4] px-3 py-2 text-black sm:px-5 sm:py-3"
       style={{ '--keyboard-height': `${keyboardHeight}px` }}
     >
       <section className="game-shell mx-auto flex min-h-[calc(100vh-1rem)] w-full max-w-5xl flex-col">
@@ -1581,7 +1556,6 @@ export default function App() {
                   onChange={(event) => setAnswer(event.target.value)}
                   onFocus={handleAnswerFocus}
                   onBlur={handleAnswerBlur}
-                  onTouchStart={handleAnswerTouchStart}
                   autoCapitalize="characters"
                   autoComplete="off"
                   enterKeyHint="go"
