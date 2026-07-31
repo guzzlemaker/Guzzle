@@ -527,15 +527,10 @@ export default function App() {
     status: 'idle',
     message: '',
   });
-  const [isAnswerFocused, setIsAnswerFocused] = useState(false);
-  const [keyboardOpen, setKeyboardOpen] = useState(false);
-  const [keyboardHeight, setKeyboardHeight] = useState(0);
   const inputRef = useRef(null);
-  const puzzleContainerRef = useRef(null);
   const advanceTimeoutRef = useRef(null);
   const transitionTimeoutRef = useRef(null);
   const introTimeoutRef = useRef(null);
-  const keyboardScrollTimeoutRef = useRef(null);
   const audioRefs = useRef({});
   const currentAudioRef = useRef(null);
   const puzzleLockedRef = useRef(false);
@@ -573,31 +568,6 @@ export default function App() {
   const dailyCompleted = selectedSetIndex === 0 ? isComplete : Boolean(dailyProgress?.finishedAt || dailyProgress?.completedCount >= TOTAL_PUZZLES);
   const hasNextRace = selectedSetIndex < puzzleSets.length - 1 && dailyCompleted;
   const isNextDailyReady = countdownToTomorrow <= 0;
-
-  useEffect(() => {
-    const viewport = window.visualViewport;
-
-    if (!viewport) {
-      return undefined;
-    }
-
-    const handleViewportChange = () => {
-      const nextKeyboardHeight = Math.max(0, window.innerHeight - viewport.height - viewport.offsetTop);
-      const nextKeyboardOpen = nextKeyboardHeight > 120;
-
-      setKeyboardOpen(nextKeyboardOpen);
-      setKeyboardHeight(nextKeyboardOpen ? nextKeyboardHeight : 0);
-    };
-
-    viewport.addEventListener('resize', handleViewportChange);
-    viewport.addEventListener('scroll', handleViewportChange);
-    handleViewportChange();
-
-    return () => {
-      viewport.removeEventListener('resize', handleViewportChange);
-      viewport.removeEventListener('scroll', handleViewportChange);
-    };
-  }, []);
 
   useEffect(() => {
     if (suppressNextPersistRef.current) {
@@ -669,6 +639,12 @@ export default function App() {
   useEffect(() => {
     window.localStorage.setItem(SOUND_SETTING_KEY, String(soundEnabled));
   }, [soundEnabled]);
+
+  useEffect(() => {
+    if (selectedSetIndex > 0 && !dailyCompleted) {
+      setSelectedSetIndex(0);
+    }
+  }, [dailyCompleted, selectedSetIndex, todayKey]);
 
   useEffect(() => {
     if (!showRulesIntro || isComplete) {
@@ -919,7 +895,6 @@ export default function App() {
       window.clearTimeout(advanceTimeoutRef.current);
       window.clearTimeout(transitionTimeoutRef.current);
       window.clearTimeout(introTimeoutRef.current);
-      window.clearTimeout(keyboardScrollTimeoutRef.current);
     };
   }, []);
 
@@ -968,20 +943,6 @@ export default function App() {
 
   function dismissAnswerKeyboard() {
     inputRef.current?.blur();
-    setIsAnswerFocused(false);
-    setKeyboardOpen(false);
-    setKeyboardHeight(0);
-    window.clearTimeout(keyboardScrollTimeoutRef.current);
-  }
-
-  function scrollPuzzleAboveKeyboard() {
-    window.clearTimeout(keyboardScrollTimeoutRef.current);
-    keyboardScrollTimeoutRef.current = window.setTimeout(() => {
-      puzzleContainerRef.current?.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-      });
-    }, 250);
   }
 
   function advanceAfterReveal(nextCompleted) {
@@ -1091,15 +1052,6 @@ export default function App() {
     }
 
     completeCurrentPuzzle('correct');
-  }
-
-  function handleAnswerFocus() {
-    setIsAnswerFocused(true);
-  }
-
-  function handleAnswerBlur() {
-    setIsAnswerFocused(false);
-    window.clearTimeout(keyboardScrollTimeoutRef.current);
   }
 
   function handleMissed() {
@@ -1331,10 +1283,7 @@ export default function App() {
   }
 
   return (
-    <main
-      className="min-h-screen bg-[#f7f7f4] px-3 py-2 text-black sm:px-5 sm:py-3"
-      style={{ '--keyboard-height': `${keyboardHeight}px` }}
-    >
+    <main className="min-h-screen bg-[#f7f7f4] px-3 py-2 text-black sm:px-5 sm:py-3">
       <section className="game-shell mx-auto flex min-h-[calc(100vh-1rem)] w-full max-w-5xl flex-col">
         <header className="game-header border-b-2 border-black/40 pb-2">
           <div className="grid grid-cols-[minmax(0,1fr)_auto] items-start gap-2 sm:gap-4">
@@ -1496,17 +1445,10 @@ export default function App() {
 
           {!isComplete ? (
             <article
-              ref={puzzleContainerRef}
               className={`gameplay-panel w-full transition-opacity duration-300 ${
                 showRulesIntro || showLevelIntro || isTransitioning ? 'opacity-0' : 'opacity-100'
               }`}
             >
-              <div className="keyboard-timer" aria-hidden={!keyboardOpen}>
-                <span>{isComplete ? `${TOTAL_PUZZLES}/${TOTAL_PUZZLES}` : `Lap ${completedCount + 1}/${TOTAL_PUZZLES}`}</span>
-                <strong>{isComplete ? resultTime : displayTimeLeft}</strong>
-                <span>Score {correctCount}/{TOTAL_PUZZLES}</span>
-              </div>
-
               <div className="clue-block mb-3 flex items-end justify-between gap-4">
                 <div className="min-w-0 flex-1">
                   <p className="clue-category mb-1 text-[0.62rem] font-black uppercase tracking-[0.24em] text-black/60 sm:text-xs">
@@ -1554,8 +1496,6 @@ export default function App() {
                   type="text"
                   value={answer}
                   onChange={(event) => setAnswer(event.target.value)}
-                  onFocus={handleAnswerFocus}
-                  onBlur={handleAnswerBlur}
                   autoCapitalize="characters"
                   autoComplete="off"
                   enterKeyHint="go"

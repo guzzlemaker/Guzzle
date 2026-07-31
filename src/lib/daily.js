@@ -16,17 +16,24 @@ export function getOfficialDateKey(date = new Date(), timeZone = DEFAULT_GUZZLE_
 
 export function getMsUntilNextOfficialDay(date = new Date(), timeZone = DEFAULT_GUZZLE_TIMEZONE) {
   const currentDateKey = getOfficialDateKey(date, timeZone);
-  let probe = new Date(date.getTime() + 1000);
+  let low = date.getTime();
+  let high = low + 36 * 60 * 60 * 1000;
 
-  for (let index = 0; index < 36 * 60 * 60; index += 1) {
-    if (getOfficialDateKey(probe, timeZone) !== currentDateKey) {
-      return Math.max(0, probe.getTime() - date.getTime());
-    }
-
-    probe = new Date(probe.getTime() + 1000);
+  if (getOfficialDateKey(new Date(high), timeZone) === currentDateKey) {
+    return 24 * 60 * 60 * 1000;
   }
 
-  return 24 * 60 * 60 * 1000;
+  while (high - low > 1000) {
+    const middle = Math.floor((low + high) / 2);
+
+    if (getOfficialDateKey(new Date(middle), timeZone) === currentDateKey) {
+      low = middle;
+    } else {
+      high = middle;
+    }
+  }
+
+  return Math.max(0, high - date.getTime());
 }
 
 export function normalizeTrackSet(set, trackType = DAILY_TRACK_TYPE, scheduledDate = set?.dateSeed) {
