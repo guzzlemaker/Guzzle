@@ -43,6 +43,45 @@ button {
   touch-action: manipulation;
 }
 
+.brand-lockup {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.28rem;
+}
+
+.brand-subtitle {
+  font-size: clamp(0.5rem, 1.45vw, 0.62rem);
+  font-weight: 950;
+  letter-spacing: clamp(0.18em, 1.25vw, 0.34em);
+  line-height: 1.12;
+  text-transform: uppercase;
+}
+
+.guzzle-logo {
+  align-items: center;
+  display: inline-flex;
+  gap: clamp(0.1rem, 0.42vw, 0.22rem);
+  line-height: 1;
+}
+
+.guzzle-logo-tile {
+  align-items: center;
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 1.5px 1.5px 0 #000000;
+  display: inline-flex;
+  font-size: clamp(0.95rem, 4.2vw, 1.45rem);
+  font-weight: 1000;
+  height: clamp(1.5rem, 6vw, 2.1rem);
+  justify-content: center;
+  width: clamp(1.5rem, 6vw, 2.1rem);
+}
+
+.race-clock {
+  min-width: clamp(4.7rem, 18vw, 7.5rem);
+}
+
 .celebration-burst {
   animation: pop-fade 720ms ease-out forwards;
 }
@@ -432,6 +471,34 @@ button {
 @media (max-width: 640px) {
   body {
     overflow-x: hidden;
+  }
+
+  .game-header {
+    padding-bottom: 0.45rem;
+  }
+
+  .brand-lockup {
+    gap: 0.22rem;
+  }
+
+  .brand-subtitle {
+    max-width: 16.5rem;
+  }
+
+  .guzzle-logo {
+    gap: 0.1rem;
+  }
+
+  .guzzle-logo-tile {
+    border-width: 1.5px;
+    box-shadow: 1px 1px 0 #000000;
+    font-size: clamp(0.76rem, 4.15vw, 1rem);
+    height: clamp(1.18rem, 6.8vw, 1.7rem);
+    width: clamp(1.18rem, 6.8vw, 1.7rem);
+  }
+
+  .race-clock {
+    min-width: 4.7rem;
   }
 
   .level-intro-overlay,

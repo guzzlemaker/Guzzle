@@ -72,8 +72,13 @@ function formatClockTime(ms) {
 function formatResultTime(ms) {
   const safeMs = Math.max(0, ms);
   const totalSeconds = Math.floor(safeMs / 1000);
-  const minutes = Math.floor(totalSeconds / 60);
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
   const seconds = totalSeconds % 60;
+
+  if (hours > 0) {
+    return `${hours}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+  }
 
   return `${minutes}:${String(seconds).padStart(2, '0')}`;
 }
@@ -229,6 +234,18 @@ function getPreviousDateKey(dateKey) {
 
 function getMsUntilTomorrow() {
   return getMsUntilNextOfficialDay(new Date(), GUZZLE_TIMEZONE);
+}
+
+function GuzzleLogo() {
+  return (
+    <div className="guzzle-logo" aria-label="GUZZLE">
+      {REVEALED_LABEL.map((letter, index) => (
+        <span className="guzzle-logo-tile" key={`${letter}-${index}`}>
+          {letter}
+        </span>
+      ))}
+    </div>
+  );
 }
 
 function getAnonymousId() {
@@ -1254,7 +1271,7 @@ export default function App() {
       <main className="min-h-screen bg-[#f7f7f4] px-4 py-4 text-black sm:px-6">
         <section className="mx-auto flex min-h-[calc(100vh-2rem)] w-full max-w-4xl flex-col">
           <header className="border-b-2 border-black/40 pb-3">
-            <p className="font-serif text-4xl leading-none tracking-normal sm:text-5xl">Guzzle</p>
+            <GuzzleLogo />
             <p className="mt-1 text-[0.62rem] font-black uppercase tracking-[0.34em]">
               The Competitive Word Racing Game
             </p>
@@ -1286,21 +1303,21 @@ export default function App() {
     <main className="min-h-screen bg-[#f7f7f4] px-3 py-2 text-black sm:px-5 sm:py-3">
       <section className="game-shell mx-auto flex min-h-[calc(100vh-1rem)] w-full max-w-5xl flex-col">
         <header className="game-header border-b-2 border-black/40 pb-2">
-          <div className="grid grid-cols-[minmax(0,1fr)_auto] items-start gap-2 sm:gap-4">
+          <div className="grid grid-cols-[minmax(0,1fr)_auto] items-start gap-3 sm:gap-5">
             <div className="min-w-0">
-              <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                <p className="font-serif text-3xl leading-none tracking-normal sm:text-5xl">Guzzle</p>
-                <p className="text-[0.52rem] font-black uppercase tracking-[0.28em] sm:text-[0.62rem] sm:tracking-[0.34em]">
+              <div className="brand-lockup">
+                <GuzzleLogo />
+                <p className="brand-subtitle">
                   The competitive word racing game
                 </p>
               </div>
-              <p className="mt-2 text-[0.58rem] font-black uppercase tracking-[0.22em] text-black/60 sm:text-[0.68rem]">
+              <p className="mt-1.5 text-[0.56rem] font-black uppercase tracking-[0.2em] text-black/60 sm:text-[0.66rem]">
                 Today&apos;s Track
               </p>
               <p className="mt-0.5 max-w-[20rem] text-sm font-black uppercase leading-tight tracking-[0.08em] text-black sm:max-w-xl sm:text-base">
                 {selectedSet.theme}
               </p>
-              <p className="mt-1 max-w-[15rem] text-[0.68rem] font-black uppercase leading-snug tracking-[0.1em] text-black/65 sm:max-w-none sm:text-xs">
+              <p className="mt-0.5 max-w-[15rem] text-[0.66rem] font-black uppercase leading-snug tracking-[0.08em] text-black/65 sm:max-w-none sm:text-xs">
                 Guess the hidden phrase before time runs out.
               </p>
               <div className="mt-1.5 flex flex-wrap items-center gap-2">
@@ -1328,23 +1345,26 @@ export default function App() {
                 </select>
               </div>
             </div>
-            <div className="shrink-0 text-right">
-              <p className="text-[0.58rem] font-black uppercase tracking-[0.1em] sm:text-sm sm:tracking-[0.14em]">
+            <div className="race-clock shrink-0 text-right">
+              <p className="text-[0.56rem] font-black uppercase tracking-[0.1em] sm:text-xs sm:tracking-[0.14em]">
                 {isComplete ? `${TOTAL_PUZZLES}/${TOTAL_PUZZLES}` : `Lap ${completedCount + 1}/${TOTAL_PUZZLES}`}
               </p>
-              <p className="mt-1 text-[0.56rem] font-black uppercase tracking-[0.1em] text-black/60 sm:text-[0.68rem] sm:tracking-[0.14em]">
+              <p className="mt-0.5 text-[0.54rem] font-black uppercase tracking-[0.1em] text-black/60 sm:text-[0.64rem] sm:tracking-[0.14em]">
                 Score {correctCount}/{TOTAL_PUZZLES}
               </p>
-              <p
-                className={`mt-0.5 font-mono text-4xl font-black leading-none sm:text-5xl ${
-                  !isComplete && timeLeftMs <= 5000 ? 'text-rose-600' : 'text-black'
-                }`}
-              >
-                {isComplete ? resultTime : displayTimeLeft}
+              <p className="mt-1 text-[0.5rem] font-black uppercase tracking-[0.18em] text-black/55 sm:text-[0.58rem]">
+                Race Time
+              </p>
+              <p className="mt-0.5 font-mono text-3xl font-black leading-none text-black sm:text-5xl">
+                {isComplete ? resultTime : formatResultTime(elapsedMs)}
               </p>
               {!isComplete && (
-                <p className="mt-0.5 text-[0.52rem] font-black uppercase tracking-[0.08em] text-black/60 sm:text-[0.68rem] sm:tracking-[0.14em]">
-                  Total {formatResultTime(elapsedMs)}
+                <p
+                  className={`mt-1 text-[0.52rem] font-black uppercase tracking-[0.08em] sm:text-[0.64rem] sm:tracking-[0.14em] ${
+                    timeLeftMs <= 5000 ? 'text-rose-600' : 'text-black/60'
+                  }`}
+                >
+                  Lap Timer {displayTimeLeft}
                 </p>
               )}
             </div>
