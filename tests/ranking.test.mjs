@@ -13,6 +13,15 @@ test('ranks by solves, mistakes, timeouts, elapsed time, then submission time', 
   assert.deepEqual(ranked.map((run) => run.id), ['fast-perfect', 'slow-perfect', 'more-wrong', 'fast-eleven']);
 });
 
+test('ranks fewer timeouts before fewer wrong guesses', () => {
+  const ranked = rankLeaderboardRuns([
+    { id: 'no-wrong-with-timeout', correctAnswers: 10, incorrectAnswers: 0, timeouts: 2, elapsedMilliseconds: 100000, completedAt: '2026-07-30T12:00:00Z' },
+    { id: 'wrong-but-one-timeout', correctAnswers: 10, incorrectAnswers: 5, timeouts: 1, elapsedMilliseconds: 100000, completedAt: '2026-07-30T12:00:00Z' },
+  ]);
+
+  assert.deepEqual(ranked.map((run) => run.id), ['wrong-but-one-timeout', 'no-wrong-with-timeout']);
+});
+
 test('validates impossible result payloads', () => {
   const invalid = validateRunPayload({
     anonymousId: 'guest',

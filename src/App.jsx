@@ -20,6 +20,8 @@ const SOUND_SETTING_KEY = 'guzzle:sound-enabled';
 const DAILY_STATS_KEY = 'guzzle:daily-stats';
 const EMAIL_SIGNUP_KEY = 'guzzle:email-signup';
 const ANONYMOUS_ID_KEY = 'guzzle:anonymous-id';
+const RACER_TOKEN_KEY = 'guzzle:racer-token';
+const PUBLIC_RACER_ID_KEY = 'guzzle:public-racer-id';
 const AUDIO_SOURCES = {
   whoosh: '/audio/whoosh.mp3',
   success: '/audio/success.mp3',
@@ -258,6 +260,27 @@ function getAnonymousId() {
     return generated;
   } catch {
     return `guest-${Date.now()}`;
+  }
+}
+
+function getStoredRacerToken() {
+  try {
+    return window.localStorage.getItem(RACER_TOKEN_KEY) ?? '';
+  } catch {
+    return '';
+  }
+}
+
+function getStoredPublicRacerId() {
+  try {
+    const stored = window.localStorage.getItem(PUBLIC_RACER_ID_KEY);
+    if (stored) return stored;
+
+    const fallback = `GUZ-${String(seededHash(getAnonymousId()) % 1000000).padStart(6, '0')}`;
+    window.localStorage.setItem(PUBLIC_RACER_ID_KEY, fallback);
+    return fallback;
+  } catch {
+    return 'GUZ-LOCAL';
   }
 }
 
@@ -530,6 +553,15 @@ export default function App() {
   const [emailSubmitting, setEmailSubmitting] = useState(false);
   const [emailSubmitted, setEmailSubmitted] = useState(Boolean(getStoredEmailSignup()));
   const [anonymousId] = useState(getAnonymousId);
+  const [racer, setRacer] = useState({
+    configured: false,
+    loading: true,
+    token: getStoredRacerToken(),
+    publicRacerId: getStoredPublicRacerId(),
+    racingColor: '',
+    error: '',
+  });
+  const [officialSession, setOfficialSession] = useState(initialProgress?.officialSession ?? null);
   const [displayName, setDisplayName] = useState('');
   const [leaderboard, setLeaderboard] = useState({
     configured: false,
@@ -576,10 +608,10 @@ export default function App() {
   const performanceRank = getPerformanceRank(correctCount, TOTAL_PUZZLES, resultMs);
   const accuracy = Math.round((correctCount / TOTAL_PUZZLES) * 100);
   const scoreQuote = getScoreQuote(correctCount);
-  const displayedRank = leaderboard.playerEntry?.rank ?? performanceRank;
-  const displayedRankTotal = leaderboard.configured ? leaderboard.totalEntries : 127;
+  const displayedRank = leaderboard.playerEntry?.rank ?? null;
+  const displayedRankTotal = leaderboard.totalEntries;
   const tomorrowRankMessage = leaderboard.configured
-    ? getTomorrowRankMessage(displayedRank)
+    ? getTomorrowRankMessage(displayedRank ?? performanceRank)
     : 'COME BACK TOMORROW AND IMPROVE YOUR RANK.';
   const dailyProgress = dailyStorageKey ? getStoredProgress(dailyStorageKey) : null;
   const dailyCompleted = selectedSetIndex === 0 ? isComplete : Boolean(dailyProgress?.finishedAt || dailyProgress?.completedCount >= TOTAL_PUZZLES);
@@ -605,6 +637,7 @@ export default function App() {
         puzzleStartedAt,
         rulesSeen: !showRulesIntro,
         statsRecorded,
+        officialSession,
       }),
     );
   }, [
@@ -614,6 +647,7 @@ export default function App() {
     incorrectCount,
     missedCount,
     outcomes,
+    officialSession,
     puzzleStartedAt,
     showRulesIntro,
     startedAt,
@@ -656,6 +690,61 @@ export default function App() {
   useEffect(() => {
     window.localStorage.setItem(SOUND_SETTING_KEY, String(soundEnabled));
   }, [soundEnabled]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const loadRacer = async () => {
+      setRacer((current) => ({ ...current, loading: true, error: '' }));
+
+      try {
+        const token = getStoredRacerToken();
+        const response = await fetch('/api/racer', {
+          method: 'POST',
+          headers: token ? { authorization: `Bearer ${token}` } : {},
+        });
+        const data = await response.json();
+
+        if (cancelled) return;
+
+        if (!response.ok || !data.configured) {
+          setRacer((current) => ({
+            ...current,
+            configured: false,
+            loading: false,
+            error: data.message ?? 'Official Race Car ID unavailable.',
+          }));
+          return;
+        }
+
+        window.localStorage.setItem(RACER_TOKEN_KEY, data.token);
+        window.localStorage.setItem(PUBLIC_RACER_ID_KEY, data.publicRacerId);
+        setRacer({
+          configured: true,
+          loading: false,
+          token: data.token,
+          publicRacerId: data.publicRacerId,
+          racingColor: data.racingColor ?? '',
+          error: '',
+        });
+      } catch {
+        if (!cancelled) {
+          setRacer((current) => ({
+            ...current,
+            configured: false,
+            loading: false,
+            error: 'Official Race Car ID unavailable. Local play still works.',
+          }));
+        }
+      }
+    };
+
+    loadRacer();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   useEffect(() => {
     if (selectedSetIndex > 0 && !dailyCompleted) {
@@ -729,30 +818,62 @@ export default function App() {
       return;
     }
 
+    if (racer.configured && officialSession?.status === 'starting') {
+      return;
+    }
+
     const submitResult = async () => {
       setResultSubmission({ submittedKey: submissionKey, status: 'submitting', message: '' });
 
       try {
-        const response = await fetch('/api/submit-result', {
-          method: 'POST',
-          headers: { 'content-type': 'application/json' },
-          body: JSON.stringify({
-            anonymousId,
-            displayName,
-            officialDate: todayKey,
-            trackType: selectedSet.trackType ?? (selectedSetIndex === 0 ? 'daily' : 'bonus'),
-            trackId: selectedSet.id,
-            startedAt,
-            completedAt: finishedAt,
-            elapsedMilliseconds: finishedAt - startedAt,
-            totalPuzzles: TOTAL_PUZZLES,
-            correctAnswers: correctCount,
-            incorrectAnswers: incorrectCount,
-            timeouts: missedCount,
-            clientVersion: 'phase1-web',
-          }),
-        });
+        const useOfficialSubmission = racer.configured && racer.token && officialSession?.status === 'ready';
+        const response = useOfficialSubmission
+          ? await fetch('/api/complete-race', {
+              method: 'POST',
+              headers: {
+                authorization: `Bearer ${racer.token}`,
+                'content-type': 'application/json',
+              },
+              body: JSON.stringify({
+                sessionId: officialSession.sessionId,
+                submissionToken: officialSession.submissionToken,
+                idempotencyKey: submissionKey,
+                outcomes,
+                incorrectAnswers: incorrectCount,
+                clientElapsedMilliseconds: finishedAt - startedAt,
+              }),
+            })
+          : await fetch('/api/submit-result', {
+              method: 'POST',
+              headers: { 'content-type': 'application/json' },
+              body: JSON.stringify({
+                anonymousId,
+                displayName,
+                officialDate: todayKey,
+                trackType: selectedSet.trackType ?? (selectedSetIndex === 0 ? 'daily' : 'bonus'),
+                trackId: selectedSet.id,
+                startedAt,
+                completedAt: finishedAt,
+                elapsedMilliseconds: finishedAt - startedAt,
+                totalPuzzles: TOTAL_PUZZLES,
+                correctAnswers: correctCount,
+                incorrectAnswers: incorrectCount,
+                timeouts: missedCount,
+                clientVersion: 'phase1-web',
+              }),
+            });
         const data = await response.json();
+
+        if (data.leaderboard) {
+          setLeaderboard({
+            configured: true,
+            entries: data.leaderboard.entries ?? [],
+            playerEntry: data.leaderboard.playerEntry ?? null,
+            totalEntries: data.leaderboard.totalEntries ?? 0,
+            loading: false,
+            error: '',
+          });
+        }
 
         setResultSubmission({
           submittedKey: submissionKey,
@@ -777,6 +898,10 @@ export default function App() {
     incorrectCount,
     isComplete,
     missedCount,
+    officialSession,
+    outcomes,
+    racer.configured,
+    racer.token,
     resultSubmission.submittedKey,
     selectedSet.id,
     selectedSet.trackType,
@@ -799,7 +924,7 @@ export default function App() {
         const params = new URLSearchParams({
           officialDate: todayKey,
           trackType: selectedSet.trackType ?? (selectedSetIndex === 0 ? 'daily' : 'bonus'),
-          anonymousId,
+          publicRacerId: racer.publicRacerId,
         });
         const response = await fetch(`/api/leaderboard?${params.toString()}`);
         const data = await response.json();
@@ -830,7 +955,7 @@ export default function App() {
     return () => {
       cancelled = true;
     };
-  }, [anonymousId, isComplete, resultSubmission.status, selectedSet.trackType, selectedSetIndex, todayKey]);
+  }, [isComplete, racer.publicRacerId, resultSubmission.status, selectedSet.trackType, selectedSetIndex, todayKey]);
 
   useEffect(() => {
     if (!isComplete || !finishedAt || confettiPlayedRef.current || prefersReducedMotion()) {
@@ -927,8 +1052,7 @@ export default function App() {
     introTimeoutRef.current = window.setTimeout(() => {
       const now = Date.now();
       setShowLevelIntro(false);
-      setPuzzleStartedAt(now);
-      setStartedAt((current) => current ?? now);
+      beginPuzzleClock(now);
     }, 2000);
 
     return () => window.clearTimeout(introTimeoutRef.current);
@@ -1203,12 +1327,74 @@ export default function App() {
     setStatsRecorded(false);
     setEmailStatus('');
     setConfettiActive(false);
+    setOfficialSession(null);
+    setResultSubmission({ submittedKey: '', status: 'idle', message: '' });
     confettiPlayedRef.current = false;
     puzzleLockedRef.current = false;
   }
 
   function toggleSound() {
     setSoundEnabled((current) => !current);
+  }
+
+  function startOfficialSession(startedAtMs) {
+    if (!racer.configured || !racer.token || officialSession?.trackId === selectedSet.id) {
+      return;
+    }
+
+    setOfficialSession({
+      status: 'starting',
+      trackId: selectedSet.id,
+      message: '',
+    });
+
+    fetch('/api/start-race', {
+      method: 'POST',
+      headers: {
+        authorization: `Bearer ${racer.token}`,
+        'content-type': 'application/json',
+      },
+      body: JSON.stringify({
+        trackType: selectedSet.trackType ?? (selectedSetIndex === 0 ? 'daily' : 'bonus'),
+        trackId: selectedSet.id,
+        clientStartedAt: new Date(startedAtMs).toISOString(),
+      }),
+    })
+      .then(async (response) => {
+        const data = await response.json();
+        if (!response.ok || !data.configured) {
+          throw new Error(data.message || 'Official race session unavailable.');
+        }
+
+        setOfficialSession({
+          status: 'ready',
+          sessionId: data.sessionId,
+          submissionToken: data.submissionToken,
+          officialDate: data.officialDate,
+          trackType: data.trackType,
+          trackId: data.trackId,
+          alreadySubmitted: Boolean(data.alreadySubmitted),
+          scoringVersion: data.scoringVersion,
+          message: data.alreadySubmitted
+            ? 'Your first official result is already ranked. This race is practice.'
+            : '',
+        });
+      })
+      .catch((error) => {
+        setOfficialSession({
+          status: 'error',
+          trackId: selectedSet.id,
+          message: error.message || 'Official race session unavailable. Local play still works.',
+        });
+      });
+  }
+
+  function beginPuzzleClock(startedAtMs = Date.now()) {
+    setPuzzleStartedAt(startedAtMs);
+    if (!startedAt) {
+      startOfficialSession(startedAtMs);
+    }
+    setStartedAt((current) => current ?? startedAtMs);
   }
 
   function closeRulesIntro() {
@@ -1224,8 +1410,7 @@ export default function App() {
     }
 
     const now = Date.now();
-    setPuzzleStartedAt(now);
-    setStartedAt((current) => current ?? now);
+    beginPuzzleClock(now);
   }
 
   function handleSetChange(event) {
@@ -1344,6 +1529,9 @@ export default function App() {
                   ))}
                 </select>
               </div>
+              <p className="mt-1 text-[0.56rem] font-black uppercase tracking-[0.12em] text-black/45">
+                Race Car ID: {racer.loading ? 'Starting...' : racer.publicRacerId}
+              </p>
             </div>
             <div className="race-clock shrink-0 text-right">
               <p className="text-[0.56rem] font-black uppercase tracking-[0.1em] sm:text-xs sm:tracking-[0.14em]">
@@ -1565,8 +1753,8 @@ export default function App() {
                         Daily Rank
                       </p>
                       <p className="mt-1 text-3xl font-black uppercase leading-none sm:text-5xl">
-                        #{displayedRank}
-                        {leaderboard.configured && (
+                        {displayedRank ? `#${displayedRank}` : '--'}
+                        {displayedRank && leaderboard.configured && (
                           <span className="ml-2 text-base sm:text-xl">of {displayedRankTotal}</span>
                         )}
                       </p>
@@ -1577,6 +1765,14 @@ export default function App() {
                     <p className="mx-auto mt-2 max-w-md text-sm font-bold leading-snug text-black/65">
                       You solved {correctCount}/{TOTAL_PUZZLES} in {resultTime}.
                     </p>
+                    <p className="mt-1 text-[0.62rem] font-black uppercase tracking-[0.12em] text-black/55">
+                      Your Race Car ID: {racer.publicRacerId}
+                    </p>
+                    {resultSubmission.status === 'submitted' && leaderboard.playerEntry && (
+                      <p className="mt-1 text-xs font-bold text-emerald-700">
+                        You finished #{leaderboard.playerEntry.rank} out of {leaderboard.totalEntries} racers today.
+                      </p>
+                    )}
                     {leaderboard.loading && (
                       <p className="mt-1 text-xs font-black uppercase tracking-[0.12em] text-black/50">
                         Loading live rank...
@@ -1586,6 +1782,20 @@ export default function App() {
                       <p className="mt-1 text-xs font-bold text-black/55">
                         {leaderboard.error}
                       </p>
+                    )}
+                    {resultSubmission.status === 'error' && (
+                      <div className="mx-auto mt-2 max-w-sm border-2 border-black bg-white p-2">
+                        <p className="text-xs font-bold text-rose-700">
+                          {resultSubmission.message || 'Official result submission failed.'}
+                        </p>
+                        <button
+                          type="button"
+                          onClick={() => setResultSubmission({ submittedKey: '', status: 'idle', message: '' })}
+                          className="mt-2 min-h-11 w-full border-2 border-black bg-[#16a34a] px-3 text-xs font-black uppercase tracking-[0.14em] text-white"
+                        >
+                          Retry Official Result
+                        </button>
+                      </div>
                     )}
                     <p className="mx-auto mt-2 max-w-sm text-sm font-black uppercase leading-snug tracking-[0.08em] text-black">
                       {scoreQuote}
@@ -1803,12 +2013,17 @@ export default function App() {
                     {leaderboard.configured && leaderboard.entries.length > 0 ? (
                       <ol className="mt-2 grid gap-1 text-xs font-bold">
                         {leaderboard.entries.slice(0, 10).map((entry) => (
-                          <li className="flex min-w-0 justify-between gap-3 border-b border-black/10 pb-1" key={entry.id}>
+                          <li
+                            className={`flex min-w-0 justify-between gap-3 border-b border-black/10 pb-1 ${
+                              entry.publicRacerId === racer.publicRacerId ? 'bg-emerald-100 px-1' : ''
+                            }`}
+                            key={`${entry.rank}-${entry.publicRacerId}`}
+                          >
                             <span className="min-w-0 truncate">
-                              #{entry.rank} {entry.displayName}
+                              #{entry.rank} {entry.publicRacerId}
                             </span>
                             <span className="shrink-0 font-mono">
-                              {entry.correctAnswers}/{TOTAL_PUZZLES}
+                              {entry.correctAnswers}/{TOTAL_PUZZLES} {formatResultTime(entry.completionTimeMs)}
                             </span>
                           </li>
                         ))}
@@ -1817,6 +2032,17 @@ export default function App() {
                       <p className="mt-2 text-xs font-bold text-black/55">
                         Live leaderboard appears here after Supabase is connected.
                       </p>
+                    )}
+                    {leaderboard.configured && leaderboard.playerEntry && leaderboard.playerEntry.rank > 10 && (
+                      <div className="mt-2 border-t-2 border-black pt-2 text-xs font-black">
+                        <div className="flex justify-between gap-3 bg-emerald-100 px-1">
+                          <span>#{leaderboard.playerEntry.rank} {leaderboard.playerEntry.publicRacerId}</span>
+                          <span className="font-mono">
+                            {leaderboard.playerEntry.correctAnswers}/{TOTAL_PUZZLES}{' '}
+                            {formatResultTime(leaderboard.playerEntry.completionTimeMs)}
+                          </span>
+                        </div>
+                      </div>
                     )}
                   </div>
 
