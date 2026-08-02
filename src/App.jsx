@@ -85,6 +85,21 @@ function formatResultTime(ms) {
   return `${minutes}:${String(seconds).padStart(2, '0')}`;
 }
 
+function formatPlace(rank) {
+  const value = Number(rank);
+  const suffix = value % 100 >= 11 && value % 100 <= 13
+    ? 'th'
+    : { 1: 'st', 2: 'nd', 3: 'rd' }[value % 10] ?? 'th';
+
+  return `${value}${suffix} Place`;
+}
+
+function formatRacerName(publicRacerId) {
+  const id = String(publicRacerId ?? '').trim();
+  const digits = id.replace(/\D/g, '');
+  return digits ? `Racer ${digits}` : id || 'Racer';
+}
+
 function getDailyNumber(dateKey) {
   const firstDay = Date.UTC(2026, 5, 17);
   const currentDay = Date.parse(`${dateKey}T00:00:00Z`);
@@ -598,6 +613,12 @@ export default function App() {
     : null;
   const rankCalculating = isComplete && (leaderboard.loading || resultSubmission.status === 'submitting');
   const rankUnavailable = isComplete && !rankCalculating && !hasOfficialRank;
+  const topLeaderboardRows = leaderboard.entries.slice(0, 10);
+  const playerOutOfTopTen = Boolean(
+    leaderboard.playerEntry &&
+      Number(leaderboard.playerEntry.rank) > 10 &&
+      !topLeaderboardRows.some((entry) => entry.publicRacerId === leaderboard.playerEntry.publicRacerId),
+  );
   const tomorrowRankMessage = hasOfficialRank
     ? getTomorrowRankMessage(safeDailyRank)
     : 'COME BACK TOMORROW AND IMPROVE YOUR RANK.';
@@ -1808,6 +1829,74 @@ export default function App() {
                         </button>
                       </div>
                     )}
+                    <div className="mx-auto mt-3 w-full max-w-md border-2 border-black bg-white p-2 text-left">
+                      <div className="grid grid-cols-[1fr_auto_auto] gap-2 border-b-2 border-black pb-1 text-[0.56rem] font-black uppercase tracking-[0.12em] text-black/55">
+                        <span>Racer</span>
+                        <span className="text-right">Solves</span>
+                        <span className="text-right">Time</span>
+                      </div>
+                      {rankCalculating ? (
+                        <p className="py-3 text-center text-xs font-black uppercase tracking-[0.12em] text-black/55">
+                          Calculating race board...
+                        </p>
+                      ) : leaderboard.configured && topLeaderboardRows.length > 0 ? (
+                        <ol className="mt-1 grid gap-0.5 text-[0.68rem] font-black uppercase sm:text-xs">
+                          {topLeaderboardRows.map((entry) => {
+                            const isPlayer = entry.publicRacerId === racer.publicRacerId;
+                            return (
+                              <li
+                                className="grid min-w-0 grid-cols-[1fr_auto_auto] items-center gap-2 border-b border-black/10 py-1"
+                                key={`${entry.rank}-${entry.publicRacerId}`}
+                              >
+                                <span className="min-w-0 truncate">
+                                  {formatPlace(entry.rank)}:{' '}
+                                  <span
+                                    className={`px-1 py-0.5 ${
+                                      isPlayer ? 'bg-[#16a34a] text-white' : 'text-black'
+                                    }`}
+                                  >
+                                    {formatRacerName(entry.publicRacerId)}
+                                  </span>
+                                </span>
+                                <span className="shrink-0 text-right font-mono">
+                                  {entry.correctAnswers}/{TOTAL_PUZZLES}
+                                </span>
+                                <span className="shrink-0 text-right font-mono">
+                                  {formatResultTime(entry.completionTimeMs)}
+                                </span>
+                              </li>
+                            );
+                          })}
+                          {playerOutOfTopTen && (
+                            <>
+                              <li className="grid grid-cols-[1fr_auto_auto] gap-2 py-1 text-black/45">
+                                <span>...</span>
+                                <span />
+                                <span />
+                              </li>
+                              <li className="grid min-w-0 grid-cols-[1fr_auto_auto] items-center gap-2 border-t-2 border-black py-1">
+                                <span className="min-w-0 truncate">
+                                  {formatPlace(leaderboard.playerEntry.rank)}:{' '}
+                                  <span className="bg-[#16a34a] px-1 py-0.5 text-white">
+                                    {formatRacerName(leaderboard.playerEntry.publicRacerId)}
+                                  </span>
+                                </span>
+                                <span className="shrink-0 text-right font-mono">
+                                  {leaderboard.playerEntry.correctAnswers}/{TOTAL_PUZZLES}
+                                </span>
+                                <span className="shrink-0 text-right font-mono">
+                                  {formatResultTime(leaderboard.playerEntry.completionTimeMs)}
+                                </span>
+                              </li>
+                            </>
+                          )}
+                        </ol>
+                      ) : (
+                        <p className="py-3 text-center text-xs font-bold text-black/55">
+                          Daily leaderboard unavailable. Your result has still been saved.
+                        </p>
+                      )}
+                    </div>
                     <p className="mx-auto mt-2 max-w-sm text-sm font-black uppercase leading-snug tracking-[0.08em] text-black">
                       {scoreQuote}
                     </p>
@@ -2017,44 +2106,6 @@ export default function App() {
                         </span>
                       </li>
                     </ul>
-                  </div>
-
-                  <div className="border-2 border-black bg-white p-3">
-                    <p className="text-xs font-black uppercase tracking-[0.18em] text-black/60">Daily Leaderboard</p>
-                    {leaderboard.configured && leaderboard.entries.length > 0 ? (
-                      <ol className="mt-2 grid gap-1 text-xs font-bold">
-                        {leaderboard.entries.slice(0, 10).map((entry) => (
-                          <li
-                            className={`flex min-w-0 justify-between gap-3 border-b border-black/10 pb-1 ${
-                              entry.publicRacerId === racer.publicRacerId ? 'bg-emerald-100 px-1' : ''
-                            }`}
-                            key={`${entry.rank}-${entry.publicRacerId}`}
-                          >
-                            <span className="min-w-0 truncate">
-                              #{entry.rank} {entry.publicRacerId}
-                            </span>
-                            <span className="shrink-0 font-mono">
-                              {entry.correctAnswers}/{TOTAL_PUZZLES} {formatResultTime(entry.completionTimeMs)}
-                            </span>
-                          </li>
-                        ))}
-                      </ol>
-                    ) : (
-                      <p className="mt-2 text-xs font-bold text-black/55">
-                        Live leaderboard appears here after Supabase is connected.
-                      </p>
-                    )}
-                    {leaderboard.configured && leaderboard.playerEntry && leaderboard.playerEntry.rank > 10 && (
-                      <div className="mt-2 border-t-2 border-black pt-2 text-xs font-black">
-                        <div className="flex justify-between gap-3 bg-emerald-100 px-1">
-                          <span>#{leaderboard.playerEntry.rank} {leaderboard.playerEntry.publicRacerId}</span>
-                          <span className="font-mono">
-                            {leaderboard.playerEntry.correctAnswers}/{TOTAL_PUZZLES}{' '}
-                            {formatResultTime(leaderboard.playerEntry.completionTimeMs)}
-                          </span>
-                        </div>
-                      </div>
-                    )}
                   </div>
 
                   <button
