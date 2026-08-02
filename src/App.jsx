@@ -117,6 +117,14 @@ function getStoredProgress(storageKey) {
   }
 }
 
+function getRaceFinishedAt(progress) {
+  return progress?.finishedAt ?? null;
+}
+
+function isRaceProgressComplete(progress) {
+  return Boolean(getRaceFinishedAt(progress) || (progress?.completedCount ?? 0) >= TOTAL_PUZZLES);
+}
+
 function getStoredSoundEnabled() {
   try {
     const stored = window.localStorage.getItem(SOUND_SETTING_KEY);
@@ -623,9 +631,82 @@ export default function App() {
     ? getTomorrowRankMessage(safeDailyRank)
     : 'COME BACK TOMORROW AND IMPROVE YOUR RANK.';
   const dailyProgress = dailyStorageKey ? getStoredProgress(dailyStorageKey) : null;
-  const dailyCompleted = selectedSetIndex === 0 ? isComplete : Boolean(dailyProgress?.finishedAt || dailyProgress?.completedCount >= TOTAL_PUZZLES);
+  const dailyCompleted = selectedSetIndex === 0 ? isComplete : isRaceProgressComplete(dailyProgress);
   const hasNextRace = selectedSetIndex < puzzleSets.length - 1 && dailyCompleted;
   const isNextDailyReady = countdownToTomorrow <= 0;
+
+  function hydrateRaceProgress(progress) {
+    const now = Date.now();
+    const restoredCompletedCount = progress?.completedCount ?? 0;
+    const restoredStartedAt = progress?.startedAt ?? null;
+    const restoredFinishedAt = getRaceFinishedAt(progress);
+    const restoredComplete = isRaceProgressComplete(progress);
+    const restoredElapsedMs =
+      restoredFinishedAt && restoredStartedAt
+        ? restoredFinishedAt - restoredStartedAt
+        : restoredStartedAt
+          ? now - restoredStartedAt
+          : 0;
+
+    window.clearTimeout(advanceTimeoutRef.current);
+    window.clearTimeout(transitionTimeoutRef.current);
+    window.clearTimeout(introTimeoutRef.current);
+    suppressNextPersistRef.current = true;
+    setStartedAt(restoredStartedAt);
+    setFinishedAt(restoredFinishedAt);
+    setCompletedCount(restoredComplete ? TOTAL_PUZZLES : restoredCompletedCount);
+    setCorrectCount(progress?.correctCount ?? progress?.solvedCount ?? 0);
+    setMissedCount(progress?.missedCount ?? progress?.skippedCount ?? 0);
+    setIncorrectCount(progress?.incorrectCount ?? 0);
+    setOutcomes(progress?.outcomes ?? []);
+    setPuzzleStartedAt(
+      restoredComplete
+        ? null
+        : progress?.puzzleStartedAt ?? (
+            restoredCompletedCount < TOTAL_PUZZLES && !shouldShowLevelIntro(restoredCompletedCount) ? now : null
+          ),
+    );
+    setAnswer('');
+    setFeedback('');
+    setFeedbackTone('neutral');
+    setElapsedMs(restoredElapsedMs);
+    setTimeLeftMs(PUZZLE_TIME_LIMIT_MS);
+    setCelebrating(false);
+    setRevealingSolved(false);
+    setIsTransitioning(false);
+    setShowRulesIntro(!restoredComplete && restoredCompletedCount === 0 && !progress?.rulesSeen);
+    setShowLevelIntro(
+      !restoredComplete &&
+        Boolean(progress?.rulesSeen) &&
+        restoredCompletedCount < TOTAL_PUZZLES &&
+        shouldShowLevelIntro(restoredCompletedCount),
+    );
+    setShareStatus('');
+    setStatsRecorded(Boolean(progress?.statsRecorded));
+    setEmailStatus('');
+    setConfettiActive(false);
+    setOfficialSession(progress?.officialSession ?? null);
+    setResultSubmission({
+      submittedKey: restoredComplete && restoredFinishedAt ? `${selectedSet.id}:${restoredFinishedAt}` : '',
+      status: restoredComplete ? 'submitted' : 'idle',
+      message: '',
+    });
+    setLeaderboard({
+      configured: false,
+      entries: [],
+      playerEntry: null,
+      dailyResult: null,
+      totalEntries: 0,
+      loading: false,
+      error: '',
+    });
+    confettiPlayedRef.current = restoredComplete;
+    puzzleLockedRef.current = false;
+  }
+
+  useEffect(() => {
+    hydrateRaceProgress(getStoredProgress(storageKey));
+  }, [storageKey]);
 
   useEffect(() => {
     if (suppressNextPersistRef.current) {
@@ -1445,6 +1526,10 @@ export default function App() {
     const nextSetIndex = Number(event.target.value) - 1;
 
     if (!Number.isInteger(nextSetIndex) || nextSetIndex < 0 || nextSetIndex >= puzzleSets.length) {
+      return;
+    }
+
+    if (nextSetIndex === selectedSetIndex) {
       return;
     }
 
