@@ -1,7 +1,7 @@
 import { getOfficialDate } from './_lib/content.js';
 import { jsonResponse } from './_lib/http.js';
-import { isDatabaseConfigured, supabaseRequest } from './_lib/supabase-rest.js';
-import { formatLeaderboard } from './complete-race.js';
+import { loadOfficialLeaderboard } from './_lib/leaderboard.js';
+import { isDatabaseConfigured } from './_lib/supabase-rest.js';
 
 export default async function handler(request, response) {
   const url = new URL(request.url, 'https://playguzzle.com');
@@ -22,15 +22,7 @@ export default async function handler(request, response) {
   }
 
   try {
-    const rows = await supabaseRequest('rpc/get_daily_leaderboard', {
-      method: 'POST',
-      body: JSON.stringify({
-        p_race_date: officialDate,
-        p_track_type: trackType,
-        p_public_racer_id: publicRacerId,
-      }),
-    });
-    const leaderboard = formatLeaderboard(rows, publicRacerId);
+    const leaderboard = await loadOfficialLeaderboard({ officialDate, trackType, publicRacerId });
 
     return jsonResponse(response, 200, {
       configured: true,
@@ -39,6 +31,7 @@ export default async function handler(request, response) {
       entries: leaderboard.entries,
       playerEntry: leaderboard.playerEntry,
       totalEntries: leaderboard.totalEntries,
+      dailyResult: leaderboard.dailyResult,
     });
   } catch {
     return jsonResponse(response, 500, {

@@ -144,39 +144,6 @@ function getRaceLabel(index) {
   return index === 0 ? "Today's GUZZLE" : `Bonus Race ${index + 1}`;
 }
 
-function getPerformanceRank(solvedCount, totalPuzzles, timeMs) {
-  const safeTimeMs = Math.max(0, timeMs);
-  const missedCount = Math.max(0, totalPuzzles - solvedCount);
-
-  if (solvedCount === totalPuzzles) {
-    if (safeTimeMs <= 150000) return 1;
-    if (safeTimeMs <= 210000) return 2;
-    if (safeTimeMs <= 270000) return 3;
-    if (safeTimeMs <= 330000) return 5;
-    return 8;
-  }
-
-  if (missedCount === 1) {
-    if (safeTimeMs <= 300000) return 10;
-    return 15;
-  }
-
-  if (missedCount === 2) {
-    if (safeTimeMs <= 300000) return 25;
-    return 35;
-  }
-
-  if (solvedCount >= Math.ceil(totalPuzzles * 0.66)) {
-    return 50;
-  }
-
-  if (solvedCount >= Math.ceil(totalPuzzles * 0.5)) {
-    return 75;
-  }
-
-  return 100;
-}
-
 function prefersReducedMotion() {
   return window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
 }
@@ -567,6 +534,7 @@ export default function App() {
     configured: false,
     entries: [],
     playerEntry: null,
+    dailyResult: null,
     totalEntries: 0,
     loading: false,
     error: '',
@@ -605,13 +573,33 @@ export default function App() {
     3,
     '0',
   );
-  const performanceRank = getPerformanceRank(correctCount, TOTAL_PUZZLES, resultMs);
   const accuracy = Math.round((correctCount / TOTAL_PUZZLES) * 100);
   const scoreQuote = getScoreQuote(correctCount);
-  const displayedRank = leaderboard.playerEntry?.rank ?? null;
-  const displayedRankTotal = leaderboard.totalEntries;
-  const tomorrowRankMessage = leaderboard.configured
-    ? getTomorrowRankMessage(displayedRank ?? performanceRank)
+  const officialDailyResult = leaderboard.dailyResult ?? (
+    leaderboard.playerEntry
+      ? {
+          rank: leaderboard.playerEntry.rank,
+          totalPlayers: leaderboard.totalEntries,
+          score: leaderboard.playerEntry.correctAnswers,
+          completionTimeMs: leaderboard.playerEntry.completionTimeMs,
+        }
+      : null
+  );
+  const hasOfficialRank = Boolean(
+    leaderboard.configured &&
+      officialDailyResult &&
+      Number.isFinite(Number(officialDailyResult.rank)) &&
+      Number.isFinite(Number(officialDailyResult.totalPlayers)) &&
+      Number(officialDailyResult.totalPlayers) > 0,
+  );
+  const safeTotalPlayers = hasOfficialRank ? Math.max(Number(officialDailyResult.totalPlayers), 1) : 0;
+  const safeDailyRank = hasOfficialRank
+    ? Math.min(Math.max(Number(officialDailyResult.rank), 1), safeTotalPlayers)
+    : null;
+  const rankCalculating = isComplete && (leaderboard.loading || resultSubmission.status === 'submitting');
+  const rankUnavailable = isComplete && !rankCalculating && !hasOfficialRank;
+  const tomorrowRankMessage = hasOfficialRank
+    ? getTomorrowRankMessage(safeDailyRank)
     : 'COME BACK TOMORROW AND IMPROVE YOUR RANK.';
   const dailyProgress = dailyStorageKey ? getStoredProgress(dailyStorageKey) : null;
   const dailyCompleted = selectedSetIndex === 0 ? isComplete : Boolean(dailyProgress?.finishedAt || dailyProgress?.completedCount >= TOTAL_PUZZLES);
@@ -869,6 +857,7 @@ export default function App() {
             configured: true,
             entries: data.leaderboard.entries ?? [],
             playerEntry: data.leaderboard.playerEntry ?? null,
+            dailyResult: data.leaderboard.dailyResult ?? null,
             totalEntries: data.leaderboard.totalEntries ?? 0,
             loading: false,
             error: '',
@@ -918,7 +907,15 @@ export default function App() {
     let cancelled = false;
 
     const loadLeaderboard = async () => {
-      setLeaderboard((current) => ({ ...current, loading: true, error: '' }));
+      setLeaderboard((current) => ({
+        ...current,
+        entries: [],
+        playerEntry: null,
+        dailyResult: null,
+        totalEntries: 0,
+        loading: true,
+        error: '',
+      }));
 
       try {
         const params = new URLSearchParams({
@@ -934,6 +931,7 @@ export default function App() {
             configured: Boolean(data.configured),
             entries: data.entries ?? [],
             playerEntry: data.playerEntry ?? null,
+            dailyResult: data.dailyResult ?? null,
             totalEntries: data.totalEntries ?? 0,
             loading: false,
             error: response.ok ? '' : data.message ?? 'Leaderboard unavailable.',
@@ -1329,6 +1327,15 @@ export default function App() {
     setConfettiActive(false);
     setOfficialSession(null);
     setResultSubmission({ submittedKey: '', status: 'idle', message: '' });
+    setLeaderboard({
+      configured: false,
+      entries: [],
+      playerEntry: null,
+      dailyResult: null,
+      totalEntries: 0,
+      loading: false,
+      error: '',
+    });
     confettiPlayedRef.current = false;
     puzzleLockedRef.current = false;
   }
@@ -1752,12 +1759,16 @@ export default function App() {
                       <p className="text-[0.58rem] font-black uppercase tracking-[0.2em] text-black/60">
                         Daily Rank
                       </p>
-                      <p className="mt-1 text-3xl font-black uppercase leading-none sm:text-5xl">
-                        {displayedRank ? `#${displayedRank}` : '--'}
-                        {displayedRank && leaderboard.configured && (
-                          <span className="ml-2 text-base sm:text-xl">of {displayedRankTotal}</span>
-                        )}
-                      </p>
+                      {hasOfficialRank ? (
+                        <p className="mt-1 text-3xl font-black uppercase leading-none sm:text-5xl">
+                          #{safeDailyRank}
+                          <span className="ml-2 text-base sm:text-xl">of {safeTotalPlayers}</span>
+                        </p>
+                      ) : (
+                        <p className="mt-2 max-w-[14rem] text-sm font-black uppercase leading-tight tracking-[0.12em] text-black sm:text-base">
+                          {rankCalculating ? 'Calculating Daily Rank...' : 'Daily Rank Unavailable'}
+                        </p>
+                      )}
                       <p className="mt-1 text-[0.56rem] font-black uppercase tracking-[0.12em] text-black/50">
                         Solved first, then time
                       </p>
@@ -1768,19 +1779,19 @@ export default function App() {
                     <p className="mt-1 text-[0.62rem] font-black uppercase tracking-[0.12em] text-black/55">
                       Your Race Car ID: {racer.publicRacerId}
                     </p>
-                    {resultSubmission.status === 'submitted' && leaderboard.playerEntry && (
+                    {resultSubmission.status === 'submitted' && hasOfficialRank && (
                       <p className="mt-1 text-xs font-bold text-emerald-700">
-                        You finished #{leaderboard.playerEntry.rank} out of {leaderboard.totalEntries} racers today.
+                        You finished #{safeDailyRank} out of {safeTotalPlayers} racers today.
                       </p>
                     )}
-                    {leaderboard.loading && (
+                    {rankCalculating && (
                       <p className="mt-1 text-xs font-black uppercase tracking-[0.12em] text-black/50">
-                        Loading live rank...
+                        Calculating daily rank...
                       </p>
                     )}
-                    {leaderboard.error && (
+                    {rankUnavailable && (
                       <p className="mt-1 text-xs font-bold text-black/55">
-                        {leaderboard.error}
+                        Daily rank unavailable. Your result has still been saved.
                       </p>
                     )}
                     {resultSubmission.status === 'error' && (

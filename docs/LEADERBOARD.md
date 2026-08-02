@@ -1,15 +1,12 @@
 # Official Leaderboard
 
-Daily GUZZLE ranking is calculated by the Supabase database function `public.get_daily_leaderboard`.
-The JavaScript ranking helper in `src/lib/ranking.js` mirrors the formula for local tests and fallback checks.
+Daily GUZZLE ranking is returned by the server API from one filtered daily result set. The Supabase database function `public.get_daily_leaderboard` mirrors the same formula for future database-side use.
 
 Checkpoint 1 ranking order:
 
 1. More correct answers
-2. Fewer timeouts
-3. Fewer incorrect answers
-4. Lower elapsed time
-5. Earlier server submission
+2. Lower completion time
+3. Earlier server submission
 
 Only the first valid completed Daily run per Race Car ID per official date is rankable. Later Daily attempts are practice and must not overwrite the first official result. Bonus Track results are stored separately from Daily rankings.
 

@@ -9,6 +9,7 @@ import {
 } from './_lib/race-security.js';
 import { isDatabaseConfigured, supabaseRequest } from './_lib/supabase-rest.js';
 import { findPlayer } from './start-race.js';
+import { loadOfficialLeaderboard } from './_lib/leaderboard.js';
 
 const SCORING_VERSION = 'checkpoint1-v1';
 
@@ -156,44 +157,7 @@ async function markSession(sessionId, status, completedAt) {
 }
 
 async function loadLeaderboard(dailyRaceId, publicRacerId) {
-  const races = await supabaseRequest(`daily_races?id=eq.${dailyRaceId}&select=race_date,track_type`);
-  const race = races[0];
-  if (!race) {
-    return { entries: [], playerEntry: null, totalEntries: 0 };
-  }
-
-  const rows = await supabaseRequest('rpc/get_daily_leaderboard', {
-    method: 'POST',
-    body: JSON.stringify({
-      p_race_date: race.race_date,
-      p_track_type: race.track_type,
-      p_public_racer_id: publicRacerId,
-    }),
-  });
-
-  return formatLeaderboard(rows, publicRacerId);
-}
-
-export function formatLeaderboard(rows, publicRacerId) {
-  const entries = (rows ?? []).map((row) => ({
-    rank: row.rank,
-    publicRacerId: row.public_racer_id,
-    racingColor: row.racing_color,
-    correctAnswers: row.correct_answers,
-    totalPuzzles: row.total_puzzles,
-    accuracyPercentage: row.accuracy_percentage,
-    completionTimeMs: row.completion_time_ms,
-    timeouts: row.timeouts,
-    incorrectAnswers: row.incorrect_answers,
-    submittedAt: row.submitted_at,
-    isCurrentPlayer: Boolean(row.is_current_player),
-  }));
-
-  return {
-    entries: entries.filter((entry) => entry.rank <= 10),
-    playerEntry: entries.find((entry) => entry.publicRacerId === publicRacerId) ?? null,
-    totalEntries: rows?.[0]?.total_racers ?? 0,
-  };
+  return loadOfficialLeaderboard({ dailyRaceId, publicRacerId });
 }
 
 function formatResult(result, publicRacerId) {

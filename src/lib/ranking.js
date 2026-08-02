@@ -3,14 +3,6 @@ export function compareLeaderboardRuns(left, right) {
   const rightCorrect = Number(right.correctAnswers ?? right.correctCount ?? 0);
   if (leftCorrect !== rightCorrect) return rightCorrect - leftCorrect;
 
-  const leftTimeouts = Number(left.timeouts ?? left.missedCount ?? 0);
-  const rightTimeouts = Number(right.timeouts ?? right.missedCount ?? 0);
-  if (leftTimeouts !== rightTimeouts) return leftTimeouts - rightTimeouts;
-
-  const leftIncorrect = Number(left.incorrectAnswers ?? 0);
-  const rightIncorrect = Number(right.incorrectAnswers ?? 0);
-  if (leftIncorrect !== rightIncorrect) return leftIncorrect - rightIncorrect;
-
   const leftElapsed = Number(left.elapsedMilliseconds ?? left.resultMs ?? Number.MAX_SAFE_INTEGER);
   const rightElapsed = Number(right.elapsedMilliseconds ?? right.resultMs ?? Number.MAX_SAFE_INTEGER);
   if (leftElapsed !== rightElapsed) return leftElapsed - rightElapsed;
