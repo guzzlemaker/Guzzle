@@ -65,7 +65,7 @@ export async function loadOfficialLeaderboard({ officialDate, trackType = 'daily
   }
 
   const results = await supabaseRequest(
-    `race_results?daily_race_id=eq.${race.id}&select=id,player_id,correct_answers,total_puzzles,accuracy_percentage,completion_time_ms,timeouts,incorrect_answers,submitted_at,completed_at,completed,players(public_racer_id,racing_color)&completed=eq.true`,
+    `race_results?daily_race_id=eq.${race.id}&select=id,player_id,correct_answers,total_puzzles,accuracy_percentage,completion_time_ms,timeouts,incorrect_answers,submitted_at,completed_at,completed,players(public_racer_id,racing_color)`,
   );
 
   return buildDailyLeaderboard(

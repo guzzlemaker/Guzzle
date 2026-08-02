@@ -87,7 +87,8 @@ export default async function handler(request, response) {
       completion_time_ms: completionTime.elapsedMilliseconds,
       timeouts: outcomeValidation.timeouts,
       incorrect_answers: incorrectAnswers,
-      completed: outcomeValidation.correctAnswers === outcomeValidation.totalPuzzles,
+      // Completed means the player finished the official 12-lap race, not that they scored 12/12.
+      completed: true,
       started_at: session.server_started_at,
       completed_at: now.toISOString(),
       submitted_at: now.toISOString(),

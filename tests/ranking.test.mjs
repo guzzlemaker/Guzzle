@@ -73,6 +73,16 @@ test('daily leaderboard keeps only a player best valid attempt', () => {
   assert.equal(leaderboard.playerEntry.correctAnswers, 11);
 });
 
+test('daily leaderboard includes non-perfect finished scores without impossible rank totals', () => {
+  const leaderboard = buildDailyLeaderboard([
+    { id: 'eleven', playerId: 'a', publicRacerId: 'GUZ-000001', correctAnswers: 11, totalPuzzles: 12, completionTimeMs: 170000, submittedAt: '2026-07-30T12:00:00Z', completed: false },
+  ], 'GUZ-000001');
+
+  assert.equal(leaderboard.dailyResult.rank, 1);
+  assert.equal(leaderboard.dailyResult.totalPlayers, 1);
+  assert.equal(leaderboard.dailyResult.rank <= leaderboard.dailyResult.totalPlayers, true);
+});
+
 test('validates impossible result payloads', () => {
   const invalid = validateRunPayload({
     anonymousId: 'guest',
