@@ -10,6 +10,7 @@ const sets = [
   { dateSeed: '2026-03-07', gameNumber: 1, theme: 'YESTERDAY', puzzles: [] },
   { dateSeed: '2026-03-08', gameNumber: 2, theme: 'TODAY', puzzles: [] },
   { dateSeed: '2026-03-09', gameNumber: 3, theme: 'TOMORROW', puzzles: [] },
+  { dateSeed: '2026-03-10', gameNumber: 4, theme: 'LATER', puzzles: [] },
 ];
 
 test('calculates official America/Denver date before and after midnight', () => {
@@ -27,11 +28,18 @@ test('selects daily and bonus tracks by official date', () => {
   assert.equal(selected.daily.trackType, 'daily');
   assert.equal(selected.daily.theme, 'TODAY');
   assert.equal(selected.bonus.trackType, 'bonus');
-  assert.equal(selected.bonus.theme, 'TOMORROW');
+  assert.equal(selected.bonus.theme, 'LATER');
+});
+
+test('bonus track does not preview the next daily track', () => {
+  const selected = selectDailyAndBonusTrack(sets, '2026-03-08');
+  const nextDaily = selectDailyAndBonusTrack(sets, '2026-03-09');
+
+  assert.notEqual(selected.bonus.theme, nextDaily.daily.theme);
 });
 
 test('returns missing daily content without reusing yesterday', () => {
-  const selected = selectDailyAndBonusTrack(sets, '2026-03-10');
+  const selected = selectDailyAndBonusTrack(sets, '2026-03-11');
   assert.equal(selected.daily, null);
   assert.equal(selected.bonus, null);
 });

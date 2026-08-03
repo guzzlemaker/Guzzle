@@ -83,9 +83,13 @@ export function selectDailyAndBonusTrack(sets, officialDate) {
     };
   }
 
+  const bonusOffset = Math.max(1, Math.ceil(sortedSets.length / 2));
+  const bonusIndex = (dailyIndex + bonusOffset) % sortedSets.length;
+  const bonusSet = sortedSets.length > 1 ? sortedSets[bonusIndex] : null;
+
   return {
     daily: normalizeTrackSet(sortedSets[dailyIndex], DAILY_TRACK_TYPE, officialDate),
-    bonus: normalizeTrackSet(sortedSets[dailyIndex + 1] ?? sortedSets[0], BONUS_TRACK_TYPE, officialDate),
+    bonus: normalizeTrackSet(bonusSet, BONUS_TRACK_TYPE, officialDate),
     nextScheduledSet: sortedSets.find((set) => set.dateSeed > officialDate) ?? null,
   };
 }

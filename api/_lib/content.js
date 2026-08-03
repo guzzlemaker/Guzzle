@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { BONUS_TRACK_TYPE, DAILY_TRACK_TYPE, getOfficialDateKey, normalizeTrackSet } from '../../src/lib/daily.js';
+import { getOfficialDateKey, selectDailyAndBonusTrack } from '../../src/lib/daily.js';
 
 const DAILY_DIR = path.join(process.cwd(), 'src', 'data', 'daily');
 const TIMEZONE = process.env.GUZZLE_TIMEZONE || 'America/Denver';
@@ -19,16 +19,8 @@ export function loadDailySets() {
 
 export function getTracksForOfficialDate(officialDate = getOfficialDate()) {
   const sets = loadDailySets();
-  const dailyIndex = sets.findIndex((set) => set.dateSeed === officialDate);
-
-  if (dailyIndex < 0) {
-    return { daily: null, bonus: null };
-  }
-
-  return {
-    daily: normalizeTrackSet(sets[dailyIndex], DAILY_TRACK_TYPE, officialDate),
-    bonus: normalizeTrackSet(sets[dailyIndex + 1] ?? sets[0], BONUS_TRACK_TYPE, officialDate),
-  };
+  const { daily, bonus } = selectDailyAndBonusTrack(sets, officialDate);
+  return { daily, bonus };
 }
 
 export function getPublicTrack(track) {
