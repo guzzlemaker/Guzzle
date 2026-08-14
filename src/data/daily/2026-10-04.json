@@ -1,0 +1,103 @@
+{
+  "gameNumber": 82,
+  "dateSeed": "2026-10-04",
+  "theme": "RHYME TIME",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "RHYME TIME",
+      "clue": "USE THE CATEGORY AND GIVEN LETTERS TO SOLVE THIS PHRASE",
+      "answer": "SNACK ATTACK",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "RHYME TIME",
+      "clue": "CATEGORY PLUS LETTERS SHOULD GET YOU MOVING FAST",
+      "answer": "PHONE ZONE",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "RHYME TIME",
+      "clue": "THE TRACK THEME IS DOING SOME HEAVY LIFTING HERE",
+      "answer": "CHORE WAR",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "RHYME TIME",
+      "clue": "A RELATABLE DETAIL HIDING BEHIND THE BLANK BOXES",
+      "answer": "BILL THRILL",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "RHYME TIME",
+      "clue": "THE REVEALS SHOULD NUDGE THIS INTO PLACE PRETTY QUICKLY",
+      "answer": "DRAMA LLAMA",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "RHYME TIME",
+      "clue": "SOLVE FROM THE TRACK VIBE AND THE LETTER GRID",
+      "answer": "COUCH POUCH",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "RHYME TIME",
+      "clue": "THE CATEGORY SHOULD MAKE THIS CLICK AFTER A FEW REVEALS",
+      "answer": "SLEEP CREEP",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "RHYME TIME",
+      "clue": "A SHARED MEMORY WAITING INSIDE THE EMPTY BOXES",
+      "answer": "PARK SPARK",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "RHYME TIME",
+      "clue": "THE HINT AND GRID ARE TRYING TO BE HELPFUL",
+      "answer": "MEAL DEAL",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "RHYME TIME",
+      "clue": "A FAMILIAR ANSWER WITH JUST ENOUGH LETTERS SHOWING",
+      "answer": "RAIN PAIN",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "RHYME TIME",
+      "clue": "THE TRACK TITLE IS YOUR BEST FRIEND RIGHT NOW",
+      "answer": "DATE FATE",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "FINISH LINE ENERGY WITH A VERY GETTABLE ANSWER",
+      "answer": "MONEY HONEY",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "gameNumber": 38,
+  "dateSeed": "2026-08-21",
+  "theme": "MILLENNIAL CORE",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "MILLENNIAL CORE",
+      "clue": "USE THE CATEGORY AND GIVEN LETTERS TO SOLVE THIS PHRASE",
+      "answer": "SIDE PART DEBATE",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "MILLENNIAL CORE",
+      "clue": "CATEGORY PLUS LETTERS SHOULD GET YOU MOVING FAST",
+      "answer": "SKINNY JEANS",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "MILLENNIAL CORE",
+      "clue": "THE TRACK THEME IS DOING SOME HEAVY LIFTING HERE",
+      "answer": "AVOCADO TOAST",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "MILLENNIAL CORE",
+      "clue": "A RELATABLE DETAIL HIDING BEHIND THE BLANK BOXES",
+      "answer": "HARRY POTTER HOUSE",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "MILLENNIAL CORE",
+      "clue": "THE REVEALS SHOULD NUDGE THIS INTO PLACE PRETTY QUICKLY",
+      "answer": "MYSPACE TOP EIGHT",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "MILLENNIAL CORE",
+      "clue": "SOLVE FROM THE TRACK VIBE AND THE LETTER GRID",
+      "answer": "LOW RISE FLASHBACK",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "MILLENNIAL CORE",
+      "clue": "THE CATEGORY SHOULD MAKE THIS CLICK AFTER A FEW REVEALS",
+      "answer": "EMO PLAYLIST",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "MILLENNIAL CORE",
+      "clue": "A SHARED MEMORY WAITING INSIDE THE EMPTY BOXES",
+      "answer": "TEXTING T9",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "MILLENNIAL CORE",
+      "clue": "THE HINT AND GRID ARE TRYING TO BE HELPFUL",
+      "answer": "ROOMMATE GROUP CHAT",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "MILLENNIAL CORE",
+      "clue": "A FAMILIAR ANSWER WITH JUST ENOUGH LETTERS SHOWING",
+      "answer": "RENTAL APPLICATION",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "MILLENNIAL CORE",
+      "clue": "THE TRACK TITLE IS YOUR BEST FRIEND RIGHT NOW",
+      "answer": "BRUNCH RESERVATION",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "FINISH LINE ENERGY WITH A VERY GETTABLE ANSWER",
+      "answer": "STUDENT LOAN EMAIL",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "gameNumber": 35,
+  "dateSeed": "2026-08-18",
+  "theme": "MOM WAS RIGHT",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "MOM WAS RIGHT",
+      "clue": "USE THE CATEGORY AND GIVEN LETTERS TO SOLVE THIS PHRASE",
+      "answer": "CHECK YOUR BAG",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "MOM WAS RIGHT",
+      "clue": "CATEGORY PLUS LETTERS SHOULD GET YOU MOVING FAST",
+      "answer": "EAT A REAL BREAKFAST",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "MOM WAS RIGHT",
+      "clue": "THE TRACK THEME IS DOING SOME HEAVY LIFTING HERE",
+      "answer": "SAVE YOUR RECEIPTS",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "MOM WAS RIGHT",
+      "clue": "A RELATABLE DETAIL HIDING BEHIND THE BLANK BOXES",
+      "answer": "WRITE IT DOWN",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "MOM WAS RIGHT",
+      "clue": "THE REVEALS SHOULD NUDGE THIS INTO PLACE PRETTY QUICKLY",
+      "answer": "PACK EXTRA SOCKS",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "MOM WAS RIGHT",
+      "clue": "SOLVE FROM THE TRACK VIBE AND THE LETTER GRID",
+      "answer": "UNPLUG THE CURLING IRON",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "MOM WAS RIGHT",
+      "clue": "THE CATEGORY SHOULD MAKE THIS CLICK AFTER A FEW REVEALS",
+      "answer": "CALL WHEN YOU ARRIVE",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "MOM WAS RIGHT",
+      "clue": "A SHARED MEMORY WAITING INSIDE THE EMPTY BOXES",
+      "answer": "EAT BEFORE YOU GO",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "MOM WAS RIGHT",
+      "clue": "THE HINT AND GRID ARE TRYING TO BE HELPFUL",
+      "answer": "KEEP THE RECEIPT",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "MOM WAS RIGHT",
+      "clue": "A FAMILIAR ANSWER WITH JUST ENOUGH LETTERS SHOWING",
+      "answer": "LOOK BOTH WAYS",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "MOM WAS RIGHT",
+      "clue": "THE TRACK TITLE IS YOUR BEST FRIEND RIGHT NOW",
+      "answer": "TAKE A PICTURE",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "FINISH LINE ENERGY WITH A VERY GETTABLE ANSWER",
+      "answer": "START EARLY",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}

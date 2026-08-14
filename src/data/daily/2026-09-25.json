@@ -1,0 +1,103 @@
+{
+  "gameNumber": 73,
+  "dateSeed": "2026-09-25",
+  "theme": "RELATIONSHIP MATH",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "RELATIONSHIP MATH",
+      "clue": "USE THE CATEGORY AND GIVEN LETTERS TO SOLVE THIS PHRASE",
+      "answer": "DATE NIGHT RESERVATION",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "RELATIONSHIP MATH",
+      "clue": "CATEGORY PLUS LETTERS SHOULD GET YOU MOVING FAST",
+      "answer": "COUCH SIDE CLAIM",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "RELATIONSHIP MATH",
+      "clue": "THE TRACK THEME IS DOING SOME HEAVY LIFTING HERE",
+      "answer": "SHARED CALENDAR",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "RELATIONSHIP MATH",
+      "clue": "A RELATABLE DETAIL HIDING BEHIND THE BLANK BOXES",
+      "answer": "THERMOSTAT COMPROMISE",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "RELATIONSHIP MATH",
+      "clue": "THE REVEALS SHOULD NUDGE THIS INTO PLACE PRETTY QUICKLY",
+      "answer": "MOVIE PICK ROTATION",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "RELATIONSHIP MATH",
+      "clue": "SOLVE FROM THE TRACK VIBE AND THE LETTER GRID",
+      "answer": "DISHWASHER LOADING STYLE",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "RELATIONSHIP MATH",
+      "clue": "THE CATEGORY SHOULD MAKE THIS CLICK AFTER A FEW REVEALS",
+      "answer": "INSIDE JOKE",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "RELATIONSHIP MATH",
+      "clue": "A SHARED MEMORY WAITING INSIDE THE EMPTY BOXES",
+      "answer": "ROAD TRIP SNACKS",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "RELATIONSHIP MATH",
+      "clue": "THE HINT AND GRID ARE TRYING TO BE HELPFUL",
+      "answer": "ANNIVERSARY REMINDER",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "RELATIONSHIP MATH",
+      "clue": "A FAMILIAR ANSWER WITH JUST ENOUGH LETTERS SHOWING",
+      "answer": "PILLOW NEGOTIATION",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "RELATIONSHIP MATH",
+      "clue": "THE TRACK TITLE IS YOUR BEST FRIEND RIGHT NOW",
+      "answer": "DOG NAME DEBATE",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "FINISH LINE ENERGY WITH A VERY GETTABLE ANSWER",
+      "answer": "LOVE LANGUAGE QUIZ",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}

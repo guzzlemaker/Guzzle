@@ -1,0 +1,103 @@
+{
+  "gameNumber": 40,
+  "dateSeed": "2026-08-23",
+  "theme": "GEN Z TRANSLATOR",
+  "puzzles": [
+    {
+      "level": 1,
+      "category": "GEN Z TRANSLATOR",
+      "clue": "USE THE CATEGORY AND GIVEN LETTERS TO SOLVE THIS PHRASE",
+      "answer": "GROUP CHAT RECEIPTS",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 50
+    },
+    {
+      "level": 2,
+      "category": "GEN Z TRANSLATOR",
+      "clue": "CATEGORY PLUS LETTERS SHOULD GET YOU MOVING FAST",
+      "answer": "VOICE MEMO APOLOGY",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 51
+    },
+    {
+      "level": 3,
+      "category": "GEN Z TRANSLATOR",
+      "clue": "THE TRACK THEME IS DOING SOME HEAVY LIFTING HERE",
+      "answer": "PRIVATE STORY",
+      "difficulty": "MEDIUM",
+      "difficultyValue": 52
+    },
+    {
+      "level": 4,
+      "category": "GEN Z TRANSLATOR",
+      "clue": "A RELATABLE DETAIL HIDING BEHIND THE BLANK BOXES",
+      "answer": "ALGORITHM RABBIT HOLE",
+      "difficulty": "STEADY",
+      "difficultyValue": 53
+    },
+    {
+      "level": 5,
+      "category": "GEN Z TRANSLATOR",
+      "clue": "THE REVEALS SHOULD NUDGE THIS INTO PLACE PRETTY QUICKLY",
+      "answer": "SCREEN TIME REPORT",
+      "difficulty": "STEADY",
+      "difficultyValue": 54
+    },
+    {
+      "level": 6,
+      "category": "GEN Z TRANSLATOR",
+      "clue": "SOLVE FROM THE TRACK VIBE AND THE LETTER GRID",
+      "answer": "ENERGY DRINK ERA",
+      "difficulty": "HARD",
+      "difficultyValue": 55
+    },
+    {
+      "level": 7,
+      "category": "GEN Z TRANSLATOR",
+      "clue": "THE CATEGORY SHOULD MAKE THIS CLICK AFTER A FEW REVEALS",
+      "answer": "FIT CHECK PHOTO",
+      "difficulty": "HARD",
+      "difficultyValue": 56
+    },
+    {
+      "level": 8,
+      "category": "GEN Z TRANSLATOR",
+      "clue": "A SHARED MEMORY WAITING INSIDE THE EMPTY BOXES",
+      "answer": "DUPE HUNTING",
+      "difficulty": "HARD",
+      "difficultyValue": 57
+    },
+    {
+      "level": 9,
+      "category": "GEN Z TRANSLATOR",
+      "clue": "THE HINT AND GRID ARE TRYING TO BE HELPFUL",
+      "answer": "SOFT LAUNCH POST",
+      "difficulty": "EXPERT",
+      "difficultyValue": 58
+    },
+    {
+      "level": 10,
+      "category": "GEN Z TRANSLATOR",
+      "clue": "A FAMILIAR ANSWER WITH JUST ENOUGH LETTERS SHOWING",
+      "answer": "MAIN CHARACTER WALK",
+      "difficulty": "EXPERT",
+      "difficultyValue": 59
+    },
+    {
+      "level": 11,
+      "category": "GEN Z TRANSLATOR",
+      "clue": "THE TRACK TITLE IS YOUR BEST FRIEND RIGHT NOW",
+      "answer": "DIGITAL CAMERA COMEBACK",
+      "difficulty": "EXPERT",
+      "difficultyValue": 60
+    },
+    {
+      "level": 12,
+      "category": "FINAL LAP",
+      "clue": "FINISH LINE ENERGY WITH A VERY GETTABLE ANSWER",
+      "answer": "UNPAID INTERNSHIP",
+      "difficulty": "FINAL SPRINT",
+      "difficultyValue": 60
+    }
+  ]
+}
