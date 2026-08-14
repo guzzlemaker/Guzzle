@@ -6,98 +6,98 @@
     {
       "level": 1,
       "category": "AMERICA HISTORY LIGHT",
-      "clue": "USE THE CATEGORY AND GIVEN LETTERS TO SOLVE THIS PHRASE",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING B-T-P: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
       "answer": "BOSTON TEA PARTY",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 50
+      "difficulty": "FAST START",
+      "difficultyValue": 45
     },
     {
       "level": 2,
       "category": "AMERICA HISTORY LIGHT",
-      "clue": "CATEGORY PLUS LETTERS SHOULD GET YOU MOVING FAST",
+      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING D-S: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
       "answer": "DECLARATION SIGNING",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 51
+      "difficulty": "FAST START",
+      "difficultyValue": 46
     },
     {
       "level": 3,
       "category": "AMERICA HISTORY LIGHT",
-      "clue": "THE TRACK THEME IS DOING SOME HEAVY LIFTING HERE",
+      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING L-M: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
       "answer": "LINCOLN MEMORIAL",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 52
+      "difficulty": "FAST START",
+      "difficultyValue": 47
     },
     {
       "level": 4,
       "category": "AMERICA HISTORY LIGHT",
-      "clue": "A RELATABLE DETAIL HIDING BEHIND THE BLANK BOXES",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING W-B-F: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
       "answer": "WRIGHT BROTHERS FLIGHT",
       "difficulty": "STEADY",
-      "difficultyValue": 53
+      "difficultyValue": 48
     },
     {
       "level": 5,
       "category": "AMERICA HISTORY LIGHT",
-      "clue": "THE REVEALS SHOULD NUDGE THIS INTO PLACE PRETTY QUICKLY",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING R-P-B: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
       "answer": "ROSA PARKS BUS",
       "difficulty": "STEADY",
-      "difficultyValue": 54
+      "difficultyValue": 49
     },
     {
       "level": 6,
       "category": "AMERICA HISTORY LIGHT",
-      "clue": "SOLVE FROM THE TRACK VIBE AND THE LETTER GRID",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING M-L-S: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
       "answer": "MOON LANDING SPEECH",
-      "difficulty": "HARD",
-      "difficultyValue": 55
+      "difficulty": "STEADY",
+      "difficultyValue": 50
     },
     {
       "level": 7,
       "category": "AMERICA HISTORY LIGHT",
-      "clue": "THE CATEGORY SHOULD MAKE THIS CLICK AFTER A FEW REVEALS",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING R-S-S: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
       "answer": "ROUTE SIXTY SIX",
-      "difficulty": "HARD",
-      "difficultyValue": 56
+      "difficulty": "STEADY",
+      "difficultyValue": 51
     },
     {
       "level": 8,
       "category": "AMERICA HISTORY LIGHT",
-      "clue": "A SHARED MEMORY WAITING INSIDE THE EMPTY BOXES",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING S-O-L: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
       "answer": "STATUE OF LIBERTY",
-      "difficulty": "HARD",
-      "difficultyValue": 57
+      "difficulty": "PUSH",
+      "difficultyValue": 52
     },
     {
       "level": 9,
       "category": "AMERICA HISTORY LIGHT",
-      "clue": "THE HINT AND GRID ARE TRYING TO BE HELPFUL",
+      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING G-A: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
       "answer": "GETTYSBURG ADDRESS",
-      "difficulty": "EXPERT",
-      "difficultyValue": 58
+      "difficulty": "PUSH",
+      "difficultyValue": 53
     },
     {
       "level": 10,
       "category": "AMERICA HISTORY LIGHT",
-      "clue": "A FAMILIAR ANSWER WITH JUST ENOUGH LETTERS SHOWING",
+      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING E-I: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
       "answer": "ELLIS ISLAND",
-      "difficulty": "EXPERT",
-      "difficultyValue": 59
+      "difficulty": "PUSH",
+      "difficultyValue": 54
     },
     {
       "level": 11,
       "category": "AMERICA HISTORY LIGHT",
-      "clue": "THE TRACK TITLE IS YOUR BEST FRIEND RIGHT NOW",
+      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING G-R: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
       "answer": "GOLD RUSH",
-      "difficulty": "EXPERT",
-      "difficultyValue": 60
+      "difficulty": "PUSH",
+      "difficultyValue": 55
     },
     {
       "level": 12,
       "category": "FINAL LAP",
-      "clue": "FINISH LINE ENERGY WITH A VERY GETTABLE ANSWER",
+      "clue": "A 4 WORDS RELATABLE CULTURE CLUE STARTING F-O-J-P: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
       "answer": "FOURTH OF JULY PARADE",
-      "difficulty": "FINAL SPRINT",
-      "difficultyValue": 60
+      "difficulty": "FINAL LAP",
+      "difficultyValue": 55
     }
   ]
 }

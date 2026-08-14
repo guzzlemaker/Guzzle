@@ -6,98 +6,98 @@
     {
       "level": 1,
       "category": "COSTCO ADVENTURES",
-      "clue": "USE THE CATEGORY AND GIVEN LETTERS TO SOLVE THIS PHRASE",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING G-C-C: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
       "answer": "GIANT CART CONFIDENCE",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 50
+      "difficulty": "FAST START",
+      "difficultyValue": 45
     },
     {
       "level": 2,
       "category": "COSTCO ADVENTURES",
-      "clue": "CATEGORY PLUS LETTERS SHOULD GET YOU MOVING FAST",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING F-S-C: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
       "answer": "FREE SAMPLE CIRCUIT",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 51
+      "difficulty": "FAST START",
+      "difficultyValue": 46
     },
     {
       "level": 3,
       "category": "COSTCO ADVENTURES",
-      "clue": "THE TRACK THEME IS DOING SOME HEAVY LIFTING HERE",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING B-P-T: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
       "answer": "BULK PAPER TOWELS",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 52
+      "difficulty": "FAST START",
+      "difficultyValue": 47
     },
     {
       "level": 4,
       "category": "COSTCO ADVENTURES",
-      "clue": "A RELATABLE DETAIL HIDING BEHIND THE BLANK BOXES",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING B-C-B: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
       "answer": "BAKERY COOKIE BOX",
       "difficulty": "STEADY",
-      "difficultyValue": 53
+      "difficultyValue": 48
     },
     {
       "level": 5,
       "category": "COSTCO ADVENTURES",
-      "clue": "THE REVEALS SHOULD NUDGE THIS INTO PLACE PRETTY QUICKLY",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING P-L-M: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
       "answer": "PARKING LOT MIGRATION",
       "difficulty": "STEADY",
-      "difficultyValue": 54
+      "difficultyValue": 49
     },
     {
       "level": 6,
       "category": "COSTCO ADVENTURES",
-      "clue": "SOLVE FROM THE TRACK VIBE AND THE LETTER GRID",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING R-D-C: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
       "answer": "RECEIPT DOOR CHECK",
-      "difficulty": "HARD",
-      "difficultyValue": 55
+      "difficulty": "STEADY",
+      "difficultyValue": 50
     },
     {
       "level": 7,
       "category": "COSTCO ADVENTURES",
-      "clue": "THE CATEGORY SHOULD MAKE THIS CLICK AFTER A FEW REVEALS",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING F-P-M: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
       "answer": "FORTY PACK MUFFINS",
-      "difficulty": "HARD",
-      "difficultyValue": 56
+      "difficulty": "STEADY",
+      "difficultyValue": 51
     },
     {
       "level": 8,
       "category": "COSTCO ADVENTURES",
-      "clue": "A SHARED MEMORY WAITING INSIDE THE EMPTY BOXES",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING S-A-T: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
       "answer": "SEASONAL AISLE TRAP",
-      "difficulty": "HARD",
-      "difficultyValue": 57
+      "difficulty": "PUSH",
+      "difficultyValue": 52
     },
     {
       "level": 9,
       "category": "COSTCO ADVENTURES",
-      "clue": "THE HINT AND GRID ARE TRYING TO BE HELPFUL",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING P-S-D: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
       "answer": "PIZZA SLICE DEAL",
-      "difficulty": "EXPERT",
-      "difficultyValue": 58
+      "difficulty": "PUSH",
+      "difficultyValue": 53
     },
     {
       "level": 10,
       "category": "COSTCO ADVENTURES",
-      "clue": "A FAMILIAR ANSWER WITH JUST ENOUGH LETTERS SHOWING",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING M-C-H: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
       "answer": "MEMBERSHIP CARD HUNT",
-      "difficulty": "EXPERT",
-      "difficultyValue": 59
+      "difficulty": "PUSH",
+      "difficultyValue": 54
     },
     {
       "level": 11,
       "category": "COSTCO ADVENTURES",
-      "clue": "THE TRACK TITLE IS YOUR BEST FRIEND RIGHT NOW",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING W-M-M: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
       "answer": "WAREHOUSE MAP MEMORY",
-      "difficulty": "EXPERT",
-      "difficultyValue": 60
+      "difficulty": "PUSH",
+      "difficultyValue": 55
     },
     {
       "level": 12,
       "category": "FINAL LAP",
-      "clue": "FINISH LINE ENERGY WITH A VERY GETTABLE ANSWER",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING T-L-P: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
       "answer": "TRUNK LOADING PUZZLE",
-      "difficulty": "FINAL SPRINT",
-      "difficultyValue": 60
+      "difficulty": "FINAL LAP",
+      "difficultyValue": 55
     }
   ]
 }

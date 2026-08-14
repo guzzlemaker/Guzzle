@@ -6,98 +6,98 @@
     {
       "level": 1,
       "category": "BACKYARD LEGENDS",
-      "clue": "USE THE CATEGORY AND GIVEN LETTERS TO SOLVE THIS PHRASE",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING O-S-C: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
       "answer": "OUTDOOR SOFA CLAIM",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 50
+      "difficulty": "FAST START",
+      "difficultyValue": 45
     },
     {
       "level": 2,
       "category": "BACKYARD LEGENDS",
-      "clue": "CATEGORY PLUS LETTERS SHOULD GET YOU MOVING FAST",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING C-G-M: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
       "answer": "CORNHOLE GRUDGE MATCH",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 51
+      "difficulty": "FAST START",
+      "difficultyValue": 46
     },
     {
       "level": 3,
       "category": "BACKYARD LEGENDS",
-      "clue": "THE TRACK THEME IS DOING SOME HEAVY LIFTING HERE",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING M-S-C: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
       "answer": "MOSQUITO SPRAY CLOUD",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 52
+      "difficulty": "FAST START",
+      "difficultyValue": 47
     },
     {
       "level": 4,
       "category": "BACKYARD LEGENDS",
-      "clue": "A RELATABLE DETAIL HIDING BEHIND THE BLANK BOXES",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING P-S-L: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
       "answer": "PATIO STRING LIGHTS",
       "difficulty": "STEADY",
-      "difficultyValue": 53
+      "difficultyValue": 48
     },
     {
       "level": 5,
       "category": "BACKYARD LEGENDS",
-      "clue": "THE REVEALS SHOULD NUDGE THIS INTO PLACE PRETTY QUICKLY",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING G-M-A: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
       "answer": "GRILL MASTER APRON",
       "difficulty": "STEADY",
-      "difficultyValue": 54
+      "difficultyValue": 49
     },
     {
       "level": 6,
       "category": "BACKYARD LEGENDS",
-      "clue": "SOLVE FROM THE TRACK VIBE AND THE LETTER GRID",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING C-L-S: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
       "answer": "COOLER LID SEAT",
-      "difficulty": "HARD",
-      "difficultyValue": 55
+      "difficulty": "STEADY",
+      "difficultyValue": 50
     },
     {
       "level": 7,
       "category": "BACKYARD LEGENDS",
-      "clue": "THE CATEGORY SHOULD MAKE THIS CLICK AFTER A FEW REVEALS",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING K-P-C: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
       "answer": "KIDDIE POOL COOLER",
-      "difficulty": "HARD",
-      "difficultyValue": 56
+      "difficulty": "STEADY",
+      "difficultyValue": 51
     },
     {
       "level": 8,
       "category": "BACKYARD LEGENDS",
-      "clue": "A SHARED MEMORY WAITING INSIDE THE EMPTY BOXES",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING H-W-F: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
       "answer": "HOSE WATER FIGHT",
-      "difficulty": "HARD",
-      "difficultyValue": 57
+      "difficulty": "PUSH",
+      "difficultyValue": 52
     },
     {
       "level": 9,
       "category": "BACKYARD LEGENDS",
-      "clue": "THE HINT AND GRID ARE TRYING TO BE HELPFUL",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING N-F-C: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
       "answer": "NEIGHBOR FENCE CHAT",
-      "difficulty": "EXPERT",
-      "difficultyValue": 58
+      "difficulty": "PUSH",
+      "difficultyValue": 53
     },
     {
       "level": 10,
       "category": "BACKYARD LEGENDS",
-      "clue": "A FAMILIAR ANSWER WITH JUST ENOUGH LETTERS SHOWING",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING B-O-D: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
       "answer": "BURGERS ON DECK",
-      "difficulty": "EXPERT",
-      "difficultyValue": 59
+      "difficulty": "PUSH",
+      "difficultyValue": 54
     },
     {
       "level": 11,
       "category": "BACKYARD LEGENDS",
-      "clue": "THE TRACK TITLE IS YOUR BEST FRIEND RIGHT NOW",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING B-Z-G: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
       "answer": "BUG ZAPPER GLOW",
-      "difficulty": "EXPERT",
-      "difficultyValue": 60
+      "difficulty": "PUSH",
+      "difficultyValue": 55
     },
     {
       "level": 12,
       "category": "FINAL LAP",
-      "clue": "FINISH LINE ENERGY WITH A VERY GETTABLE ANSWER",
+      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING S-N-H: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
       "answer": "SUMMER NIGHT HUM",
-      "difficulty": "FINAL SPRINT",
-      "difficultyValue": 60
+      "difficulty": "FINAL LAP",
+      "difficultyValue": 55
     }
   ]
 }

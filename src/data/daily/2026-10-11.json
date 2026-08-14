@@ -6,98 +6,98 @@
     {
       "level": 1,
       "category": "TINY ANNOYANCES",
-      "clue": "USE THE CATEGORY AND GIVEN LETTERS TO SOLVE THIS PHRASE",
+      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING S-I-W: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
       "answer": "SLEEVE IN WATER",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 50
+      "difficulty": "FAST START",
+      "difficultyValue": 45
     },
     {
       "level": 2,
       "category": "TINY ANNOYANCES",
-      "clue": "CATEGORY PLUS LETTERS SHOULD GET YOU MOVING FAST",
+      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING P-A: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
       "answer": "POPUP AD",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 51
+      "difficulty": "FAST START",
+      "difficultyValue": 46
     },
     {
       "level": 3,
       "category": "TINY ANNOYANCES",
-      "clue": "THE TRACK THEME IS DOING SOME HEAVY LIFTING HERE",
+      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING L-S-C: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
       "answer": "LOOSE SHOPPING CART",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 52
+      "difficulty": "FAST START",
+      "difficultyValue": 47
     },
     {
       "level": 4,
       "category": "TINY ANNOYANCES",
-      "clue": "A RELATABLE DETAIL HIDING BEHIND THE BLANK BOXES",
+      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING S-L-T: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
       "answer": "SLOW LEFT TURN",
       "difficulty": "STEADY",
-      "difficultyValue": 53
+      "difficultyValue": 48
     },
     {
       "level": 5,
       "category": "TINY ANNOYANCES",
-      "clue": "THE REVEALS SHOULD NUDGE THIS INTO PLACE PRETTY QUICKLY",
+      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING T-E: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
       "answer": "TANGLED EARBUDS",
       "difficulty": "STEADY",
-      "difficultyValue": 54
+      "difficultyValue": 49
     },
     {
       "level": 6,
       "category": "TINY ANNOYANCES",
-      "clue": "SOLVE FROM THE TRACK VIBE AND THE LETTER GRID",
+      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING S-D: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
       "answer": "STUCK DRAWER",
-      "difficulty": "HARD",
-      "difficultyValue": 55
+      "difficulty": "STEADY",
+      "difficultyValue": 50
     },
     {
       "level": 7,
       "category": "TINY ANNOYANCES",
-      "clue": "THE CATEGORY SHOULD MAKE THIS CLICK AFTER A FEW REVEALS",
+      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING P-C: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
       "answer": "PAPER CUT",
-      "difficulty": "HARD",
-      "difficultyValue": 56
+      "difficulty": "STEADY",
+      "difficultyValue": 51
     },
     {
       "level": 8,
       "category": "TINY ANNOYANCES",
-      "clue": "A SHARED MEMORY WAITING INSIDE THE EMPTY BOXES",
+      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING A-V: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
       "answer": "AUTOPLAY VIDEO",
-      "difficulty": "HARD",
-      "difficultyValue": 57
+      "difficulty": "PUSH",
+      "difficultyValue": 52
     },
     {
       "level": 9,
       "category": "TINY ANNOYANCES",
-      "clue": "THE HINT AND GRID ARE TRYING TO BE HELPFUL",
+      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING S-D-H: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
       "answer": "SQUEAKY DOOR HINGE",
-      "difficulty": "EXPERT",
-      "difficultyValue": 58
+      "difficulty": "PUSH",
+      "difficultyValue": 53
     },
     {
       "level": 10,
       "category": "TINY ANNOYANCES",
-      "clue": "A FAMILIAR ANSWER WITH JUST ENOUGH LETTERS SHOWING",
+      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING M-S: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
       "answer": "MISSING SOCK",
-      "difficulty": "EXPERT",
-      "difficultyValue": 59
+      "difficulty": "PUSH",
+      "difficultyValue": 54
     },
     {
       "level": 11,
       "category": "TINY ANNOYANCES",
-      "clue": "THE TRACK TITLE IS YOUR BEST FRIEND RIGHT NOW",
+      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING J-Z: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
       "answer": "JAMMED ZIPPER",
-      "difficulty": "EXPERT",
-      "difficultyValue": 60
+      "difficulty": "PUSH",
+      "difficultyValue": 55
     },
     {
       "level": 12,
       "category": "FINAL LAP",
-      "clue": "FINISH LINE ENERGY WITH A VERY GETTABLE ANSWER",
+      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING L-B-B: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
       "answer": "LOW BATTERY BEEP",
-      "difficulty": "FINAL SPRINT",
-      "difficultyValue": 60
+      "difficulty": "FINAL LAP",
+      "difficultyValue": 55
     }
   ]
 }

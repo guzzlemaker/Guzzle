@@ -6,98 +6,98 @@
     {
       "level": 1,
       "category": "SPORTS PARENTS",
-      "clue": "USE THE CATEGORY AND GIVEN LETTERS TO SOLVE THIS PHRASE",
+      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING F-C-S: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
       "answer": "FOLDING CHAIR SIDELINE",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 50
+      "difficulty": "FAST START",
+      "difficultyValue": 45
     },
     {
       "level": 2,
       "category": "SPORTS PARENTS",
-      "clue": "CATEGORY PLUS LETTERS SHOULD GET YOU MOVING FAST",
+      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING H-O-S: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
       "answer": "HALFTIME ORANGE SLICES",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 51
+      "difficulty": "FAST START",
+      "difficultyValue": 46
     },
     {
       "level": 3,
       "category": "SPORTS PARENTS",
-      "clue": "THE TRACK THEME IS DOING SOME HEAVY LIFTING HERE",
+      "clue": "A 4 WORDS HOUSEHOLD LORE STARTING C-I-T-C: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
       "answer": "CLEATS IN THE CAR",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 52
+      "difficulty": "FAST START",
+      "difficultyValue": 47
     },
     {
       "level": 4,
       "category": "SPORTS PARENTS",
-      "clue": "A RELATABLE DETAIL HIDING BEHIND THE BLANK BOXES",
+      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING E-S-G: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
       "answer": "EARLY SATURDAY GAME",
       "difficulty": "STEADY",
-      "difficultyValue": 53
+      "difficultyValue": 48
     },
     {
       "level": 5,
       "category": "SPORTS PARENTS",
-      "clue": "THE REVEALS SHOULD NUDGE THIS INTO PLACE PRETTY QUICKLY",
+      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING T-P-E: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
       "answer": "TEAM PHOTO ENVELOPE",
       "difficulty": "STEADY",
-      "difficultyValue": 54
+      "difficultyValue": 49
     },
     {
       "level": 6,
       "category": "SPORTS PARENTS",
-      "clue": "SOLVE FROM THE TRACK VIBE AND THE LETTER GRID",
+      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING S-D-S: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
       "answer": "SNACK DUTY SIGNUP",
-      "difficulty": "HARD",
-      "difficultyValue": 55
+      "difficulty": "STEADY",
+      "difficultyValue": 50
     },
     {
       "level": 7,
       "category": "SPORTS PARENTS",
-      "clue": "THE CATEGORY SHOULD MAKE THIS CLICK AFTER A FEW REVEALS",
+      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING P-L-W: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
       "answer": "PARKING LOT WARMUP",
-      "difficulty": "HARD",
-      "difficultyValue": 56
+      "difficulty": "STEADY",
+      "difficultyValue": 51
     },
     {
       "level": 8,
       "category": "SPORTS PARENTS",
-      "clue": "A SHARED MEMORY WAITING INSIDE THE EMPTY BOXES",
+      "clue": "A 2 WORDS HOUSEHOLD LORE STARTING R-O: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
       "answer": "REFEREE OPINIONS",
-      "difficulty": "HARD",
-      "difficultyValue": 57
+      "difficulty": "PUSH",
+      "difficultyValue": 52
     },
     {
       "level": 9,
       "category": "SPORTS PARENTS",
-      "clue": "THE HINT AND GRID ARE TRYING TO BE HELPFUL",
+      "clue": "A 2 WORDS HOUSEHOLD LORE STARTING M-U: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
       "answer": "MUDDY UNIFORM",
-      "difficulty": "EXPERT",
-      "difficultyValue": 58
+      "difficulty": "PUSH",
+      "difficultyValue": 53
     },
     {
       "level": 10,
       "category": "SPORTS PARENTS",
-      "clue": "A FAMILIAR ANSWER WITH JUST ENOUGH LETTERS SHOWING",
+      "clue": "A 2 WORDS HOUSEHOLD LORE STARTING T-W: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
       "answer": "TOURNAMENT WEEKEND",
-      "difficulty": "EXPERT",
-      "difficultyValue": 59
+      "difficulty": "PUSH",
+      "difficultyValue": 54
     },
     {
       "level": 11,
       "category": "SPORTS PARENTS",
-      "clue": "THE TRACK TITLE IS YOUR BEST FRIEND RIGHT NOW",
+      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING W-J-H: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
       "answer": "WATER JUG HAUL",
-      "difficulty": "EXPERT",
-      "difficultyValue": 60
+      "difficulty": "PUSH",
+      "difficultyValue": 55
     },
     {
       "level": 12,
       "category": "FINAL LAP",
-      "clue": "FINISH LINE ENERGY WITH A VERY GETTABLE ANSWER",
+      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING P-P-T: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
       "answer": "PIZZA PARTY TROPHY",
-      "difficulty": "FINAL SPRINT",
-      "difficultyValue": 60
+      "difficulty": "FINAL LAP",
+      "difficultyValue": 55
     }
   ]
 }

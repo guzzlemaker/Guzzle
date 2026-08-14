@@ -6,98 +6,98 @@
     {
       "level": 1,
       "category": "MOVIE NIGHT",
-      "clue": "USE THE CATEGORY AND GIVEN LETTERS TO SOLVE THIS PHRASE",
+      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING B-F-C: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
       "answer": "BLANKET FORT COUCH",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 50
+      "difficulty": "FAST START",
+      "difficultyValue": 45
     },
     {
       "level": 2,
       "category": "MOVIE NIGHT",
-      "clue": "CATEGORY PLUS LETTERS SHOULD GET YOU MOVING FAST",
+      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING P-F-S: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
       "answer": "PAUSED FOR SNACKS",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 51
+      "difficulty": "FAST START",
+      "difficultyValue": 46
     },
     {
       "level": 3,
       "category": "MOVIE NIGHT",
-      "clue": "THE TRACK THEME IS DOING SOME HEAVY LIFTING HERE",
+      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING S-A: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
       "answer": "SUBTITLE ARGUMENT",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 52
+      "difficulty": "FAST START",
+      "difficultyValue": 47
     },
     {
       "level": 4,
       "category": "MOVIE NIGHT",
-      "clue": "A RELATABLE DETAIL HIDING BEHIND THE BLANK BOXES",
+      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING T-S: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
       "answer": "TRAILER SPOILERS",
       "difficulty": "STEADY",
-      "difficultyValue": 53
+      "difficultyValue": 48
     },
     {
       "level": 5,
       "category": "MOVIE NIGHT",
-      "clue": "THE REVEALS SHOULD NUDGE THIS INTO PLACE PRETTY QUICKLY",
+      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING D-C: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
       "answer": "DIRECTORS CUT",
       "difficulty": "STEADY",
-      "difficultyValue": 54
+      "difficultyValue": 49
     },
     {
       "level": 6,
       "category": "MOVIE NIGHT",
-      "clue": "SOLVE FROM THE TRACK VIBE AND THE LETTER GRID",
+      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING O-C: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
       "answer": "OPENING CREDITS",
-      "difficulty": "HARD",
-      "difficultyValue": 55
+      "difficulty": "STEADY",
+      "difficultyValue": 50
     },
     {
       "level": 7,
       "category": "MOVIE NIGHT",
-      "clue": "THE CATEGORY SHOULD MAKE THIS CLICK AFTER A FEW REVEALS",
+      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING H-J-S: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
       "answer": "HORROR JUMP SCARE",
-      "difficulty": "HARD",
-      "difficultyValue": 56
+      "difficulty": "STEADY",
+      "difficultyValue": 51
     },
     {
       "level": 8,
       "category": "MOVIE NIGHT",
-      "clue": "A SHARED MEMORY WAITING INSIDE THE EMPTY BOXES",
+      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING R-C-A: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
       "answer": "ROM COM AIRPORT",
-      "difficulty": "HARD",
-      "difficultyValue": 57
+      "difficulty": "PUSH",
+      "difficultyValue": 52
     },
     {
       "level": 9,
       "category": "MOVIE NIGHT",
-      "clue": "THE HINT AND GRID ARE TRYING TO BE HELPFUL",
+      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING A-H-W: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
       "answer": "ACTION HERO WALK",
-      "difficulty": "EXPERT",
-      "difficultyValue": 58
+      "difficulty": "PUSH",
+      "difficultyValue": 53
     },
     {
       "level": 10,
       "category": "MOVIE NIGHT",
-      "clue": "A FAMILIAR ANSWER WITH JUST ENOUGH LETTERS SHOWING",
+      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING P-T-G: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
       "answer": "PLOT TWIST GASP",
-      "difficulty": "EXPERT",
-      "difficultyValue": 59
+      "difficulty": "PUSH",
+      "difficultyValue": 54
     },
     {
       "level": 11,
       "category": "MOVIE NIGHT",
-      "clue": "THE TRACK TITLE IS YOUR BEST FRIEND RIGHT NOW",
+      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING C-C-S: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
       "answer": "CLOSING CREDITS SONG",
-      "difficulty": "EXPERT",
-      "difficultyValue": 60
+      "difficulty": "PUSH",
+      "difficultyValue": 55
     },
     {
       "level": 12,
       "category": "FINAL LAP",
-      "clue": "FINISH LINE ENERGY WITH A VERY GETTABLE ANSWER",
+      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING R-F: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
       "answer": "REWATCH FAVORITE",
-      "difficulty": "FINAL SPRINT",
-      "difficultyValue": 60
+      "difficulty": "FINAL LAP",
+      "difficultyValue": 55
     }
   ]
 }

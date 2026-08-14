@@ -5,20 +5,61 @@ const startDate = '2026-08-14';
 const startGameNumber = 31;
 const outputDir = path.join('src', 'data', 'daily');
 
-const clueTemplates = [
-  'USE THE CATEGORY AND GIVEN LETTERS TO SOLVE THIS PHRASE',
-  'CATEGORY PLUS LETTERS SHOULD GET YOU MOVING FAST',
-  'THE TRACK THEME IS DOING SOME HEAVY LIFTING HERE',
-  'A RELATABLE DETAIL HIDING BEHIND THE BLANK BOXES',
-  'THE REVEALS SHOULD NUDGE THIS INTO PLACE PRETTY QUICKLY',
-  'SOLVE FROM THE TRACK VIBE AND THE LETTER GRID',
-  'THE CATEGORY SHOULD MAKE THIS CLICK AFTER A FEW REVEALS',
-  'A SHARED MEMORY WAITING INSIDE THE EMPTY BOXES',
-  'THE HINT AND GRID ARE TRYING TO BE HELPFUL',
-  'A FAMILIAR ANSWER WITH JUST ENOUGH LETTERS SHOWING',
-  'THE TRACK TITLE IS YOUR BEST FRIEND RIGHT NOW',
-  'FINISH LINE ENERGY WITH A VERY GETTABLE ANSWER',
+const clueFrames = [
+  'THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD',
+  'A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER',
+  'THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER',
+  'A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE',
+  'THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT',
+  'A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK',
+  'THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED',
+  'A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY',
+  'THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW',
+  'A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US',
+  'THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT',
+  'FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW',
 ];
+
+const trackAngles = [
+  [/NOSTALGIA|NINETIES|THOUSANDS|TENS|GEN X|MILLENNIAL/i, 'TIME CAPSULE'],
+  [/PARENT|MOM|DAD|DOG|CAT|SPORTS PARENTS/i, 'HOUSEHOLD LORE'],
+  [/ADULT|OFFICE|MONEY|HOME|CAR|GARAGE|DIESEL|JUNK|GROCERY|KITCHEN|TARGET|COSTCO/i, 'REAL LIFE SIDE QUEST'],
+  [/VACATION|ROAD TRIP|AIRPORT|PLACES/i, 'TRAVEL MEMORY'],
+  [/WEDDING|RELATIONSHIP|BIRTHDAY|HOLIDAY|SCHOOL|HIGH SCHOOL/i, 'SOCIAL SURVIVAL CLUE'],
+  [/MOVIE|TV|MUSIC|BLOCKBUSTER|OLYMPIC|BRAND/i, 'POP CULTURE MEMORY'],
+  [/CONSPIRACY|REDNECK|BRO|DUMB|RICH|FIRST WORLD|ANNOYANCES|PLOT|EXCUSES|RHYME|SAME LETTER/i, 'CULTURE CHAOS CLUE'],
+];
+
+const clueOverrides = {
+  'EVERYDAY NOSTALGIA': [
+    'THE WEEKEND COUCH RITUAL FROM BEFORE ON DEMAND HAD US ACTING SPOILED',
+    'THE TINY POWER MOVE FROM WHEN YOU COULD DECIDE WHO DESERVED YOUR VOICE',
+    'THE CAR STEREO LOVE LANGUAGE THAT REQUIRED A SHARPIE AND HOPE',
+    'THE FRIDAY ERRAND THAT SOMEHOW FELT LIKE AN EVENT',
+    'THE SCREAMING ROBOT SOUNDTRACK OF EARLY ONLINE LIFE',
+    'THE ROAD TRIP PAPERWORK BEFORE EVERY PHONE BECAME A KNOW IT ALL',
+    'THE SCREEN FIX EVERYBODY PRETENDED THEY UNDERSTOOD',
+    'THE POCKET BRICK THAT SURVIVED EVERYTHING EXCEPT TIME',
+    'THE TEENAGE DINNER PLAZA WHERE EVERYONE WALKED IN CIRCLES',
+    'THE ONLINE STATUS UPDATE THAT WAS BASICALLY A CRY FOR ATTENTION',
+    'THE VACATION GAMBLE WHERE HALF THE PHOTOS HAD A THUMB IN THEM',
+    'THE RENTAL STORE COMMANDMENT FROM THE PLASTIC CASE ERA',
+  ],
+  'RICH PEOPLE THINGS': [
+    'THE ENTRYWAY THAT ANNOUNCES THE APPRAISAL BEFORE ANYONE SAYS HELLO',
+    'THE SHOES THAT LOOK READY FOR A BOAT YOU WERE NOT INVITED ON',
+    'THE DINNER FLEX WHERE SOMEONE ELSE KNOWS WHERE THE SPICES ARE',
+    'THE HOME FEATURE THAT MAKES STAIRS FEEL LIKE A CHOICE',
+    'THE WINTER CONVENIENCE THAT MAKES SHOVELS LOOK LOW STATUS',
+    'THE BASEMENT ROOM WHERE GRAPES GET BETTER HOUSING THAN PEOPLE',
+    'THE BACKYARD FLEX FOR PEOPLE WHO SCHEDULE THEIR FUN',
+    'THE MOVIE ROOM THAT TREATS CUP HOLDERS LIKE ARCHITECTURE',
+    'THE MINI VACATION BUILDING THAT SOMEHOW LIVES NEXT TO THE ACTUAL HOUSE',
+    'THE WALLET FLEX THAT MAKES CASHIERS STAND UP STRAIGHT',
+    'THE FOOTWEAR THAT SAYS WEEKEND BUT MEANS TRUST FUND',
+    'THE WEEKEND WHERE THE ART COSTS MORE THAN THE FLIGHT',
+  ],
+};
 
 const tracks = [
   {
@@ -1192,11 +1233,55 @@ function addDays(dateKey, days) {
 }
 
 function difficultyFor(level) {
-  if (level <= 3) return 'MEDIUM';
-  if (level <= 5) return 'STEADY';
-  if (level <= 8) return 'HARD';
-  if (level <= 11) return 'EXPERT';
-  return 'FINAL SPRINT';
+  if (level <= 3) return 'FAST START';
+  if (level <= 7) return 'STEADY';
+  if (level <= 11) return 'PUSH';
+  return 'FINAL LAP';
+}
+
+function difficultyValueFor(level) {
+  return Math.min(55, 44 + level);
+}
+
+function clueFor(track, answer, level) {
+  const override = clueOverrides[track.theme]?.[level - 1];
+  const baseClue = override ?? fallbackClue(track.theme, answer, level);
+  return avoidAnswerWords(baseClue, answer);
+}
+
+function fallbackClue(theme, answer, level) {
+  const initials = answer
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((word) => word[0])
+    .join('-');
+  const wordCount = answer.split(/\s+/).filter(Boolean).length;
+  const angle = getTrackAngle(theme);
+  const frame = clueFrames[(level - 1) % clueFrames.length];
+  const wordLabel = wordCount === 1 ? 'WORD' : 'WORDS';
+
+  return `A ${wordCount} ${wordLabel} ${angle} STARTING ${initials}: ${frame}`;
+}
+
+function getTrackAngle(theme) {
+  const match = trackAngles.find(([pattern]) => pattern.test(theme));
+  return match?.[1] ?? 'RELATABLE CULTURE CLUE';
+}
+
+function avoidAnswerWords(clue, answer) {
+  const ignoredTokens = new Set(['A', 'AN', 'AND', 'ET', 'IN', 'OF', 'ON', 'OR', 'THE', 'TO']);
+  const answerTokens = answer
+    .toUpperCase()
+    .replace(/[^A-Z0-9 ]/g, ' ')
+    .split(/\s+/)
+    .filter((token) => token.length >= 4 && !ignoredTokens.has(token));
+
+  let safeClue = clue.toUpperCase();
+  for (const token of answerTokens) {
+    safeClue = safeClue.replace(new RegExp(`\\b${token}\\b`, 'g'), 'THIS');
+  }
+
+  return safeClue.replace(/\s+/g, ' ').trim();
 }
 
 fs.mkdirSync(outputDir, { recursive: true });
@@ -1216,10 +1301,10 @@ scheduledTracks.forEach((track, trackIndex) => {
       return {
         level,
         category: level === 12 ? 'FINAL LAP' : track.theme,
-        clue: clueTemplates[answerIndex],
+        clue: clueFor(track, answer, level),
         answer,
         difficulty: difficultyFor(level),
-        difficultyValue: Math.min(60, 49 + level),
+        difficultyValue: difficultyValueFor(level),
       };
     }),
   };

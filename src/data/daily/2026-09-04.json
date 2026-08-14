@@ -6,98 +6,98 @@
     {
       "level": 1,
       "category": "KITCHEN CONFIDENCE",
-      "clue": "USE THE CATEGORY AND GIVEN LETTERS TO SOLVE THIS PHRASE",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING S-A-D: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
       "answer": "SMOKE ALARM DINNER",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 50
+      "difficulty": "FAST START",
+      "difficultyValue": 45
     },
     {
       "level": 2,
       "category": "KITCHEN CONFIDENCE",
-      "clue": "CATEGORY PLUS LETTERS SHOULD GET YOU MOVING FAST",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING R-S-M: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
       "answer": "RECIPE SCROLL MARATHON",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 51
+      "difficulty": "FAST START",
+      "difficultyValue": 46
     },
     {
       "level": 3,
       "category": "KITCHEN CONFIDENCE",
-      "clue": "THE TRACK THEME IS DOING SOME HEAVY LIFTING HERE",
+      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING G-M: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
       "answer": "GARLIC MEASUREMENT",
-      "difficulty": "MEDIUM",
-      "difficultyValue": 52
+      "difficulty": "FAST START",
+      "difficultyValue": 47
     },
     {
       "level": 4,
       "category": "KITCHEN CONFIDENCE",
-      "clue": "A RELATABLE DETAIL HIDING BEHIND THE BLANK BOXES",
+      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING S-S: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
       "answer": "SOURDOUGH STARTER",
       "difficulty": "STEADY",
-      "difficultyValue": 53
+      "difficultyValue": 48
     },
     {
       "level": 5,
       "category": "KITCHEN CONFIDENCE",
-      "clue": "THE REVEALS SHOULD NUDGE THIS INTO PLACE PRETTY QUICKLY",
+      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING L-C: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
       "answer": "LEFTOVER CONTAINER",
       "difficulty": "STEADY",
-      "difficultyValue": 54
+      "difficultyValue": 49
     },
     {
       "level": 6,
       "category": "KITCHEN CONFIDENCE",
-      "clue": "SOLVE FROM THE TRACK VIBE AND THE LETTER GRID",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING A-F-E: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
       "answer": "AIR FRYER ERA",
-      "difficulty": "HARD",
-      "difficultyValue": 55
+      "difficulty": "STEADY",
+      "difficultyValue": 50
     },
     {
       "level": 7,
       "category": "KITCHEN CONFIDENCE",
-      "clue": "THE CATEGORY SHOULD MAKE THIS CLICK AFTER A FEW REVEALS",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING C-I-O: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
       "answer": "CAST IRON OPINIONS",
-      "difficulty": "HARD",
-      "difficultyValue": 56
+      "difficulty": "STEADY",
+      "difficultyValue": 51
     },
     {
       "level": 8,
       "category": "KITCHEN CONFIDENCE",
-      "clue": "A SHARED MEMORY WAITING INSIDE THE EMPTY BOXES",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING B-T-S: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
       "answer": "BURNT TOAST SCRAPE",
-      "difficulty": "HARD",
-      "difficultyValue": 57
+      "difficulty": "PUSH",
+      "difficultyValue": 52
     },
     {
       "level": 9,
       "category": "KITCHEN CONFIDENCE",
-      "clue": "THE HINT AND GRID ARE TRYING TO BE HELPFUL",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING S-C-D: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
       "answer": "SPICE CABINET DIG",
-      "difficulty": "EXPERT",
-      "difficultyValue": 58
+      "difficulty": "PUSH",
+      "difficultyValue": 53
     },
     {
       "level": 10,
       "category": "KITCHEN CONFIDENCE",
-      "clue": "A FAMILIAR ANSWER WITH JUST ENOUGH LETTERS SHOWING",
+      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING D-T: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
       "answer": "DISHWASHER TETRIS",
-      "difficulty": "EXPERT",
-      "difficultyValue": 59
+      "difficulty": "PUSH",
+      "difficultyValue": 54
     },
     {
       "level": 11,
       "category": "KITCHEN CONFIDENCE",
-      "clue": "THE TRACK TITLE IS YOUR BEST FRIEND RIGHT NOW",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING M-P-S: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
       "answer": "MEAL PREP SUNDAY",
-      "difficulty": "EXPERT",
-      "difficultyValue": 60
+      "difficulty": "PUSH",
+      "difficultyValue": 55
     },
     {
       "level": 12,
       "category": "FINAL LAP",
-      "clue": "FINISH LINE ENERGY WITH A VERY GETTABLE ANSWER",
+      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING T-B-P: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
       "answer": "TAKEOUT BACKUP PLAN",
-      "difficulty": "FINAL SPRINT",
-      "difficultyValue": 60
+      "difficulty": "FINAL LAP",
+      "difficultyValue": 55
     }
   ]
 }
