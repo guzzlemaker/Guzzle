@@ -6,7 +6,7 @@
     {
       "level": 1,
       "category": "GUESS THE BRAND",
-      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING R-K-P: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
+      "clue": "THE FAST FOOD HANDFUL THAT SOMEHOW COUNTS AS A SIDE QUEST",
       "answer": "RED KETCHUP PACKETS",
       "difficulty": "FAST START",
       "difficultyValue": 45
@@ -14,7 +14,7 @@
     {
       "level": 2,
       "category": "GUESS THE BRAND",
-      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING S-L: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
+      "clue": "THE CURVED CHECKMARK THAT MADE SNEAKERS FEEL FASTER",
       "answer": "SWOOSH LOGO",
       "difficulty": "FAST START",
       "difficultyValue": 46
@@ -22,7 +22,7 @@
     {
       "level": 3,
       "category": "GUESS THE BRAND",
-      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING B-A: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
+      "clue": "THE FRUIT SILHOUETTE THAT MAKES PEOPLE ARGUE ABOUT CHARGERS",
       "answer": "BITTEN APPLE",
       "difficulty": "FAST START",
       "difficultyValue": 47
@@ -30,7 +30,7 @@
     {
       "level": 4,
       "category": "GUESS THE BRAND",
-      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING G-M: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
+      "clue": "THE COFFEE CUP SIREN WATCHING YOU OVERPAY BEFORE 9 AM",
       "answer": "GREEN MERMAID",
       "difficulty": "STEADY",
       "difficultyValue": 48
@@ -38,7 +38,7 @@
     {
       "level": 5,
       "category": "GUESS THE BRAND",
-      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING R-T-C: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
+      "clue": "THE BULLSEYE THAT MAKES ERRANDS TURN INTO A CART FULL OF CANDLES",
       "answer": "RED TARGET CIRCLE",
       "difficulty": "STEADY",
       "difficultyValue": 49
@@ -46,7 +46,7 @@
     {
       "level": 6,
       "category": "GUESS THE BRAND",
-      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING B-O: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
+      "clue": "THE CAR BADGE YOUR UNCLE TRUSTS WITH HIS WHOLE PERSONALITY",
       "answer": "BLUE OVAL",
       "difficulty": "STEADY",
       "difficultyValue": 50
@@ -54,7 +54,7 @@
     {
       "level": 7,
       "category": "GUESS THE BRAND",
-      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING S-A: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
+      "clue": "THE PACKAGE SYMBOL THAT SAYS YOUR MONEY LEFT AT CHECKOUT",
       "answer": "SMILING ARROW",
       "difficulty": "STEADY",
       "difficultyValue": 51
@@ -62,7 +62,7 @@
     {
       "level": 8,
       "category": "GUESS THE BRAND",
-      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING B-D-T: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
+      "clue": "THE DOORBELL SIGHTING THAT MEANS SOMETHING YOU FORGOT YOU ORDERED ARRIVED",
       "answer": "BROWN DELIVERY TRUCK",
       "difficulty": "PUSH",
       "difficultyValue": 52
@@ -70,7 +70,7 @@
     {
       "level": 9,
       "category": "GUESS THE BRAND",
-      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING M-E: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
+      "clue": "THE THEME PARK SILHOUETTE THAT MAKES ADULTS SPRINT FOR CHURROS",
       "answer": "MOUSE EARS",
       "difficulty": "PUSH",
       "difficultyValue": 53
@@ -78,7 +78,7 @@
     {
       "level": 10,
       "category": "GUESS THE BRAND",
-      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING C-W-B: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
+      "clue": "THE LATE NIGHT HEXAGON THAT CONVINCED YOU DINNER HAD A FOURTH MEAL",
       "answer": "CRUNCHY WRAP BELL",
       "difficulty": "PUSH",
       "difficultyValue": 54
@@ -86,7 +86,7 @@
     {
       "level": 11,
       "category": "GUESS THE BRAND",
-      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING P-B: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
+      "clue": "THE FOUR SYMBOLS THAT TRAINED THUMBS BEFORE ADULT RESPONSIBILITIES",
       "answer": "PLAYSTATION BUTTONS",
       "difficulty": "PUSH",
       "difficultyValue": 55
@@ -94,7 +94,7 @@
     {
       "level": 12,
       "category": "FINAL LAP",
-      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING N-S: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
+      "clue": "THE TWO NOTE INTRO THAT MEANS THE COUCH HAS CLAIMED YOU",
       "answer": "NETFLIX SOUND",
       "difficulty": "FINAL LAP",
       "difficultyValue": 55
