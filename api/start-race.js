@@ -1,5 +1,5 @@
 import { getOfficialDate, getTracksForOfficialDate } from './_lib/content.js';
-import { jsonResponse, readJson } from './_lib/http.js';
+import { jsonResponse, readJson, sanitizeDisplayName } from './_lib/http.js';
 import { getBearerToken, hashPrivateToken } from './_lib/race-security.js';
 import { isDatabaseConfigured, supabaseRequest } from './_lib/supabase-rest.js';
 import { createPrivateToken } from './_lib/race-security.js';
@@ -40,6 +40,17 @@ export default async function handler(request, response) {
       return jsonResponse(response, 401, { error: 'INVALID_RACER_TOKEN' });
     }
 
+    const displayName = sanitizeDisplayName(payload?.displayName);
+    if (displayName) {
+      await supabaseRequest(`players?id=eq.${player.id}`, {
+        method: 'PATCH',
+        body: JSON.stringify({
+          display_name: displayName,
+          last_seen_at: new Date().toISOString(),
+        }),
+      });
+    }
+
     const dailyRace = await upsertDailyRace({
       officialDate,
       trackType,
@@ -70,6 +81,7 @@ export default async function handler(request, response) {
       trackType,
       trackId: track.id,
       publicRacerId: player.public_racer_id,
+      displayName: displayName || player.display_name || null,
       alreadySubmitted: previousResult.length > 0,
       scoringVersion: SCORING_VERSION,
     });
@@ -83,7 +95,7 @@ export default async function handler(request, response) {
 
 export async function findPlayer(token) {
   const players = await supabaseRequest(
-    `players?private_token_hash=eq.${encodeURIComponent(hashPrivateToken(token))}&select=id,public_racer_id,racing_color`,
+    `players?private_token_hash=eq.${encodeURIComponent(hashPrivateToken(token))}&select=id,public_racer_id,display_name,racing_color`,
   );
 
   return players?.[0] ?? null;

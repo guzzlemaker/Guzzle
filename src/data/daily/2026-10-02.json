@@ -1,101 +1,101 @@
 {
   "gameNumber": 80,
   "dateSeed": "2026-10-02",
-  "theme": "CONSPIRACY CORNER",
+  "theme": "WEEKEND PROJECTS",
   "puzzles": [
     {
       "level": 1,
-      "category": "CONSPIRACY CORNER",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING S-S-W: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "STAGED SPACE WALK",
+      "category": "WEEKEND PROJECTS",
+      "clue": "THE COLOR DECISION THAT BECAME A THREE DAY RELATIONSHIP TEST",
+      "answer": "PAINT THE LIVING ROOM",
       "difficulty": "FAST START",
       "difficultyValue": 45
     },
     {
       "level": 2,
-      "category": "CONSPIRACY CORNER",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING B-A-D: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "BIRDS ARE DRONES",
+      "category": "WEEKEND PROJECTS",
+      "clue": "THE WALL BANDAGE APPLIED AFTER FURNITURE LOST A FIGHT",
+      "answer": "PATCH DRYWALL",
       "difficulty": "FAST START",
       "difficultyValue": 46
     },
     {
       "level": 3,
-      "category": "CONSPIRACY CORNER",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING S-T-M: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "SECRET TUNNEL MAP",
+      "category": "WEEKEND PROJECTS",
+      "clue": "THE OVERHEAD SPINNING PUZZLE THAT QUESTIONS EVERY WIRE YOU TRUST",
+      "answer": "INSTALL CEILING FAN",
       "difficulty": "FAST START",
       "difficultyValue": 47
     },
     {
       "level": 4,
-      "category": "CONSPIRACY CORNER",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING S-D-B: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "SECRET DESERT BASE",
+      "category": "WEEKEND PROJECTS",
+      "clue": "THE LADDER CHORE WITH WET LEAF SOUP AND IMMEDIATE REGRET",
+      "answer": "CLEAN THE GUTTERS",
       "difficulty": "STEADY",
       "difficultyValue": 48
     },
     {
       "level": 5,
-      "category": "CONSPIRACY CORNER",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING L-P-T: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "LIZARD PEOPLE THEORY",
+      "category": "WEEKEND PROJECTS",
+      "clue": "A HUMBLE PLUMBING VICTORY ANNOUNCED LIKE A TED TALK",
+      "answer": "I FIXED THE LEAKY FAUCET",
       "difficulty": "STEADY",
       "difficultyValue": 49
     },
     {
       "level": 6,
-      "category": "CONSPIRACY CORNER",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING F-E-M: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "FLAT EARTH MEETING",
+      "category": "WEEKEND PROJECTS",
+      "clue": "THE OUTDOOR PLATFORM THAT STARTED AS A SKETCH AND ENDED AT THE HARDWARE STORE",
+      "answer": "BUILD A DECK",
       "difficulty": "STEADY",
       "difficultyValue": 50
     },
     {
       "level": 7,
-      "category": "CONSPIRACY CORNER",
-      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING B-F: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "BIGFOOT FOOTPRINT",
+      "category": "WEEKEND PROJECTS",
+      "clue": "THE ENTRYWAY UPGRADE THAT MADE THE WHOLE HOUSE DEMAND BETTER SHOES",
+      "answer": "WE REPLACED THE FRONT DOOR",
       "difficulty": "STEADY",
       "difficultyValue": 51
     },
     {
       "level": 8,
-      "category": "CONSPIRACY CORNER",
-      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING C-S: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "CHEMTRAIL SKY",
+      "category": "WEEKEND PROJECTS",
+      "clue": "THE WALL STORAGE FLEX THAT IMMEDIATELY REQUIRED MORE STUFF",
+      "answer": "I INSTALLED NEW SHELVES",
       "difficulty": "PUSH",
       "difficultyValue": 52
     },
     {
       "level": 9,
-      "category": "CONSPIRACY CORNER",
-      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING H-M: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "HIDDEN MICROCHIP",
+      "category": "WEEKEND PROJECTS",
+      "clue": "THE TILE DECISION THAT SOMEHOW INVOLVED SEVEN TABS AND A STRONG OPINION",
+      "answer": "UPDATE KITCHEN BACKSPLASH",
       "difficulty": "PUSH",
       "difficultyValue": 53
     },
     {
       "level": 10,
-      "category": "CONSPIRACY CORNER",
-      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING I-T: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "ILLUMINATI TRIANGLE",
+      "category": "WEEKEND PROJECTS",
+      "clue": "THE BACKYARD SQUARE WHERE CHAIRS GATHER TO PRETEND LIFE IS ORGANIZED",
+      "answer": "WE BUILT A NEW PATIO",
       "difficulty": "PUSH",
       "difficultyValue": 54
     },
     {
       "level": 11,
-      "category": "CONSPIRACY CORNER",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING T-T-P: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "TIME TRAVELER PHOTO",
+      "category": "WEEKEND PROJECTS",
+      "clue": "THE BOX OF PROMISES THAT TURNED ONE ALLEN KEY INTO A LIFESTYLE",
+      "answer": "ASSEMBLE FLAT PACK FURNITURE",
       "difficulty": "PUSH",
       "difficultyValue": 55
     },
     {
       "level": 12,
       "category": "FINAL LAP",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING B-R-S: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "BASEMENT RADIO SIGNAL",
+      "clue": "THE DOWNSTAIRS TRANSFORMATION THAT CREATED A SECOND HANGOUT AND MORE DEBT",
+      "answer": "WE FINISHED THE BASEMENT",
       "difficulty": "FINAL LAP",
       "difficultyValue": 55
     }

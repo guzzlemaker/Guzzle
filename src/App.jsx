@@ -22,6 +22,7 @@ const EMAIL_SIGNUP_KEY = 'guzzle:email-signup';
 const ANONYMOUS_ID_KEY = 'guzzle:anonymous-id';
 const RACER_TOKEN_KEY = 'guzzle:racer-token';
 const PUBLIC_RACER_ID_KEY = 'guzzle:public-racer-id';
+const RACER_NAME_KEY = 'guzzle:racer-name';
 const AUDIO_SOURCES = {
   whoosh: '/audio/whoosh.mp3',
   success: '/audio/success.mp3',
@@ -94,7 +95,10 @@ function formatPlace(rank) {
   return `${value}${suffix} Place`;
 }
 
-function formatRacerName(publicRacerId) {
+function formatRacerName(publicRacerId, displayName) {
+  const name = String(displayName ?? '').trim();
+  if (name) return name;
+
   const id = String(publicRacerId ?? '').trim();
   const digits = id.replace(/\D/g, '');
   return digits ? `Racer ${digits}` : id || 'Racer';
@@ -161,6 +165,22 @@ function getStoredEmailSignup() {
   } catch {
     return '';
   }
+}
+
+function getStoredRacerName() {
+  try {
+    return window.localStorage.getItem(RACER_NAME_KEY) ?? '';
+  } catch {
+    return '';
+  }
+}
+
+function sanitizeRacerName(value) {
+  return String(value ?? '')
+    .replace(/[^\w .'-]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 24);
 }
 
 function getRaceLabel(index) {
@@ -378,10 +398,14 @@ function getRevealPercent(puzzle) {
 
 function getMinimumRevealedForWord(wordLength) {
   if (wordLength >= 8) {
+    return 4;
+  }
+
+  if (wordLength >= 6) {
     return 3;
   }
 
-  if (wordLength >= 5) {
+  if (wordLength >= 4) {
     return 2;
   }
 
@@ -552,7 +576,7 @@ export default function App() {
     error: '',
   });
   const [officialSession, setOfficialSession] = useState(initialProgress?.officialSession ?? null);
-  const [displayName, setDisplayName] = useState('');
+  const [racerName, setRacerName] = useState(getStoredRacerName);
   const [leaderboard, setLeaderboard] = useState({
     configured: false,
     entries: [],
@@ -791,7 +815,13 @@ export default function App() {
         const token = getStoredRacerToken();
         const response = await fetch('/api/racer', {
           method: 'POST',
-          headers: token ? { authorization: `Bearer ${token}` } : {},
+          headers: {
+            ...(token ? { authorization: `Bearer ${token}` } : {}),
+            'content-type': 'application/json',
+          },
+          body: JSON.stringify({
+            displayName: racerName,
+          }),
         });
         const data = await response.json();
 
@@ -809,6 +839,10 @@ export default function App() {
 
         window.localStorage.setItem(RACER_TOKEN_KEY, data.token);
         window.localStorage.setItem(PUBLIC_RACER_ID_KEY, data.publicRacerId);
+        if (!racerName && data.displayName) {
+          setRacerName(data.displayName);
+          window.localStorage.setItem(RACER_NAME_KEY, data.displayName);
+        }
         setRacer({
           configured: true,
           loading: false,
@@ -938,7 +972,7 @@ export default function App() {
               headers: { 'content-type': 'application/json' },
               body: JSON.stringify({
                 anonymousId,
-                displayName,
+                displayName: racerName,
                 officialDate: todayKey,
                 trackType: selectedSet.trackType ?? (selectedSetIndex === 0 ? 'daily' : 'bonus'),
                 trackId: selectedSet.id,
@@ -984,7 +1018,7 @@ export default function App() {
   }, [
     anonymousId,
     correctCount,
-    displayName,
+    racerName,
     finishedAt,
     incorrectCount,
     isComplete,
@@ -1466,6 +1500,7 @@ export default function App() {
       body: JSON.stringify({
         trackType: selectedSet.trackType ?? (selectedSetIndex === 0 ? 'daily' : 'bonus'),
         trackId: selectedSet.id,
+        displayName: racerName,
         clientStartedAt: new Date(startedAtMs).toISOString(),
       }),
     })
@@ -1507,6 +1542,9 @@ export default function App() {
   }
 
   function closeRulesIntro() {
+    const cleanedRacerName = sanitizeRacerName(racerName);
+    setRacerName(cleanedRacerName);
+    window.localStorage.setItem(RACER_NAME_KEY, cleanedRacerName);
     setShowRulesIntro(false);
     trackAnalyticsEvent('start_race_clicked', {
       race: raceLabel,
@@ -1715,28 +1753,13 @@ export default function App() {
             <div className="rules-intro-overlay" aria-modal="true" role="dialog">
               <div className="rules-intro-panel">
                 <p className="rules-intro-kicker">Start your engines</p>
-                <p className="rules-track-title">{selectedSet.theme}</p>
-                <h2 className="rules-intro-title">Ready?</h2>
+                <h2 className="rules-intro-title">GUZZLE</h2>
                 <p className="rules-copy">
                   Use the category and clue to guess the hidden phrase before time runs out.
                 </p>
-                <div className="rules-lanes" aria-label="Game rules">
-                  <div className="rules-lane">
-                    <p className="rules-count">3...</p>
-                    <p className="rules-label">Use the clue</p>
-                  </div>
-                  <div className="rules-lane">
-                    <p className="rules-count">2...</p>
-                    <p className="rules-label">Solve the phrase</p>
-                  </div>
-                  <div className="rules-lane">
-                    <p className="rules-count">1...</p>
-                    <p className="rules-label">Beat the timer</p>
-                  </div>
-                  <div className="rules-lane rules-lane--go">
-                    <p className="rules-count">Go.</p>
-                    <p className="rules-label">Race the set</p>
-                  </div>
+                <div className="rules-track-card" aria-label="Race track">
+                  <p className="rules-track-label">{raceLabel}</p>
+                  <p className="rules-track-title">{selectedSet.theme}</p>
                 </div>
                 <div className="rules-revealed">
                   <span>Always revealed</span>
@@ -1746,14 +1769,21 @@ export default function App() {
                     ))}
                   </div>
                 </div>
+                <label className="rules-racer-name-label" htmlFor="rules-racer-name">
+                  Racer name
+                </label>
+                <input
+                  id="rules-racer-name"
+                  type="text"
+                  value={racerName}
+                  onChange={(event) => setRacerName(sanitizeRacerName(event.target.value))}
+                  className="rules-racer-name-input"
+                  placeholder="Guest Racer"
+                  autoComplete="nickname"
+                />
                 <button className="rules-start-button" type="button" onClick={closeRulesIntro}>
                   Start Race
                 </button>
-                <div className="rules-high-score" aria-label="Today's highest score">
-                  <span>Live Daily Scores</span>
-                  <strong>Coming Soon</strong>
-                  <small>Real rankings need the leaderboard backend</small>
-                </div>
               </div>
             </div>
           )}
@@ -1905,13 +1935,6 @@ export default function App() {
                         <p className="text-xs font-bold text-rose-700">
                           {resultSubmission.message || 'Official result submission failed.'}
                         </p>
-                        <button
-                          type="button"
-                          onClick={() => setResultSubmission({ submittedKey: '', status: 'idle', message: '' })}
-                          className="mt-2 min-h-11 w-full border-2 border-black bg-[#16a34a] px-3 text-xs font-black uppercase tracking-[0.14em] text-white"
-                        >
-                          Retry Official Result
-                        </button>
                       </div>
                     )}
                     <div className="mx-auto mt-3 w-full max-w-md border-2 border-black bg-white p-2 text-left">
@@ -1940,7 +1963,7 @@ export default function App() {
                                       isPlayer ? 'bg-[#16a34a] text-white' : 'text-black'
                                     }`}
                                   >
-                                    {formatRacerName(entry.publicRacerId)}
+                                    {formatRacerName(entry.publicRacerId, entry.displayName)}
                                   </span>
                                 </span>
                                 <span className="shrink-0 text-right font-mono">
@@ -1963,7 +1986,10 @@ export default function App() {
                                 <span className="min-w-0 truncate">
                                   {formatPlace(leaderboard.playerEntry.rank)}:{' '}
                                   <span className="bg-[#16a34a] px-1 py-0.5 text-white">
-                                    {formatRacerName(leaderboard.playerEntry.publicRacerId)}
+                                    {formatRacerName(
+                                      leaderboard.playerEntry.publicRacerId,
+                                      leaderboard.playerEntry.displayName,
+                                    )}
                                   </span>
                                 </span>
                                 <span className="shrink-0 text-right font-mono">
@@ -2121,26 +2147,6 @@ export default function App() {
                       I Want the Home Game
                     </button>
                   </form>
-
-                  <div className="border-2 border-black bg-white p-3">
-                    <label
-                      className="block text-xs font-black uppercase tracking-[0.18em] text-black/60"
-                      htmlFor="display-name"
-                    >
-                      Leaderboard Name
-                    </label>
-                    <input
-                      id="display-name"
-                      type="text"
-                      value={displayName}
-                      onChange={(event) => setDisplayName(event.target.value.slice(0, 24))}
-                      className="mt-2 h-11 w-full border-2 border-black bg-white px-3 text-sm font-black uppercase outline-none focus:shadow-[3px_3px_0_#000]"
-                      placeholder="Guest Racer"
-                    />
-                    <p className="mt-1 text-xs font-bold text-black/55">
-                      Public name only. Email is never shown.
-                    </p>
-                  </div>
 
                   <button
                     type="button"

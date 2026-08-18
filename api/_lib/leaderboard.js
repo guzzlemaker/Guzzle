@@ -65,7 +65,7 @@ export async function loadOfficialLeaderboard({ officialDate, trackType = 'daily
   }
 
   const results = await supabaseRequest(
-    `race_results?daily_race_id=eq.${race.id}&select=id,player_id,correct_answers,total_puzzles,accuracy_percentage,completion_time_ms,timeouts,incorrect_answers,submitted_at,completed_at,completed,players(public_racer_id,racing_color)`,
+    `race_results?daily_race_id=eq.${race.id}&select=id,player_id,correct_answers,total_puzzles,accuracy_percentage,completion_time_ms,timeouts,incorrect_answers,submitted_at,completed_at,completed,players(public_racer_id,display_name,racing_color)`,
   );
 
   return buildDailyLeaderboard(
@@ -73,6 +73,7 @@ export async function loadOfficialLeaderboard({ officialDate, trackType = 'daily
       id: result.id,
       playerId: result.player_id,
       publicRacerId: result.players?.public_racer_id,
+      displayName: result.players?.display_name,
       racingColor: result.players?.racing_color,
       correctAnswers: result.correct_answers,
       totalPuzzles: result.total_puzzles,
@@ -106,6 +107,7 @@ function formatLeaderboardEntry(result, rank) {
     id: result.id,
     rank,
     publicRacerId: result.publicRacerId ?? result.public_racer_id,
+    displayName: result.displayName ?? result.display_name ?? null,
     racingColor: result.racingColor ?? result.racing_color ?? null,
     correctAnswers: Number(result.correctAnswers ?? result.correct_answers ?? 0),
     totalPuzzles: Number(result.totalPuzzles ?? result.total_puzzles ?? 0),

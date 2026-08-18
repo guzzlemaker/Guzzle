@@ -1,4 +1,4 @@
-import { jsonResponse } from './_lib/http.js';
+import { jsonResponse, readJson, sanitizeDisplayName } from './_lib/http.js';
 import { isDatabaseConfigured, supabaseRequest } from './_lib/supabase-rest.js';
 import {
   createPrivateToken,
@@ -23,29 +23,38 @@ export default async function handler(request, response) {
   }
 
   try {
+    const payload = request.method === 'POST' ? await readJson(request) : null;
+    const displayName = sanitizeDisplayName(payload?.displayName);
     const token = getBearerToken(request);
     if (token) {
       const existing = await findPlayerByToken(token);
       if (existing) {
+        const updateBody = { last_seen_at: new Date().toISOString() };
+        if (displayName) {
+          updateBody.display_name = displayName;
+        }
+
         await supabaseRequest(`players?id=eq.${existing.id}`, {
           method: 'PATCH',
-          body: JSON.stringify({ last_seen_at: new Date().toISOString() }),
+          body: JSON.stringify(updateBody),
         });
 
         return jsonResponse(response, 200, {
           configured: true,
           token,
           publicRacerId: existing.public_racer_id,
+          displayName: displayName || existing.display_name || null,
           racingColor: existing.racing_color,
         });
       }
     }
 
-    const created = await createPlayer();
+    const created = await createPlayer(displayName);
     return jsonResponse(response, 201, {
       configured: true,
       token: created.token,
       publicRacerId: created.player.public_racer_id,
+      displayName: created.player.display_name ?? null,
       racingColor: created.player.racing_color,
     });
   } catch {
@@ -59,13 +68,13 @@ export default async function handler(request, response) {
 export async function findPlayerByToken(token) {
   const tokenHash = hashPrivateToken(token);
   const players = await supabaseRequest(
-    `players?private_token_hash=eq.${encodeURIComponent(tokenHash)}&select=id,public_racer_id,racing_color`,
+    `players?private_token_hash=eq.${encodeURIComponent(tokenHash)}&select=id,public_racer_id,display_name,racing_color`,
   );
 
   return players?.[0] ?? null;
 }
 
-async function createPlayer() {
+async function createPlayer(displayName) {
   for (let attempt = 0; attempt < MAX_RACER_ID_ATTEMPTS; attempt += 1) {
     const token = createPrivateToken();
     const publicRacerId = createPublicRacerId();
@@ -76,6 +85,7 @@ async function createPlayer() {
         body: JSON.stringify({
           anonymous_id: publicRacerId,
           public_racer_id: publicRacerId,
+          display_name: displayName || null,
           racing_color: selectRacingColor(attempt + publicRacerId.charCodeAt(publicRacerId.length - 1)),
           private_token_hash: hashPrivateToken(token),
           last_seen_at: new Date().toISOString(),

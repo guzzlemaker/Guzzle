@@ -208,23 +208,34 @@ button {
 }
 
 .rules-intro-title {
-  font-size: clamp(2.8rem, 10.5vw, 5.15rem);
+  font-size: clamp(2.9rem, 11vw, 5.35rem);
   font-weight: 1000;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.02em;
   line-height: 0.9;
   margin: 0 0 0.7rem;
 }
 
-.rules-track-title {
+.rules-track-card {
   background: #f7f7f4;
   border: 2px solid #000000;
-  display: inline-flex;
-  font-size: clamp(0.72rem, 2vw, 1rem);
+  margin: 0.7rem auto 0;
+  padding: clamp(0.9rem, 3vw, 1.35rem);
+  width: 100%;
+}
+
+.rules-track-label {
+  font-size: clamp(0.58rem, 1.6vw, 0.72rem);
+  font-weight: 950;
+  letter-spacing: 0.24em;
+  margin: 0 0 0.35rem;
+}
+
+.rules-track-title {
+  font-size: clamp(1.35rem, 4.6vw, 2.3rem);
   font-weight: 1000;
-  letter-spacing: 0.16em;
-  line-height: 1;
-  margin: 0 0 0.7rem;
-  padding: 0.45rem 0.7rem;
+  letter-spacing: 0.08em;
+  line-height: 0.96;
+  margin: 0;
 }
 
 .rules-lanes {
@@ -303,8 +314,36 @@ button {
   width: 1.45rem;
 }
 
+.rules-racer-name-label {
+  display: block;
+  font-size: 0.58rem;
+  font-weight: 950;
+  letter-spacing: 0.18em;
+  margin: 0.55rem 0 0.3rem;
+}
+
+.rules-racer-name-input {
+  background: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 950;
+  height: 2.75rem;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.55rem;
+  outline: none;
+  padding: 0 0.85rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.rules-racer-name-input:focus {
+  box-shadow: 3px 3px 0 #000000;
+}
+
 .rules-start-button {
-  background: #000000;
+  background: #16a34a;
   border: 2px solid #000000;
   color: #ffffff;
   font-size: 0.78rem;
@@ -314,9 +353,14 @@ button {
   padding: 0 1.4rem;
   text-transform: uppercase;
   transition:
+    background-color 150ms ease,
     transform 150ms ease,
     box-shadow 150ms ease;
   width: 100%;
+}
+
+.rules-start-button:hover {
+  background: #15803d;
 }
 
 .rules-start-button:active {
@@ -521,8 +565,12 @@ button {
 
   .rules-intro-title {
     font-size: clamp(2.2rem, 11vw, 4.5rem);
-    letter-spacing: 0.08em;
+    letter-spacing: 0.02em;
     margin-bottom: 0.85rem;
+  }
+
+  .rules-track-card {
+    padding: 0.8rem;
   }
 
   .rules-track-title {
@@ -554,6 +602,10 @@ button {
     flex-direction: column;
     gap: 0.45rem;
     margin: 0.75rem 0;
+  }
+
+  .rules-racer-name-input {
+    height: 2.65rem;
   }
 
   .rules-lane:nth-child(3) {
