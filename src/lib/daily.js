@@ -37,7 +37,7 @@ export function getMsUntilNextOfficialDay(date = new Date(), timeZone = DEFAULT_
 }
 
 export function normalizeTrackSet(set, trackType = DAILY_TRACK_TYPE, scheduledDate = set?.dateSeed) {
-  if (!set) {
+  if (!set || !Array.isArray(set.puzzles)) {
     return null;
   }
 
@@ -113,10 +113,33 @@ export function selectDailyAndBonusTrack(sets, officialDate) {
   const bonusSet = sortedSets.length > 1 ? sortedSets[bonusIndex] : null;
 
   return {
-    daily: normalizeTrackSet(sortedSets[dailyIndex], DAILY_TRACK_TYPE, officialDate),
-    bonus: normalizeTrackSet(bonusSet, BONUS_TRACK_TYPE, officialDate),
+    daily: normalizeScheduledSet(sortedSets[dailyIndex], DAILY_TRACK_TYPE, officialDate),
+    bonus: normalizeScheduledSet(bonusSet, BONUS_TRACK_TYPE, officialDate),
     nextScheduledSet,
   };
+}
+
+function normalizeScheduledSet(set, trackType, officialDate) {
+  if (!set) {
+    return null;
+  }
+
+  if (set.daily || set.bonus) {
+    const track = trackType === DAILY_TRACK_TYPE ? set.daily : set.bonus;
+
+    return normalizeTrackSet(
+      track
+        ? {
+            ...track,
+            gameNumber: track.gameNumber ?? set.gameNumber,
+          }
+        : null,
+      trackType,
+      officialDate,
+    );
+  }
+
+  return normalizeTrackSet(set, trackType, officialDate);
 }
 
 function slugify(value) {
