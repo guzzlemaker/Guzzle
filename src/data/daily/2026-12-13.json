@@ -1,0 +1,207 @@
+{
+  "gameNumber": 152,
+  "dateSeed": "2026-12-13",
+  "theme": "WINTER WEEKEND PLANS",
+  "daily": {
+    "theme": "WINTER WEEKEND PLANS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "WINTER WEEKEND PLANS",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "WINTER WEEKEND STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "WINTER WEEKEND PLANS",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "WINTER WEEKEND TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "WINTER WEEKEND PLANS",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "WINTER WEEKEND CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "WINTER WEEKEND PLANS",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "WINTER WEEKEND GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "WINTER WEEKEND PLANS",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "WINTER WEEKEND MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "WINTER WEEKEND PLANS",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "WINTER WEEKEND SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "WINTER WEEKEND PLANS",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "WINTER WEEKEND BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "WINTER WEEKEND PLANS",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "WINTER WEEKEND GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "WINTER WEEKEND PLANS",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "WINTER WEEKEND SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "WINTER WEEKEND PLANS",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "WINTER WEEKEND HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "WINTER WEEKEND PLANS",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "WINTER WEEKEND SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "WINTER WEEKEND FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "BLANKET FORT LIFESTYLE",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "BLANKET FORT LIFESTYLE",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "BLANKET FORT STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "BLANKET FORT LIFESTYLE",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "BLANKET FORT TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "BLANKET FORT LIFESTYLE",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "BLANKET FORT CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "BLANKET FORT LIFESTYLE",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "BLANKET FORT GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "BLANKET FORT LIFESTYLE",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "BLANKET FORT MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "BLANKET FORT LIFESTYLE",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "BLANKET FORT SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "BLANKET FORT LIFESTYLE",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "BLANKET FORT BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "BLANKET FORT LIFESTYLE",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "BLANKET FORT GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "BLANKET FORT LIFESTYLE",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "BLANKET FORT SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "BLANKET FORT LIFESTYLE",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "BLANKET FORT HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "BLANKET FORT LIFESTYLE",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "BLANKET FORT SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "BLANKET FORT FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
+}

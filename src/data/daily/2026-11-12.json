@@ -1,0 +1,207 @@
+{
+  "gameNumber": 121,
+  "dateSeed": "2026-11-12",
+  "theme": "WORK LUNCH DECISIONS",
+  "daily": {
+    "theme": "WORK LUNCH DECISIONS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "WORK LUNCH DECISIONS",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "WORK LUNCH STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "WORK LUNCH DECISIONS",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "WORK LUNCH TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "WORK LUNCH DECISIONS",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "WORK LUNCH CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "WORK LUNCH DECISIONS",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "WORK LUNCH GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "WORK LUNCH DECISIONS",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "WORK LUNCH MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "WORK LUNCH DECISIONS",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "WORK LUNCH SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "WORK LUNCH DECISIONS",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "WORK LUNCH BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "WORK LUNCH DECISIONS",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "WORK LUNCH GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "WORK LUNCH DECISIONS",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "WORK LUNCH SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "WORK LUNCH DECISIONS",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "WORK LUNCH HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "WORK LUNCH DECISIONS",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "WORK LUNCH SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "WORK LUNCH FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "DESK SNACK STASH",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "DESK SNACK STASH",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "DESK SNACK STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "DESK SNACK STASH",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "DESK SNACK TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "DESK SNACK STASH",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "DESK SNACK CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "DESK SNACK STASH",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "DESK SNACK GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "DESK SNACK STASH",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "DESK SNACK MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "DESK SNACK STASH",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "DESK SNACK SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "DESK SNACK STASH",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "DESK SNACK BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "DESK SNACK STASH",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "DESK SNACK GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "DESK SNACK STASH",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "DESK SNACK SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "DESK SNACK STASH",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "DESK SNACK HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "DESK SNACK STASH",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "DESK SNACK SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "DESK SNACK FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
+}

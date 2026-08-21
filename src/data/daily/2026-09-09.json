@@ -1,103 +1,207 @@
 {
   "gameNumber": 57,
   "dateSeed": "2026-09-09",
-  "theme": "MOVIE NIGHT",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "MOVIE NIGHT",
-      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING B-F-C: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "BLANKET FORT COUCH",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "MOVIE NIGHT",
-      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING P-F-S: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "PAUSED FOR SNACKS",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "MOVIE NIGHT",
-      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING S-A: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "SUBTITLE ARGUMENT",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "MOVIE NIGHT",
-      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING T-S: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "TRAILER SPOILERS",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "MOVIE NIGHT",
-      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING D-C: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "DIRECTORS CUT",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "MOVIE NIGHT",
-      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING O-C: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "OPENING CREDITS",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "MOVIE NIGHT",
-      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING H-J-S: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "HORROR JUMP SCARE",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "MOVIE NIGHT",
-      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING R-C-A: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "ROM COM AIRPORT",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "MOVIE NIGHT",
-      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING A-H-W: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "ACTION HERO WALK",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "MOVIE NIGHT",
-      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING P-T-G: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "PLOT TWIST GASP",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "MOVIE NIGHT",
-      "clue": "A 3 WORDS POP CULTURE MEMORY STARTING C-C-S: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "CLOSING CREDITS SONG",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 2 WORDS POP CULTURE MEMORY STARTING R-F: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "REWATCH FAVORITE",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "COMMUTE THOUGHTS",
+  "daily": {
+    "theme": "COMMUTE THOUGHTS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "COMMUTE THOUGHTS",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "COMMUTE THOUGHTS STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "COMMUTE THOUGHTS",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "COMMUTE THOUGHTS TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "COMMUTE THOUGHTS",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "COMMUTE THOUGHTS CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "COMMUTE THOUGHTS",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "COMMUTE THOUGHTS GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "COMMUTE THOUGHTS",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "COMMUTE THOUGHTS MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "COMMUTE THOUGHTS",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "COMMUTE THOUGHTS SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "COMMUTE THOUGHTS",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "COMMUTE THOUGHTS BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "COMMUTE THOUGHTS",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "COMMUTE THOUGHTS GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "COMMUTE THOUGHTS",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "COMMUTE THOUGHTS SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "COMMUTE THOUGHTS",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "COMMUTE THOUGHTS HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "COMMUTE THOUGHTS",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "COMMUTE THOUGHTS SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "COMMUTE THOUGHTS FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "PARKING LOT DRAMA",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "PARKING LOT DRAMA",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "PARKING LOT STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "PARKING LOT DRAMA",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "PARKING LOT TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "PARKING LOT DRAMA",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "PARKING LOT CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "PARKING LOT DRAMA",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "PARKING LOT GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "PARKING LOT DRAMA",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "PARKING LOT MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "PARKING LOT DRAMA",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "PARKING LOT SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "PARKING LOT DRAMA",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "PARKING LOT BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "PARKING LOT DRAMA",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "PARKING LOT GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "PARKING LOT DRAMA",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "PARKING LOT SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "PARKING LOT DRAMA",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "PARKING LOT HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "PARKING LOT DRAMA",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "PARKING LOT SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "PARKING LOT FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

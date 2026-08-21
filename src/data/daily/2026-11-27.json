@@ -1,0 +1,207 @@
+{
+  "gameNumber": 136,
+  "dateSeed": "2026-11-27",
+  "theme": "BLACK FRIDAY BRAIN",
+  "daily": {
+    "theme": "BLACK FRIDAY BRAIN",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "BLACK FRIDAY BRAIN",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "BLACK FRIDAY STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "BLACK FRIDAY BRAIN",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "BLACK FRIDAY TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "BLACK FRIDAY BRAIN",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "BLACK FRIDAY CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "BLACK FRIDAY BRAIN",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "BLACK FRIDAY GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "BLACK FRIDAY BRAIN",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "BLACK FRIDAY MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "BLACK FRIDAY BRAIN",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "BLACK FRIDAY SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "BLACK FRIDAY BRAIN",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "BLACK FRIDAY BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "BLACK FRIDAY BRAIN",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "BLACK FRIDAY GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "BLACK FRIDAY BRAIN",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "BLACK FRIDAY SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "BLACK FRIDAY BRAIN",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "BLACK FRIDAY HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "BLACK FRIDAY BRAIN",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "BLACK FRIDAY SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "BLACK FRIDAY FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "CART FULL OF REGRET",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "CART FULL OF REGRET",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "CART FULL STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "CART FULL OF REGRET",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "CART FULL TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "CART FULL OF REGRET",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "CART FULL CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "CART FULL OF REGRET",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "CART FULL GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "CART FULL OF REGRET",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "CART FULL MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "CART FULL OF REGRET",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "CART FULL SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "CART FULL OF REGRET",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "CART FULL BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "CART FULL OF REGRET",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "CART FULL GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "CART FULL OF REGRET",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "CART FULL SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "CART FULL OF REGRET",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "CART FULL HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "CART FULL OF REGRET",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "CART FULL SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "CART FULL FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
+}

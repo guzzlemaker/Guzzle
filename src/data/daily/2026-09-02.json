@@ -1,103 +1,207 @@
 {
   "gameNumber": 50,
   "dateSeed": "2026-09-02",
-  "theme": "TARGET RUN MATH",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "TARGET RUN MATH",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING O-I-P: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "ONE ITEM PROMISE",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "TARGET RUN MATH",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING C-A-D: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "CANDLE AISLE DETOUR",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "TARGET RUN MATH",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING T-P-T: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "THROW PILLOW TEMPTATION",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "TARGET RUN MATH",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING D-S-D: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "DOLLAR SPOT DAMAGE",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "TARGET RUN MATH",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING R-C-C: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "RED CART CONFESSION",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "TARGET RUN MATH",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING S-S-T: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "SEASONAL SECTION TRAP",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "TARGET RUN MATH",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING D-U-O: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "DRIVE UP ORDER",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "TARGET RUN MATH",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING S-C-L: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "SELF CHECKOUT LINE",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "TARGET RUN MATH",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING R-S-B: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "RANDOM STORAGE BIN",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "TARGET RUN MATH",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING I-N: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "IMPULSE NOTEBOOK",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "TARGET RUN MATH",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING R-R-C: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "RECEIPT REALITY CHECK",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING C-T-S: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "CAR TRUNK SURPRISE",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "HOMEWORK EXCUSES",
+  "daily": {
+    "theme": "HOMEWORK EXCUSES",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "HOMEWORK EXCUSES",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "HOMEWORK EXCUSES STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "HOMEWORK EXCUSES",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "HOMEWORK EXCUSES TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "HOMEWORK EXCUSES",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "HOMEWORK EXCUSES CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "HOMEWORK EXCUSES",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "HOMEWORK EXCUSES GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "HOMEWORK EXCUSES",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "HOMEWORK EXCUSES MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "HOMEWORK EXCUSES",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "HOMEWORK EXCUSES SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "HOMEWORK EXCUSES",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "HOMEWORK EXCUSES BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "HOMEWORK EXCUSES",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "HOMEWORK EXCUSES GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "HOMEWORK EXCUSES",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "HOMEWORK EXCUSES SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "HOMEWORK EXCUSES",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "HOMEWORK EXCUSES HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "HOMEWORK EXCUSES",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "HOMEWORK EXCUSES SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "HOMEWORK EXCUSES FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "SCHOOL SUPPLY AISLE",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "SCHOOL SUPPLY AISLE",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "SCHOOL SUPPLY STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "SCHOOL SUPPLY AISLE",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "SCHOOL SUPPLY TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "SCHOOL SUPPLY AISLE",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "SCHOOL SUPPLY CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "SCHOOL SUPPLY AISLE",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "SCHOOL SUPPLY GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "SCHOOL SUPPLY AISLE",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "SCHOOL SUPPLY MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "SCHOOL SUPPLY AISLE",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "SCHOOL SUPPLY SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "SCHOOL SUPPLY AISLE",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "SCHOOL SUPPLY BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "SCHOOL SUPPLY AISLE",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "SCHOOL SUPPLY GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "SCHOOL SUPPLY AISLE",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "SCHOOL SUPPLY SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "SCHOOL SUPPLY AISLE",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "SCHOOL SUPPLY HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "SCHOOL SUPPLY AISLE",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "SCHOOL SUPPLY SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "SCHOOL SUPPLY FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

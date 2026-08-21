@@ -1,103 +1,207 @@
 {
   "gameNumber": 85,
   "dateSeed": "2026-10-07",
-  "theme": "PLACES PEOPLE KNOW",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "PLACES PEOPLE KNOW",
-      "clue": "A 2 WORDS TRAVEL MEMORY STARTING G-C: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "GRAND CANYON",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "PLACES PEOPLE KNOW",
-      "clue": "A 2 WORDS TRAVEL MEMORY STARTING T-S: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "TIMES SQUARE",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "PLACES PEOPLE KNOW",
-      "clue": "A 2 WORDS TRAVEL MEMORY STARTING Y-P: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "YELLOWSTONE PARK",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "PLACES PEOPLE KNOW",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING L-V-S: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "LAS VEGAS STRIP",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "PLACES PEOPLE KNOW",
-      "clue": "A 2 WORDS TRAVEL MEMORY STARTING M-R: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "MOUNT RUSHMORE",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "PLACES PEOPLE KNOW",
-      "clue": "A 2 WORDS TRAVEL MEMORY STARTING D-W: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "DISNEY WORLD",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "PLACES PEOPLE KNOW",
-      "clue": "A 2 WORDS TRAVEL MEMORY STARTING N-F: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "NIAGARA FALLS",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "PLACES PEOPLE KNOW",
-      "clue": "A 2 WORDS TRAVEL MEMORY STARTING H-S: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "HOLLYWOOD SIGN",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "PLACES PEOPLE KNOW",
-      "clue": "A 2 WORDS TRAVEL MEMORY STARTING C-P: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "CENTRAL PARK",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "PLACES PEOPLE KNOW",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING G-G-B: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "GOLDEN GATE BRIDGE",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "PLACES PEOPLE KNOW",
-      "clue": "A 2 WORDS TRAVEL MEMORY STARTING F-Q: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "FRENCH QUARTER",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 2 WORDS TRAVEL MEMORY STARTING P-P: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "PIKES PEAK",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "OFFICE FRIDGE CRIMES",
+  "daily": {
+    "theme": "OFFICE FRIDGE CRIMES",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "OFFICE FRIDGE CRIMES",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "OFFICE FRIDGE STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "OFFICE FRIDGE CRIMES",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "OFFICE FRIDGE TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "OFFICE FRIDGE CRIMES",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "OFFICE FRIDGE CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "OFFICE FRIDGE CRIMES",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "OFFICE FRIDGE GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "OFFICE FRIDGE CRIMES",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "OFFICE FRIDGE MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "OFFICE FRIDGE CRIMES",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "OFFICE FRIDGE SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "OFFICE FRIDGE CRIMES",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "OFFICE FRIDGE BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "OFFICE FRIDGE CRIMES",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "OFFICE FRIDGE GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "OFFICE FRIDGE CRIMES",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "OFFICE FRIDGE SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "OFFICE FRIDGE CRIMES",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "OFFICE FRIDGE HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "OFFICE FRIDGE CRIMES",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "OFFICE FRIDGE SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "OFFICE FRIDGE FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "BREAK ROOM ETIQUETTE",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "BREAK ROOM ETIQUETTE",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "BREAK ROOM STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "BREAK ROOM ETIQUETTE",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "BREAK ROOM TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "BREAK ROOM ETIQUETTE",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "BREAK ROOM CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "BREAK ROOM ETIQUETTE",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "BREAK ROOM GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "BREAK ROOM ETIQUETTE",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "BREAK ROOM MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "BREAK ROOM ETIQUETTE",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "BREAK ROOM SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "BREAK ROOM ETIQUETTE",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "BREAK ROOM BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "BREAK ROOM ETIQUETTE",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "BREAK ROOM GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "BREAK ROOM ETIQUETTE",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "BREAK ROOM SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "BREAK ROOM ETIQUETTE",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "BREAK ROOM HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "BREAK ROOM ETIQUETTE",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "BREAK ROOM SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "BREAK ROOM FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

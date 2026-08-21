@@ -1,103 +1,207 @@
 {
   "gameNumber": 59,
   "dateSeed": "2026-09-11",
-  "theme": "HIGH SCHOOL HISTORY",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "HIGH SCHOOL HISTORY",
-      "clue": "A 2 WORDS SOCIAL SURVIVAL CLUE STARTING H-F: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "HOMECOMING FLOAT",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "HIGH SCHOOL HISTORY",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING P-L-P: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "PROM LIMO PLAN",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "HIGH SCHOOL HISTORY",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING S-P-S: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "SENIOR PARKING SPOT",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "HIGH SCHOOL HISTORY",
-      "clue": "A 2 WORDS SOCIAL SURVIVAL CLUE STARTING C-T: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "CAFETERIA TABLE",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "HIGH SCHOOL HISTORY",
-      "clue": "A 2 WORDS SOCIAL SURVIVAL CLUE STARTING L-M: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "LOCKER MIRROR",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "HIGH SCHOOL HISTORY",
-      "clue": "A 2 WORDS SOCIAL SURVIVAL CLUE STARTING Y-S: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "YEARBOOK SIGNATURE",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "HIGH SCHOOL HISTORY",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING P-R-N: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "PEP RALLY NOISE",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "HIGH SCHOOL HISTORY",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING D-E-V: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "DRIVER ED VIDEO",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "HIGH SCHOOL HISTORY",
-      "clue": "A 2 WORDS SOCIAL SURVIVAL CLUE STARTING M-A: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "MORNING ANNOUNCEMENTS",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "HIGH SCHOOL HISTORY",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING G-P-P: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "GROUP PROJECT PANIC",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "HIGH SCHOOL HISTORY",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING F-E-W: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "FINAL EXAM WEEK",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 2 WORDS SOCIAL SURVIVAL CLUE STARTING G-C: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "GRADUATION CAP",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "AIRPORT PEOPLE WATCHING",
+  "daily": {
+    "theme": "AIRPORT PEOPLE WATCHING",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "AIRPORT PEOPLE WATCHING",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "AIRPORT PEOPLE STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "AIRPORT PEOPLE WATCHING",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "AIRPORT PEOPLE TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "AIRPORT PEOPLE WATCHING",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "AIRPORT PEOPLE CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "AIRPORT PEOPLE WATCHING",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "AIRPORT PEOPLE GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "AIRPORT PEOPLE WATCHING",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "AIRPORT PEOPLE MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "AIRPORT PEOPLE WATCHING",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "AIRPORT PEOPLE SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "AIRPORT PEOPLE WATCHING",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "AIRPORT PEOPLE BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "AIRPORT PEOPLE WATCHING",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "AIRPORT PEOPLE GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "AIRPORT PEOPLE WATCHING",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "AIRPORT PEOPLE SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "AIRPORT PEOPLE WATCHING",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "AIRPORT PEOPLE HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "AIRPORT PEOPLE WATCHING",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "AIRPORT PEOPLE SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "AIRPORT PEOPLE FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "CARRY ON MISTAKES",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "CARRY ON MISTAKES",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "CARRY MISTAKES STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "CARRY ON MISTAKES",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "CARRY MISTAKES TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "CARRY ON MISTAKES",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "CARRY MISTAKES CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "CARRY ON MISTAKES",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "CARRY MISTAKES GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "CARRY ON MISTAKES",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "CARRY MISTAKES MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "CARRY ON MISTAKES",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "CARRY MISTAKES SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "CARRY ON MISTAKES",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "CARRY MISTAKES BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "CARRY ON MISTAKES",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "CARRY MISTAKES GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "CARRY ON MISTAKES",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "CARRY MISTAKES SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "CARRY ON MISTAKES",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "CARRY MISTAKES HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "CARRY ON MISTAKES",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "CARRY MISTAKES SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "CARRY MISTAKES FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

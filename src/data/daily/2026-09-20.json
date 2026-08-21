@@ -1,103 +1,207 @@
 {
   "gameNumber": 68,
   "dateSeed": "2026-09-20",
-  "theme": "WEATHER SMALL TALK",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "WEATHER SMALL TALK",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING C-F-C: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "COLD FRONT COMING",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "WEATHER SMALL TALK",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING H-H-D: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "HUMIDITY HAIR DAY",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "WEATHER SMALL TALK",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING T-W: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "THUNDERSTORM WATCH",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "WEATHER SMALL TALK",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING F-S-P: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "FIRST SNOW PANIC",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "WEATHER SMALL TALK",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING F-S: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "FALSE SPRING",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "WEATHER SMALL TALK",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING H-I-W: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "HEAT INDEX WARNING",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "WEATHER SMALL TALK",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING U-F: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "UMBRELLA FORGOTTEN",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "WEATHER SMALL TALK",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING C-W-F: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "CAR WINDOW FOG",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "WEATHER SMALL TALK",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING S-I-P: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "SIDEWALK ICE PATCH",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "WEATHER SMALL TALK",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING S-P: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "SUNSET PICTURE",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "WEATHER SMALL TALK",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING P-S: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "PATIO SEASON",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING P-F-D: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "PERFECT FALL DAY",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "SUNDAY NIGHT FEELINGS",
+  "daily": {
+    "theme": "SUNDAY NIGHT FEELINGS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "SUNDAY NIGHT FEELINGS",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "SUNDAY NIGHT STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "SUNDAY NIGHT FEELINGS",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "SUNDAY NIGHT TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "SUNDAY NIGHT FEELINGS",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "SUNDAY NIGHT CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "SUNDAY NIGHT FEELINGS",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "SUNDAY NIGHT GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "SUNDAY NIGHT FEELINGS",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "SUNDAY NIGHT MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "SUNDAY NIGHT FEELINGS",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "SUNDAY NIGHT SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "SUNDAY NIGHT FEELINGS",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "SUNDAY NIGHT BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "SUNDAY NIGHT FEELINGS",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "SUNDAY NIGHT GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "SUNDAY NIGHT FEELINGS",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "SUNDAY NIGHT SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "SUNDAY NIGHT FEELINGS",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "SUNDAY NIGHT HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "SUNDAY NIGHT FEELINGS",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "SUNDAY NIGHT SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "SUNDAY NIGHT FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "TOMORROW PROBLEMS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "TOMORROW PROBLEMS",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "TOMORROW PROBLEMS STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "TOMORROW PROBLEMS",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "TOMORROW PROBLEMS TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "TOMORROW PROBLEMS",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "TOMORROW PROBLEMS CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "TOMORROW PROBLEMS",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "TOMORROW PROBLEMS GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "TOMORROW PROBLEMS",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "TOMORROW PROBLEMS MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "TOMORROW PROBLEMS",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "TOMORROW PROBLEMS SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "TOMORROW PROBLEMS",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "TOMORROW PROBLEMS BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "TOMORROW PROBLEMS",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "TOMORROW PROBLEMS GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "TOMORROW PROBLEMS",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "TOMORROW PROBLEMS SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "TOMORROW PROBLEMS",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "TOMORROW PROBLEMS HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "TOMORROW PROBLEMS",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "TOMORROW PROBLEMS SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "TOMORROW PROBLEMS FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

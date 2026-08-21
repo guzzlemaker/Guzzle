@@ -1,103 +1,207 @@
 {
   "gameNumber": 78,
   "dateSeed": "2026-09-30",
-  "theme": "REDNECK ENGINEERING",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "REDNECK ENGINEERING",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING D-T-F: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "DUCT TAPE FIX",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "REDNECK ENGINEERING",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING R-H-F: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "RUSTY HINGE FIX",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "REDNECK ENGINEERING",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING T-S-S: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "TRACTOR SEAT SWING",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "REDNECK ENGINEERING",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING T-R-P: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "TARP ROOF PATCH",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "REDNECK ENGINEERING",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING M-C-S: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "MILK CRATE STEP",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "REDNECK ENGINEERING",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING Z-T-H: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "ZIP TIE HINGE",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "REDNECK ENGINEERING",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING S-F-A: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "SHOP FAN AC",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "REDNECK ENGINEERING",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING P-F-G: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "PORCH FREEZER GRILL",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "REDNECK ENGINEERING",
-      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING P-P: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "PALLET PORCH",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "REDNECK ENGINEERING",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING P-P-H: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "PVC PIPE HANDLE",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "REDNECK ENGINEERING",
-      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING C-R: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "COOLER RADIO",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING H-A: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "HAMMER ADJUSTMENT",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "TINY DAILY ANNOYANCES",
+  "daily": {
+    "theme": "TINY DAILY ANNOYANCES",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "TINY DAILY ANNOYANCES",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "TINY DAILY STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "TINY DAILY ANNOYANCES",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "TINY DAILY TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "TINY DAILY ANNOYANCES",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "TINY DAILY CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "TINY DAILY ANNOYANCES",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "TINY DAILY GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "TINY DAILY ANNOYANCES",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "TINY DAILY MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "TINY DAILY ANNOYANCES",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "TINY DAILY SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "TINY DAILY ANNOYANCES",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "TINY DAILY BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "TINY DAILY ANNOYANCES",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "TINY DAILY GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "TINY DAILY ANNOYANCES",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "TINY DAILY SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "TINY DAILY ANNOYANCES",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "TINY DAILY HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "TINY DAILY ANNOYANCES",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "TINY DAILY SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "TINY DAILY FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "THINGS WE PRETEND ARE FINE",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "THINGS WE PRETEND ARE FINE",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "PRETEND FINE STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "THINGS WE PRETEND ARE FINE",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "PRETEND FINE TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "THINGS WE PRETEND ARE FINE",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "PRETEND FINE CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "THINGS WE PRETEND ARE FINE",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "PRETEND FINE GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "THINGS WE PRETEND ARE FINE",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "PRETEND FINE MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "THINGS WE PRETEND ARE FINE",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "PRETEND FINE SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "THINGS WE PRETEND ARE FINE",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "PRETEND FINE BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "THINGS WE PRETEND ARE FINE",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "PRETEND FINE GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "THINGS WE PRETEND ARE FINE",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "PRETEND FINE SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "THINGS WE PRETEND ARE FINE",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "PRETEND FINE HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "THINGS WE PRETEND ARE FINE",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "PRETEND FINE SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "PRETEND FINE FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

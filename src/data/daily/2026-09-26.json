@@ -1,103 +1,207 @@
 {
   "gameNumber": 74,
   "dateSeed": "2026-09-26",
-  "theme": "HEALTH KICK WEEK",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "HEALTH KICK WEEK",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING N-W-B: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "NEW WATER BOTTLE",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "HEALTH KICK WEEK",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING S-C-G: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "STEP COUNT GOAL",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "HEALTH KICK WEEK",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING G-B-P: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "GYM BAG PACKED",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "HEALTH KICK WEEK",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING P-S: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "PROTEIN SHAKE",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "HEALTH KICK WEEK",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING M-P-B: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "MEAL PLAN BOARD",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "HEALTH KICK WEEK",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING Y-M-C: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "YOGA MAT CORNER",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "HEALTH KICK WEEK",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING S-L-S: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "SORE LEG STAIRS",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "HEALTH KICK WEEK",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING S-T: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "SLEEP TRACKER",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "HEALTH KICK WEEK",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING S-D-S: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "SALAD DRESSING SIDE",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "HEALTH KICK WEEK",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING S-B: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "SMOOTHIE BLENDER",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "HEALTH KICK WEEK",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING F-A-B: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "FITNESS APP BADGE",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING R-D-E: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "REST DAY EXCUSE",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "WEDDINGS AS A GUEST",
+  "daily": {
+    "theme": "WEDDINGS AS A GUEST",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "WEDDINGS AS A GUEST",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "WEDDINGS AS STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "WEDDINGS AS A GUEST",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "WEDDINGS AS TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "WEDDINGS AS A GUEST",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "WEDDINGS AS CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "WEDDINGS AS A GUEST",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "WEDDINGS AS GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "WEDDINGS AS A GUEST",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "WEDDINGS AS MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "WEDDINGS AS A GUEST",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "WEDDINGS AS SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "WEDDINGS AS A GUEST",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "WEDDINGS AS BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "WEDDINGS AS A GUEST",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "WEDDINGS AS GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "WEDDINGS AS A GUEST",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "WEDDINGS AS SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "WEDDINGS AS A GUEST",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "WEDDINGS AS HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "WEDDINGS AS A GUEST",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "WEDDINGS AS SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "WEDDINGS AS FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "RECEPTION TABLE POLITICS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "RECEPTION TABLE POLITICS",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "RECEPTION TABLE STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "RECEPTION TABLE POLITICS",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "RECEPTION TABLE TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "RECEPTION TABLE POLITICS",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "RECEPTION TABLE CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "RECEPTION TABLE POLITICS",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "RECEPTION TABLE GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "RECEPTION TABLE POLITICS",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "RECEPTION TABLE MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "RECEPTION TABLE POLITICS",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "RECEPTION TABLE SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "RECEPTION TABLE POLITICS",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "RECEPTION TABLE BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "RECEPTION TABLE POLITICS",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "RECEPTION TABLE GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "RECEPTION TABLE POLITICS",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "RECEPTION TABLE SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "RECEPTION TABLE POLITICS",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "RECEPTION TABLE HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "RECEPTION TABLE POLITICS",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "RECEPTION TABLE SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "RECEPTION TABLE FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

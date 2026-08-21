@@ -1,103 +1,207 @@
 {
   "gameNumber": 71,
   "dateSeed": "2026-09-23",
-  "theme": "SOCIAL MEDIA HABITS",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "SOCIAL MEDIA HABITS",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING D-S-S: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "DOOM SCROLL SESSION",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "SOCIAL MEDIA HABITS",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING V-P-D: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "VACATION PHOTO DUMP",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "SOCIAL MEDIA HABITS",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING C-S-D: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "COMMENT SECTION DETOUR",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "SOCIAL MEDIA HABITS",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING P-P-U: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "PROFILE PICTURE UPDATE",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "SOCIAL MEDIA HABITS",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING S-V-C: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "STORY VIEW CHECK",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "SOCIAL MEDIA HABITS",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING M-G-T: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "MEME GROUP TEXT",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "SOCIAL MEDIA HABITS",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING U-S: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "UNFOLLOW STRATEGY",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "SOCIAL MEDIA HABITS",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING B-W-P: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "BIRTHDAY WALL POST",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "SOCIAL MEDIA HABITS",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING H-R: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "HASHTAG REGRET",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "SOCIAL MEDIA HABITS",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING F-F: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "FILTER FACE",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "SOCIAL MEDIA HABITS",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING D-C: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "DRAFT CAPTION",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING L-N-L: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "LATE NIGHT LIKE",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "HOME IMPROVEMENT REGRETS",
+  "daily": {
+    "theme": "HOME IMPROVEMENT REGRETS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "HOME IMPROVEMENT REGRETS",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "HOME IMPROVEMENT STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "HOME IMPROVEMENT REGRETS",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "HOME IMPROVEMENT TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "HOME IMPROVEMENT REGRETS",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "HOME IMPROVEMENT CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "HOME IMPROVEMENT REGRETS",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "HOME IMPROVEMENT GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "HOME IMPROVEMENT REGRETS",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "HOME IMPROVEMENT MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "HOME IMPROVEMENT REGRETS",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "HOME IMPROVEMENT SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "HOME IMPROVEMENT REGRETS",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "HOME IMPROVEMENT BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "HOME IMPROVEMENT REGRETS",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "HOME IMPROVEMENT GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "HOME IMPROVEMENT REGRETS",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "HOME IMPROVEMENT SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "HOME IMPROVEMENT REGRETS",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "HOME IMPROVEMENT HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "HOME IMPROVEMENT REGRETS",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "HOME IMPROVEMENT SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "HOME IMPROVEMENT FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "HARDWARE STORE CONFIDENCE",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "HARDWARE STORE CONFIDENCE",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "HARDWARE STORE STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "HARDWARE STORE CONFIDENCE",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "HARDWARE STORE TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "HARDWARE STORE CONFIDENCE",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "HARDWARE STORE CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "HARDWARE STORE CONFIDENCE",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "HARDWARE STORE GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "HARDWARE STORE CONFIDENCE",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "HARDWARE STORE MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "HARDWARE STORE CONFIDENCE",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "HARDWARE STORE SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "HARDWARE STORE CONFIDENCE",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "HARDWARE STORE BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "HARDWARE STORE CONFIDENCE",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "HARDWARE STORE GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "HARDWARE STORE CONFIDENCE",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "HARDWARE STORE SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "HARDWARE STORE CONFIDENCE",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "HARDWARE STORE HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "HARDWARE STORE CONFIDENCE",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "HARDWARE STORE SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "HARDWARE STORE FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

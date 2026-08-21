@@ -1,103 +1,207 @@
 {
   "gameNumber": 66,
   "dateSeed": "2026-09-18",
-  "theme": "GARAGE DRAWER FINDS",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "GARAGE DRAWER FINDS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING R-H-K: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "RANDOM HEX KEY",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "GARAGE DRAWER FINDS",
-      "clue": "A 4 WORDS REAL LIFE SIDE QUEST STARTING H-U-T-R: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "HALF USED TAPE ROLL",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "GARAGE DRAWER FINDS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING D-B-P: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "DEAD BATTERY PACK",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "GARAGE DRAWER FINDS",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING M-S: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "MYSTERY SCREWS",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "GARAGE DRAWER FINDS",
-      "clue": "A 4 WORDS REAL LIFE SIDE QUEST STARTING O-P-S-S: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "OLD PAINT STIR STICK",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "GARAGE DRAWER FINDS",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING B-F: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "BROKEN FLASHLIGHT",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "GARAGE DRAWER FINDS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING Z-T-B: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "ZIP TIE BUNDLE",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "GARAGE DRAWER FINDS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING G-L-T: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "GARAGE LEVEL TOOL",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "GARAGE DRAWER FINDS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING D-S-G: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "DUSTY SAFETY GLASSES",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "GARAGE DRAWER FINDS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING S-D-H: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "SPARE DOOR HINGE",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "GARAGE DRAWER FINDS",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING S-S: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "SANDPAPER SHEET",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING O-C: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "ORPHANED CHARGER",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "STREAMING SERVICE FATIGUE",
+  "daily": {
+    "theme": "STREAMING SERVICE FATIGUE",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "STREAMING SERVICE FATIGUE",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "STREAMING SERVICE STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "STREAMING SERVICE FATIGUE",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "STREAMING SERVICE TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "STREAMING SERVICE FATIGUE",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "STREAMING SERVICE CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "STREAMING SERVICE FATIGUE",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "STREAMING SERVICE GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "STREAMING SERVICE FATIGUE",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "STREAMING SERVICE MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "STREAMING SERVICE FATIGUE",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "STREAMING SERVICE SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "STREAMING SERVICE FATIGUE",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "STREAMING SERVICE BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "STREAMING SERVICE FATIGUE",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "STREAMING SERVICE GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "STREAMING SERVICE FATIGUE",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "STREAMING SERVICE SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "STREAMING SERVICE FATIGUE",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "STREAMING SERVICE HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "STREAMING SERVICE FATIGUE",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "STREAMING SERVICE SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "STREAMING SERVICE FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "SHOWS WE REWATCH",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "SHOWS WE REWATCH",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "SHOWS REWATCH STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "SHOWS WE REWATCH",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "SHOWS REWATCH TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "SHOWS WE REWATCH",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "SHOWS REWATCH CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "SHOWS WE REWATCH",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "SHOWS REWATCH GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "SHOWS WE REWATCH",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "SHOWS REWATCH MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "SHOWS WE REWATCH",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "SHOWS REWATCH SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "SHOWS WE REWATCH",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "SHOWS REWATCH BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "SHOWS WE REWATCH",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "SHOWS REWATCH GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "SHOWS WE REWATCH",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "SHOWS REWATCH SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "SHOWS WE REWATCH",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "SHOWS REWATCH HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "SHOWS WE REWATCH",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "SHOWS REWATCH SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "SHOWS REWATCH FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

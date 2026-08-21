@@ -1,103 +1,207 @@
 {
   "gameNumber": 65,
   "dateSeed": "2026-09-17",
-  "theme": "DIESEL GARAGE",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "DIESEL GARAGE",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING D-F-W: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "DEF FLUID WARNING",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "DIESEL GARAGE",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING R-C: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "REGEN CYCLE",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "DIESEL GARAGE",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING T-W: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "TURBO WHISTLE",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "DIESEL GARAGE",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING D-P-F: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "DIESEL PARTICULATE FILTER",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "DIESEL GARAGE",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING E-G-S: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "EXHAUST GAS SENSOR",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "DIESEL GARAGE",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING G-P-L: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "GLOW PLUG LIGHT",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "DIESEL GARAGE",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING F-W-S: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "FUEL WATER SEPARATOR",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "DIESEL GARAGE",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING T-S: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "TAILPIPE SOOT",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "DIESEL GARAGE",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING E-V: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "EGR VALVE",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "DIESEL GARAGE",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING C-C: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "CATALYTIC CONVERTER",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "DIESEL GARAGE",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING N-S: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "NOX SENSOR",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING A-S: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "AFTERTREATMENT SYSTEM",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "THINGS EVERYONE GOOGLES",
+  "daily": {
+    "theme": "THINGS EVERYONE GOOGLES",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "THINGS EVERYONE GOOGLES",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "GOOGLES STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "THINGS EVERYONE GOOGLES",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "GOOGLES TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "THINGS EVERYONE GOOGLES",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "GOOGLES CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "THINGS EVERYONE GOOGLES",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "GOOGLES GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "THINGS EVERYONE GOOGLES",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "GOOGLES MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "THINGS EVERYONE GOOGLES",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "GOOGLES SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "THINGS EVERYONE GOOGLES",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "GOOGLES BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "THINGS EVERYONE GOOGLES",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "GOOGLES GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "THINGS EVERYONE GOOGLES",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "GOOGLES SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "THINGS EVERYONE GOOGLES",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "GOOGLES HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "THINGS EVERYONE GOOGLES",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "GOOGLES SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "GOOGLES FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "SYMPTOMS WE SHOULD IGNORE",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "SYMPTOMS WE SHOULD IGNORE",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "SYMPTOMS SHOULD STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "SYMPTOMS WE SHOULD IGNORE",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "SYMPTOMS SHOULD TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "SYMPTOMS WE SHOULD IGNORE",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "SYMPTOMS SHOULD CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "SYMPTOMS WE SHOULD IGNORE",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "SYMPTOMS SHOULD GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "SYMPTOMS WE SHOULD IGNORE",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "SYMPTOMS SHOULD MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "SYMPTOMS WE SHOULD IGNORE",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "SYMPTOMS SHOULD SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "SYMPTOMS WE SHOULD IGNORE",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "SYMPTOMS SHOULD BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "SYMPTOMS WE SHOULD IGNORE",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "SYMPTOMS SHOULD GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "SYMPTOMS WE SHOULD IGNORE",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "SYMPTOMS SHOULD SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "SYMPTOMS WE SHOULD IGNORE",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "SYMPTOMS SHOULD HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "SYMPTOMS WE SHOULD IGNORE",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "SYMPTOMS SHOULD SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "SYMPTOMS SHOULD FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

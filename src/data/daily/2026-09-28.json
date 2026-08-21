@@ -1,103 +1,207 @@
 {
   "gameNumber": 76,
   "dateSeed": "2026-09-28",
-  "theme": "RICH PEOPLE THINGS",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "RICH PEOPLE THINGS",
-      "clue": "THE ENTRYWAY THAT ANNOUNCES THE APPRAISAL BEFORE ANYONE SAYS HELLO",
-      "answer": "MARBLE FOYER",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "RICH PEOPLE THINGS",
-      "clue": "THE SHOES THAT LOOK READY FOR A BOAT YOU WERE NOT INVITED ON",
-      "answer": "PRIVATE ELEVATOR",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "RICH PEOPLE THINGS",
-      "clue": "THE DINNER FLEX WHERE SOMEONE ELSE KNOWS WHERE THE SPICES ARE",
-      "answer": "SKI HOUSE",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "RICH PEOPLE THINGS",
-      "clue": "THE HOME FEATURE THAT MAKES STAIRS FEEL LIKE A CHOICE",
-      "answer": "PERSONAL CHEF",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "RICH PEOPLE THINGS",
-      "clue": "THE WINTER CONVENIENCE THAT MAKES SHOVELS LOOK LOW STATUS",
-      "answer": "GUEST HOUSE KEYS",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "RICH PEOPLE THINGS",
-      "clue": "THE BASEMENT ROOM WHERE GRAPES GET BETTER HOUSING THAN PEOPLE",
-      "answer": "PRIVATE DOCK",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "RICH PEOPLE THINGS",
-      "clue": "THE BACKYARD FLEX FOR PEOPLE WHO SCHEDULE THEIR FUN",
-      "answer": "TENNIS COURT LIGHTS",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "RICH PEOPLE THINGS",
-      "clue": "THE MOVIE ROOM THAT TREATS CUP HOLDERS LIKE ARCHITECTURE",
-      "answer": "HOME THEATER ROW",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "RICH PEOPLE THINGS",
-      "clue": "THE MINI VACATION BUILDING THAT SOMEHOW LIVES NEXT TO THE ACTUAL THIS",
-      "answer": "POOL HOUSE",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "RICH PEOPLE THINGS",
-      "clue": "THE WALLET FLEX THAT MAKES CASHIERS STAND UP STRAIGHT",
-      "answer": "BLACK CARD",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "RICH PEOPLE THINGS",
-      "clue": "THE FOOTWEAR THAT SAYS WEEKEND BUT MEANS TRUST FUND",
-      "answer": "YACHT SHOES",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "THE THIS WHERE THE ART COSTS MORE THAN THE FLIGHT",
-      "answer": "ART BASEL WEEKEND",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "THINGS AT GRANDMAS HOUSE",
+  "daily": {
+    "theme": "THINGS AT GRANDMAS HOUSE",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "THINGS AT GRANDMAS HOUSE",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "GRANDMAS HOUSE STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "THINGS AT GRANDMAS HOUSE",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "GRANDMAS HOUSE TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "THINGS AT GRANDMAS HOUSE",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "GRANDMAS HOUSE CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "THINGS AT GRANDMAS HOUSE",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "GRANDMAS HOUSE GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "THINGS AT GRANDMAS HOUSE",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "GRANDMAS HOUSE MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "THINGS AT GRANDMAS HOUSE",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "GRANDMAS HOUSE SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "THINGS AT GRANDMAS HOUSE",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "GRANDMAS HOUSE BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "THINGS AT GRANDMAS HOUSE",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "GRANDMAS HOUSE GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "THINGS AT GRANDMAS HOUSE",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "GRANDMAS HOUSE SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "THINGS AT GRANDMAS HOUSE",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "GRANDMAS HOUSE HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "THINGS AT GRANDMAS HOUSE",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "GRANDMAS HOUSE SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "GRANDMAS HOUSE FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "FAMILY PHOTO EVIDENCE",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "FAMILY PHOTO EVIDENCE",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "FAMILY PHOTO STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "FAMILY PHOTO EVIDENCE",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "FAMILY PHOTO TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "FAMILY PHOTO EVIDENCE",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "FAMILY PHOTO CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "FAMILY PHOTO EVIDENCE",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "FAMILY PHOTO GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "FAMILY PHOTO EVIDENCE",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "FAMILY PHOTO MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "FAMILY PHOTO EVIDENCE",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "FAMILY PHOTO SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "FAMILY PHOTO EVIDENCE",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "FAMILY PHOTO BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "FAMILY PHOTO EVIDENCE",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "FAMILY PHOTO GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "FAMILY PHOTO EVIDENCE",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "FAMILY PHOTO SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "FAMILY PHOTO EVIDENCE",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "FAMILY PHOTO HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "FAMILY PHOTO EVIDENCE",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "FAMILY PHOTO SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "FAMILY PHOTO FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

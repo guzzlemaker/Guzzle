@@ -1,103 +1,207 @@
 {
   "gameNumber": 79,
   "dateSeed": "2026-10-01",
-  "theme": "DUMB WAYS TO DIE",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "DUMB WAYS TO DIE",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING T-O-S: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "TEXTING ON STAIRS",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "DUMB WAYS TO DIE",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING L-O-C: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "LADDER ON CHAIR",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "DUMB WAYS TO DIE",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING H-D-B: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "HAIR DRYER BATHTUB",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "DUMB WAYS TO DIE",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING F-I-H: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "FIREWORK IN HAND",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "DUMB WAYS TO DIE",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING S-A-C: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "SELFIE AT CLIFF",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "DUMB WAYS TO DIE",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING B-C-S: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "BALCONY CHAIR STUNT",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "DUMB WAYS TO DIE",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING L-F-P: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "LICKING FROZEN POLE",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "DUMB WAYS TO DIE",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING S-I-S: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "SPEEDING IN SNOW",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "DUMB WAYS TO DIE",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING G-I-G: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "GRILLING IN GARAGE",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "DUMB WAYS TO DIE",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING P-W-A: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "PETTING WILD ANIMAL",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "DUMB WAYS TO DIE",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING C-G-C: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "CHASING GOLF CART",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING I-W-L: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "IGNORING WARNING LABEL",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "SPOOKY SEASON STARTER",
+  "daily": {
+    "theme": "SPOOKY SEASON STARTER",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "SPOOKY SEASON STARTER",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "SPOOKY SEASON STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "SPOOKY SEASON STARTER",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "SPOOKY SEASON TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "SPOOKY SEASON STARTER",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "SPOOKY SEASON CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "SPOOKY SEASON STARTER",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "SPOOKY SEASON GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "SPOOKY SEASON STARTER",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "SPOOKY SEASON MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "SPOOKY SEASON STARTER",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "SPOOKY SEASON SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "SPOOKY SEASON STARTER",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "SPOOKY SEASON BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "SPOOKY SEASON STARTER",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "SPOOKY SEASON GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "SPOOKY SEASON STARTER",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "SPOOKY SEASON SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "SPOOKY SEASON STARTER",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "SPOOKY SEASON HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "SPOOKY SEASON STARTER",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "SPOOKY SEASON SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "SPOOKY SEASON FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "HALLOWEEN CANDY RANKINGS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "HALLOWEEN CANDY RANKINGS",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "HALLOWEEN CANDY STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "HALLOWEEN CANDY RANKINGS",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "HALLOWEEN CANDY TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "HALLOWEEN CANDY RANKINGS",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "HALLOWEEN CANDY CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "HALLOWEEN CANDY RANKINGS",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "HALLOWEEN CANDY GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "HALLOWEEN CANDY RANKINGS",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "HALLOWEEN CANDY MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "HALLOWEEN CANDY RANKINGS",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "HALLOWEEN CANDY SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "HALLOWEEN CANDY RANKINGS",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "HALLOWEEN CANDY BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "HALLOWEEN CANDY RANKINGS",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "HALLOWEEN CANDY GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "HALLOWEEN CANDY RANKINGS",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "HALLOWEEN CANDY SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "HALLOWEEN CANDY RANKINGS",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "HALLOWEEN CANDY HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "HALLOWEEN CANDY RANKINGS",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "HALLOWEEN CANDY SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "HALLOWEEN CANDY FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

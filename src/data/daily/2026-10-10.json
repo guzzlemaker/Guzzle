@@ -1,103 +1,207 @@
 {
   "gameNumber": 88,
   "dateSeed": "2026-10-10",
-  "theme": "THINGS THAT SMELL AMAZING",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "THINGS THAT SMELL AMAZING",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING F-C-G: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "FRESH CUT GRASS",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "THINGS THAT SMELL AMAZING",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING B-B: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "BAKERY BREAD",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "THINGS THAT SMELL AMAZING",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING P-C-A: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "PINE CLEANER AISLE",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "THINGS THAT SMELL AMAZING",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING C-C-W: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "CAMPER CABIN WOOD",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "THINGS THAT SMELL AMAZING",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING A-P-C: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "APPLE PIE COOLING",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "THINGS THAT SMELL AMAZING",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING C-B: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "COFFEE BEANS",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "THINGS THAT SMELL AMAZING",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING L-S-B: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "LEMON SOAP BAR",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "THINGS THAT SMELL AMAZING",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING C-R: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "CINNAMON ROLLS",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "THINGS THAT SMELL AMAZING",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING F-O-C: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "FRESHLY OPENED COFFEE",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "THINGS THAT SMELL AMAZING",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING C-C: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "CEDAR CLOSET",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "THINGS THAT SMELL AMAZING",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING B-G: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "BARBECUE GRILL",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING O-A: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "OCEAN AIR",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "BIRTHDAY PARTY CIRCUIT",
+  "daily": {
+    "theme": "BIRTHDAY PARTY CIRCUIT",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "BIRTHDAY PARTY CIRCUIT",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "BIRTHDAY PARTY STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "BIRTHDAY PARTY CIRCUIT",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "BIRTHDAY PARTY TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "BIRTHDAY PARTY CIRCUIT",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "BIRTHDAY PARTY CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "BIRTHDAY PARTY CIRCUIT",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "BIRTHDAY PARTY GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "BIRTHDAY PARTY CIRCUIT",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "BIRTHDAY PARTY MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "BIRTHDAY PARTY CIRCUIT",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "BIRTHDAY PARTY SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "BIRTHDAY PARTY CIRCUIT",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "BIRTHDAY PARTY BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "BIRTHDAY PARTY CIRCUIT",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "BIRTHDAY PARTY GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "BIRTHDAY PARTY CIRCUIT",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "BIRTHDAY PARTY SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "BIRTHDAY PARTY CIRCUIT",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "BIRTHDAY PARTY HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "BIRTHDAY PARTY CIRCUIT",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "BIRTHDAY PARTY SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "BIRTHDAY PARTY FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "PIZZA PARTY MATH",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "PIZZA PARTY MATH",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "PIZZA PARTY STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "PIZZA PARTY MATH",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "PIZZA PARTY TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "PIZZA PARTY MATH",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "PIZZA PARTY CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "PIZZA PARTY MATH",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "PIZZA PARTY GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "PIZZA PARTY MATH",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "PIZZA PARTY MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "PIZZA PARTY MATH",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "PIZZA PARTY SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "PIZZA PARTY MATH",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "PIZZA PARTY BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "PIZZA PARTY MATH",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "PIZZA PARTY GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "PIZZA PARTY MATH",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "PIZZA PARTY SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "PIZZA PARTY MATH",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "PIZZA PARTY HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "PIZZA PARTY MATH",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "PIZZA PARTY SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "PIZZA PARTY FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

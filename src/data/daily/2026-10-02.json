@@ -1,103 +1,207 @@
 {
   "gameNumber": 80,
   "dateSeed": "2026-10-02",
-  "theme": "WEEKEND PROJECTS",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "WEEKEND PROJECTS",
-      "clue": "THE COLOR DECISION THAT BECAME A THREE DAY RELATIONSHIP TEST",
-      "answer": "PAINT THE LIVING ROOM",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "WEEKEND PROJECTS",
-      "clue": "THE WALL BANDAGE APPLIED AFTER FURNITURE LOST A FIGHT",
-      "answer": "PATCH DRYWALL",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "WEEKEND PROJECTS",
-      "clue": "THE OVERHEAD SPINNING PUZZLE THAT QUESTIONS EVERY WIRE YOU TRUST",
-      "answer": "INSTALL CEILING FAN",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "WEEKEND PROJECTS",
-      "clue": "THE LADDER CHORE WITH WET LEAF SOUP AND IMMEDIATE REGRET",
-      "answer": "CLEAN THE GUTTERS",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "WEEKEND PROJECTS",
-      "clue": "A HUMBLE PLUMBING VICTORY ANNOUNCED LIKE A TED TALK",
-      "answer": "I FIXED THE LEAKY FAUCET",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "WEEKEND PROJECTS",
-      "clue": "THE OUTDOOR PLATFORM THAT STARTED AS A SKETCH AND ENDED AT THE HARDWARE STORE",
-      "answer": "BUILD A DECK",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "WEEKEND PROJECTS",
-      "clue": "THE ENTRYWAY UPGRADE THAT MADE THE WHOLE HOUSE DEMAND BETTER SHOES",
-      "answer": "WE REPLACED THE FRONT DOOR",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "WEEKEND PROJECTS",
-      "clue": "THE WALL STORAGE FLEX THAT IMMEDIATELY REQUIRED MORE STUFF",
-      "answer": "I INSTALLED NEW SHELVES",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "WEEKEND PROJECTS",
-      "clue": "THE TILE DECISION THAT SOMEHOW INVOLVED SEVEN TABS AND A STRONG OPINION",
-      "answer": "UPDATE KITCHEN BACKSPLASH",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "WEEKEND PROJECTS",
-      "clue": "THE BACKYARD SQUARE WHERE CHAIRS GATHER TO PRETEND LIFE IS ORGANIZED",
-      "answer": "WE BUILT A NEW PATIO",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "WEEKEND PROJECTS",
-      "clue": "THE BOX OF PROMISES THAT TURNED ONE ALLEN KEY INTO A LIFESTYLE",
-      "answer": "ASSEMBLE FLAT PACK FURNITURE",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "THE DOWNSTAIRS TRANSFORMATION THAT CREATED A SECOND HANGOUT AND MORE DEBT",
-      "answer": "WE FINISHED THE BASEMENT",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "COSTUME PARTY LOGIC",
+  "daily": {
+    "theme": "COSTUME PARTY LOGIC",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "COSTUME PARTY LOGIC",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "COSTUME PARTY STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "COSTUME PARTY LOGIC",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "COSTUME PARTY TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "COSTUME PARTY LOGIC",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "COSTUME PARTY CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "COSTUME PARTY LOGIC",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "COSTUME PARTY GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "COSTUME PARTY LOGIC",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "COSTUME PARTY MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "COSTUME PARTY LOGIC",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "COSTUME PARTY SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "COSTUME PARTY LOGIC",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "COSTUME PARTY BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "COSTUME PARTY LOGIC",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "COSTUME PARTY GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "COSTUME PARTY LOGIC",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "COSTUME PARTY SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "COSTUME PARTY LOGIC",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "COSTUME PARTY HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "COSTUME PARTY LOGIC",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "COSTUME PARTY SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "COSTUME PARTY FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "THINGS IN THE BASEMENT",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "THINGS IN THE BASEMENT",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "BASEMENT STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "THINGS IN THE BASEMENT",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "BASEMENT TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "THINGS IN THE BASEMENT",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "BASEMENT CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "THINGS IN THE BASEMENT",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "BASEMENT GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "THINGS IN THE BASEMENT",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "BASEMENT MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "THINGS IN THE BASEMENT",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "BASEMENT SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "THINGS IN THE BASEMENT",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "BASEMENT BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "THINGS IN THE BASEMENT",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "BASEMENT GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "THINGS IN THE BASEMENT",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "BASEMENT SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "THINGS IN THE BASEMENT",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "BASEMENT HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "THINGS IN THE BASEMENT",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "BASEMENT SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "BASEMENT FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

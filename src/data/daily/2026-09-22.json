@@ -1,103 +1,207 @@
 {
   "gameNumber": 70,
   "dateSeed": "2026-09-22",
-  "theme": "BIRTHDAY PARTY MATH",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "BIRTHDAY PARTY MATH",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING B-A-A: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "BALLOON ARCH ATTEMPT",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "BIRTHDAY PARTY MATH",
-      "clue": "A 2 WORDS SOCIAL SURVIVAL CLUE STARTING C-C: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "CUPCAKE COUNT",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "BIRTHDAY PARTY MATH",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING G-B-L: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "GOODIE BAG LINE",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "BIRTHDAY PARTY MATH",
-      "clue": "A 2 WORDS SOCIAL SURVIVAL CLUE STARTING P-S: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "PINATA SWING",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "BIRTHDAY PARTY MATH",
-      "clue": "A 2 WORDS SOCIAL SURVIVAL CLUE STARTING C-R: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "CANDLE RELIGHT",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "BIRTHDAY PARTY MATH",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING P-C-R: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "PARTY CITY RUN",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "BIRTHDAY PARTY MATH",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING I-C-C: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "ICE CREAM CAKE",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "BIRTHDAY PARTY MATH",
-      "clue": "A 2 WORDS SOCIAL SURVIVAL CLUE STARTING R-M: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "RSVP MAYBE",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "BIRTHDAY PARTY MATH",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING W-T-S: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "WRAPPING TAPE SEARCH",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "BIRTHDAY PARTY MATH",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING B-O-C: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "BACKYARD OBSTACLE COURSE",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "BIRTHDAY PARTY MATH",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING T-Y-N: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "THANK YOU NOTES",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 2 WORDS SOCIAL SURVIVAL CLUE STARTING S-C: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "SUGAR CRASH",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "TAILGATE TRADITIONS",
+  "daily": {
+    "theme": "TAILGATE TRADITIONS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "TAILGATE TRADITIONS",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "TAILGATE TRADITIONS STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "TAILGATE TRADITIONS",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "TAILGATE TRADITIONS TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "TAILGATE TRADITIONS",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "TAILGATE TRADITIONS CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "TAILGATE TRADITIONS",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "TAILGATE TRADITIONS GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "TAILGATE TRADITIONS",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "TAILGATE TRADITIONS MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "TAILGATE TRADITIONS",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "TAILGATE TRADITIONS SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "TAILGATE TRADITIONS",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "TAILGATE TRADITIONS BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "TAILGATE TRADITIONS",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "TAILGATE TRADITIONS GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "TAILGATE TRADITIONS",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "TAILGATE TRADITIONS SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "TAILGATE TRADITIONS",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "TAILGATE TRADITIONS HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "TAILGATE TRADITIONS",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "TAILGATE TRADITIONS SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "TAILGATE TRADITIONS FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "FOOTBALL FOOD LOGIC",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "FOOTBALL FOOD LOGIC",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "FOOTBALL FOOD STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "FOOTBALL FOOD LOGIC",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "FOOTBALL FOOD TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "FOOTBALL FOOD LOGIC",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "FOOTBALL FOOD CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "FOOTBALL FOOD LOGIC",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "FOOTBALL FOOD GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "FOOTBALL FOOD LOGIC",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "FOOTBALL FOOD MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "FOOTBALL FOOD LOGIC",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "FOOTBALL FOOD SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "FOOTBALL FOOD LOGIC",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "FOOTBALL FOOD BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "FOOTBALL FOOD LOGIC",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "FOOTBALL FOOD GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "FOOTBALL FOOD LOGIC",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "FOOTBALL FOOD SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "FOOTBALL FOOD LOGIC",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "FOOTBALL FOOD HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "FOOTBALL FOOD LOGIC",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "FOOTBALL FOOD SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "FOOTBALL FOOD FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

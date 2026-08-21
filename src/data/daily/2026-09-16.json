@@ -1,103 +1,207 @@
 {
   "gameNumber": 64,
   "dateSeed": "2026-09-16",
-  "theme": "CAR OWNER PROBLEMS",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "CAR OWNER PROBLEMS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING C-E-L: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "CHECK ENGINE LIGHT",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "CAR OWNER PROBLEMS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING M-D-I: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "MYSTERY DASHBOARD ICON",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "CAR OWNER PROBLEMS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING L-T-P: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "LOW TIRE PRESSURE",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "CAR OWNER PROBLEMS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING O-C-S: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "OIL CHANGE STICKER",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "CAR OWNER PROBLEMS",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING W-W: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "WINDSHIELD WIPERS",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "CAR OWNER PROBLEMS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING P-G-T: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "PARKING GARAGE TICKET",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "CAR OWNER PROBLEMS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING C-W-R: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "CAR WASH RECEIPT",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "CAR OWNER PROBLEMS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING T-E-K: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "TRUNK EMERGENCY KIT",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "CAR OWNER PROBLEMS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING F-F-N: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "FAST FOOD NAPKINS",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "CAR OWNER PROBLEMS",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING B-P: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "BLUETOOTH PAIRING",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "CAR OWNER PROBLEMS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING B-S-F: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "BUMPER STICKER FADE",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING G-C-C: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "GAS CAP CLICK",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "DOCTOR WAITING ROOM",
+  "daily": {
+    "theme": "DOCTOR WAITING ROOM",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "DOCTOR WAITING ROOM",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "DOCTOR WAITING STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "DOCTOR WAITING ROOM",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "DOCTOR WAITING TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "DOCTOR WAITING ROOM",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "DOCTOR WAITING CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "DOCTOR WAITING ROOM",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "DOCTOR WAITING GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "DOCTOR WAITING ROOM",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "DOCTOR WAITING MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "DOCTOR WAITING ROOM",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "DOCTOR WAITING SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "DOCTOR WAITING ROOM",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "DOCTOR WAITING BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "DOCTOR WAITING ROOM",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "DOCTOR WAITING GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "DOCTOR WAITING ROOM",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "DOCTOR WAITING SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "DOCTOR WAITING ROOM",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "DOCTOR WAITING HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "DOCTOR WAITING ROOM",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "DOCTOR WAITING SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "DOCTOR WAITING FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "PHARMACY AISLE DECISIONS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "PHARMACY AISLE DECISIONS",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "PHARMACY AISLE STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "PHARMACY AISLE DECISIONS",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "PHARMACY AISLE TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "PHARMACY AISLE DECISIONS",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "PHARMACY AISLE CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "PHARMACY AISLE DECISIONS",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "PHARMACY AISLE GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "PHARMACY AISLE DECISIONS",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "PHARMACY AISLE MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "PHARMACY AISLE DECISIONS",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "PHARMACY AISLE SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "PHARMACY AISLE DECISIONS",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "PHARMACY AISLE BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "PHARMACY AISLE DECISIONS",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "PHARMACY AISLE GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "PHARMACY AISLE DECISIONS",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "PHARMACY AISLE SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "PHARMACY AISLE DECISIONS",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "PHARMACY AISLE HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "PHARMACY AISLE DECISIONS",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "PHARMACY AISLE SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "PHARMACY AISLE FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

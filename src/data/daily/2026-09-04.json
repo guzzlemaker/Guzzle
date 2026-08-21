@@ -1,103 +1,207 @@
 {
   "gameNumber": 52,
   "dateSeed": "2026-09-04",
-  "theme": "KITCHEN CONFIDENCE",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "KITCHEN CONFIDENCE",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING S-A-D: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "SMOKE ALARM DINNER",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "KITCHEN CONFIDENCE",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING R-S-M: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "RECIPE SCROLL MARATHON",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "KITCHEN CONFIDENCE",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING G-M: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "GARLIC MEASUREMENT",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "KITCHEN CONFIDENCE",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING S-S: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "SOURDOUGH STARTER",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "KITCHEN CONFIDENCE",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING L-C: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "LEFTOVER CONTAINER",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "KITCHEN CONFIDENCE",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING A-F-E: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "AIR FRYER ERA",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "KITCHEN CONFIDENCE",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING C-I-O: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "CAST IRON OPINIONS",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "KITCHEN CONFIDENCE",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING B-T-S: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "BURNT TOAST SCRAPE",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "KITCHEN CONFIDENCE",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING S-C-D: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "SPICE CABINET DIG",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "KITCHEN CONFIDENCE",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING D-T: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "DISHWASHER TETRIS",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "KITCHEN CONFIDENCE",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING M-P-S: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "MEAL PREP SUNDAY",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING T-B-P: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "TAKEOUT BACKUP PLAN",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "MORNING ROUTINE MAYHEM",
+  "daily": {
+    "theme": "MORNING ROUTINE MAYHEM",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "MORNING ROUTINE MAYHEM",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "MORNING ROUTINE STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "MORNING ROUTINE MAYHEM",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "MORNING ROUTINE TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "MORNING ROUTINE MAYHEM",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "MORNING ROUTINE CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "MORNING ROUTINE MAYHEM",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "MORNING ROUTINE GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "MORNING ROUTINE MAYHEM",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "MORNING ROUTINE MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "MORNING ROUTINE MAYHEM",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "MORNING ROUTINE SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "MORNING ROUTINE MAYHEM",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "MORNING ROUTINE BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "MORNING ROUTINE MAYHEM",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "MORNING ROUTINE GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "MORNING ROUTINE MAYHEM",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "MORNING ROUTINE SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "MORNING ROUTINE MAYHEM",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "MORNING ROUTINE HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "MORNING ROUTINE MAYHEM",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "MORNING ROUTINE SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "MORNING ROUTINE FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "PERMISSION SLIP PANIC",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "PERMISSION SLIP PANIC",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "PERMISSION SLIP STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "PERMISSION SLIP PANIC",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "PERMISSION SLIP TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "PERMISSION SLIP PANIC",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "PERMISSION SLIP CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "PERMISSION SLIP PANIC",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "PERMISSION SLIP GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "PERMISSION SLIP PANIC",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "PERMISSION SLIP MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "PERMISSION SLIP PANIC",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "PERMISSION SLIP SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "PERMISSION SLIP PANIC",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "PERMISSION SLIP BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "PERMISSION SLIP PANIC",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "PERMISSION SLIP GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "PERMISSION SLIP PANIC",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "PERMISSION SLIP SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "PERMISSION SLIP PANIC",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "PERMISSION SLIP HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "PERMISSION SLIP PANIC",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "PERMISSION SLIP SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "PERMISSION SLIP FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

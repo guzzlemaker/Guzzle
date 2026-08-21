@@ -1,103 +1,207 @@
 {
   "gameNumber": 81,
   "dateSeed": "2026-10-03",
-  "theme": "GUESS THE BRAND",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "GUESS THE BRAND",
-      "clue": "THE FAST FOOD HANDFUL THAT SOMEHOW COUNTS AS A SIDE QUEST",
-      "answer": "RED KETCHUP PACKETS",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "GUESS THE BRAND",
-      "clue": "THE CURVED CHECKMARK THAT MADE SNEAKERS FEEL FASTER",
-      "answer": "SWOOSH LOGO",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "GUESS THE BRAND",
-      "clue": "THE FRUIT SILHOUETTE THAT MAKES PEOPLE ARGUE ABOUT CHARGERS",
-      "answer": "BITTEN APPLE",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "GUESS THE BRAND",
-      "clue": "THE COFFEE CUP SIREN WATCHING YOU OVERPAY BEFORE 9 AM",
-      "answer": "GREEN MERMAID",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "GUESS THE BRAND",
-      "clue": "THE BULLSEYE THAT MAKES ERRANDS TURN INTO A CART FULL OF CANDLES",
-      "answer": "RED TARGET CIRCLE",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "GUESS THE BRAND",
-      "clue": "THE CAR BADGE YOUR UNCLE TRUSTS WITH HIS WHOLE PERSONALITY",
-      "answer": "BLUE OVAL",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "GUESS THE BRAND",
-      "clue": "THE PACKAGE SYMBOL THAT SAYS YOUR MONEY LEFT AT CHECKOUT",
-      "answer": "SMILING ARROW",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "GUESS THE BRAND",
-      "clue": "THE DOORBELL SIGHTING THAT MEANS SOMETHING YOU FORGOT YOU ORDERED ARRIVED",
-      "answer": "BROWN DELIVERY TRUCK",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "GUESS THE BRAND",
-      "clue": "THE THEME PARK SILHOUETTE THAT MAKES ADULTS SPRINT FOR CHURROS",
-      "answer": "MOUSE EARS",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "GUESS THE BRAND",
-      "clue": "THE LATE NIGHT HEXAGON THAT CONVINCED YOU DINNER HAD A FOURTH MEAL",
-      "answer": "CRUNCHY WRAP BELL",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "GUESS THE BRAND",
-      "clue": "THE FOUR SYMBOLS THAT TRAINED THUMBS BEFORE ADULT RESPONSIBILITIES",
-      "answer": "PLAYSTATION BUTTONS",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "THE TWO NOTE INTRO THAT MEANS THE COUCH HAS CLAIMED YOU",
-      "answer": "NETFLIX SOUND",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "HAUNTED HOUSE BEHAVIOR",
+  "daily": {
+    "theme": "HAUNTED HOUSE BEHAVIOR",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "HAUNTED HOUSE BEHAVIOR",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "HAUNTED HOUSE STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "HAUNTED HOUSE BEHAVIOR",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "HAUNTED HOUSE TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "HAUNTED HOUSE BEHAVIOR",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "HAUNTED HOUSE CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "HAUNTED HOUSE BEHAVIOR",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "HAUNTED HOUSE GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "HAUNTED HOUSE BEHAVIOR",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "HAUNTED HOUSE MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "HAUNTED HOUSE BEHAVIOR",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "HAUNTED HOUSE SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "HAUNTED HOUSE BEHAVIOR",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "HAUNTED HOUSE BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "HAUNTED HOUSE BEHAVIOR",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "HAUNTED HOUSE GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "HAUNTED HOUSE BEHAVIOR",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "HAUNTED HOUSE SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "HAUNTED HOUSE BEHAVIOR",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "HAUNTED HOUSE HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "HAUNTED HOUSE BEHAVIOR",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "HAUNTED HOUSE SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "HAUNTED HOUSE FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "SCARY MOVIE MISTAKES",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "SCARY MOVIE MISTAKES",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "SCARY MOVIE STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "SCARY MOVIE MISTAKES",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "SCARY MOVIE TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "SCARY MOVIE MISTAKES",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "SCARY MOVIE CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "SCARY MOVIE MISTAKES",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "SCARY MOVIE GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "SCARY MOVIE MISTAKES",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "SCARY MOVIE MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "SCARY MOVIE MISTAKES",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "SCARY MOVIE SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "SCARY MOVIE MISTAKES",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "SCARY MOVIE BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "SCARY MOVIE MISTAKES",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "SCARY MOVIE GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "SCARY MOVIE MISTAKES",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "SCARY MOVIE SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "SCARY MOVIE MISTAKES",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "SCARY MOVIE HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "SCARY MOVIE MISTAKES",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "SCARY MOVIE SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "SCARY MOVIE FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

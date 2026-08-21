@@ -1,103 +1,207 @@
 {
   "gameNumber": 67,
   "dateSeed": "2026-09-19",
-  "theme": "JUNK DRAWER ARCHAEOLOGY",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "JUNK DRAWER ARCHAEOLOGY",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING T-M: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "TAKEOUT MENU",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "JUNK DRAWER ARCHAEOLOGY",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING B-B: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "BUTTON BATTERY",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "JUNK DRAWER ARCHAEOLOGY",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING B-C: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "BIRTHDAY CANDLE",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "JUNK DRAWER ARCHAEOLOGY",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING R-B-B: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "RUBBER BAND BALL",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "JUNK DRAWER ARCHAEOLOGY",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING M-K: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "MYSTERY KEY",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "JUNK DRAWER ARCHAEOLOGY",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING H-P: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "HOTEL PEN",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "JUNK DRAWER ARCHAEOLOGY",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING F-C: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "FOREIGN COIN",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "JUNK DRAWER ARCHAEOLOGY",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING T-T-N: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "TWIST TIE NEST",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "JUNK DRAWER ARCHAEOLOGY",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING B-S: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "BENT SCISSORS",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "JUNK DRAWER ARCHAEOLOGY",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING P-C-C: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "PHONE CHARGER CORD",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "JUNK DRAWER ARCHAEOLOGY",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING O-G-C: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "OLD GIFT CARD",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING L-R-R: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "LINT ROLLER REFILL",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "SATURDAY CLEANING SPRINT",
+  "daily": {
+    "theme": "SATURDAY CLEANING SPRINT",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "SATURDAY CLEANING SPRINT",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "SATURDAY CLEANING STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "SATURDAY CLEANING SPRINT",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "SATURDAY CLEANING TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "SATURDAY CLEANING SPRINT",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "SATURDAY CLEANING CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "SATURDAY CLEANING SPRINT",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "SATURDAY CLEANING GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "SATURDAY CLEANING SPRINT",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "SATURDAY CLEANING MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "SATURDAY CLEANING SPRINT",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "SATURDAY CLEANING SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "SATURDAY CLEANING SPRINT",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "SATURDAY CLEANING BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "SATURDAY CLEANING SPRINT",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "SATURDAY CLEANING GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "SATURDAY CLEANING SPRINT",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "SATURDAY CLEANING SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "SATURDAY CLEANING SPRINT",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "SATURDAY CLEANING HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "SATURDAY CLEANING SPRINT",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "SATURDAY CLEANING SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "SATURDAY CLEANING FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "CLOSET ARCHAEOLOGY",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "CLOSET ARCHAEOLOGY",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "CLOSET ARCHAEOLOGY STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "CLOSET ARCHAEOLOGY",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "CLOSET ARCHAEOLOGY TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "CLOSET ARCHAEOLOGY",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "CLOSET ARCHAEOLOGY CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "CLOSET ARCHAEOLOGY",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "CLOSET ARCHAEOLOGY GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "CLOSET ARCHAEOLOGY",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "CLOSET ARCHAEOLOGY MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "CLOSET ARCHAEOLOGY",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "CLOSET ARCHAEOLOGY SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "CLOSET ARCHAEOLOGY",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "CLOSET ARCHAEOLOGY BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "CLOSET ARCHAEOLOGY",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "CLOSET ARCHAEOLOGY GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "CLOSET ARCHAEOLOGY",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "CLOSET ARCHAEOLOGY SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "CLOSET ARCHAEOLOGY",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "CLOSET ARCHAEOLOGY HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "CLOSET ARCHAEOLOGY",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "CLOSET ARCHAEOLOGY SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "CLOSET ARCHAEOLOGY FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

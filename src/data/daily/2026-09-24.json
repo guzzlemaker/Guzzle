@@ -1,103 +1,207 @@
 {
   "gameNumber": 72,
   "dateSeed": "2026-09-24",
-  "theme": "TEXTING TRANSLATIONS",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "TEXTING TRANSLATIONS",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING K-S-M: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "K SOUNDS MAD",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "TEXTING TRANSLATIONS",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING T-B: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "TYPING BUBBLES",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "TEXTING TRANSLATIONS",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING R-R-S: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "READ RECEIPT SILENCE",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "TEXTING TRANSLATIONS",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING D-T-D: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "DOUBLE TEXT DEBATE",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "TEXTING TRANSLATIONS",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING A-B: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "AUTOCORRECT BETRAYAL",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "TEXTING TRANSLATIONS",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING V-T-C: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "VOICE TEXT CHAOS",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "TEXTING TRANSLATIONS",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING R-T-U: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "REACTION THUMBS UP",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "TEXTING TRANSLATIONS",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING G-T-M: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "GROUP THREAD MUTING",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "TEXTING TRANSLATIONS",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING S-E: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "SCREENSHOT EVIDENCE",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "TEXTING TRANSLATIONS",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING E-T-C: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "EMOJI TONE CHECK",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "TEXTING TRANSLATIONS",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING U-M: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "UNSENT MESSAGE",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 4 WORDS RELATABLE CULTURE CLUE STARTING S-J-S-T: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "SORRY JUST SAW THIS",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "CAR DASHBOARD LIGHTS",
+  "daily": {
+    "theme": "CAR DASHBOARD LIGHTS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "CAR DASHBOARD LIGHTS",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "CAR DASHBOARD STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "CAR DASHBOARD LIGHTS",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "CAR DASHBOARD TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "CAR DASHBOARD LIGHTS",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "CAR DASHBOARD CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "CAR DASHBOARD LIGHTS",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "CAR DASHBOARD GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "CAR DASHBOARD LIGHTS",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "CAR DASHBOARD MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "CAR DASHBOARD LIGHTS",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "CAR DASHBOARD SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "CAR DASHBOARD LIGHTS",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "CAR DASHBOARD BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "CAR DASHBOARD LIGHTS",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "CAR DASHBOARD GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "CAR DASHBOARD LIGHTS",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "CAR DASHBOARD SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "CAR DASHBOARD LIGHTS",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "CAR DASHBOARD HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "CAR DASHBOARD LIGHTS",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "CAR DASHBOARD SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "CAR DASHBOARD FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "MECHANIC TRANSLATION",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "MECHANIC TRANSLATION",
+        "clue": "THE OPENING MOVE THAT MAKES THIS WHOLE LANE SEEM IMMEDIATELY PERSONAL",
+        "answer": "MECHANIC TRANSLATION STARTER PACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "MECHANIC TRANSLATION",
+        "clue": "THE MOMENT THAT TURNS NORMAL LIFE INTO A PERSONAL TRIAL",
+        "answer": "MECHANIC TRANSLATION TINY PANIC",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "MECHANIC TRANSLATION",
+        "clue": "THE ITEMIZED BURDEN THAT SEEMS OBVIOUS AND STILL ANNOYING",
+        "answer": "MECHANIC TRANSLATION CHECKLIST",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "MECHANIC TRANSLATION",
+        "clue": "THE APPROACH MADE RIGHT BEFORE THE DAY STARTS LAUGHING",
+        "answer": "MECHANIC TRANSLATION GAME PLAN",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "MECHANIC TRANSLATION",
+        "clue": "THE NUMBER CRUNCH THAT SOMEHOW FEELS MORE COMPLICATED THAN TAXES",
+        "answer": "MECHANIC TRANSLATION MENTAL MATH",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "MECHANIC TRANSLATION",
+        "clue": "THE LITTLE DETOUR THAT BECOMES A WHOLE ERRAND WITH RECEIPTS",
+        "answer": "MECHANIC TRANSLATION SIDE QUEST",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "MECHANIC TRANSLATION",
+        "clue": "THE CHOICE THAT SAYS YOU ARE TRYING WHILE ALSO ABSOLUTELY WINGING IT",
+        "answer": "MECHANIC TRANSLATION BIG DECISION",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "MECHANIC TRANSLATION",
+        "clue": "THE MINIATURE PROBLEM THAT ATTRACTS MAXIMUM OPINIONS QUICKLY",
+        "answer": "MECHANIC TRANSLATION GROUP DRAMA",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "MECHANIC TRANSLATION",
+        "clue": "THE BITE ADJACENT CHOICE THAT MAKES THE WHOLE CREW SUDDENLY ALERT",
+        "answer": "MECHANIC TRANSLATION SNACK LOGIC",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "MECHANIC TRANSLATION",
+        "clue": "THE UNSPOKEN LAW THAT GETS BROKEN AND THEN DEFENDED WITH CONFIDENCE",
+        "answer": "MECHANIC TRANSLATION HOUSE RULES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "MECHANIC TRANSLATION",
+        "clue": "THE BARELY HOLDING IT TOGETHER VERSION OF THIS SITUATION",
+        "answer": "MECHANIC TRANSLATION SURVIVAL MODE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ULTIMATE LEVEL OF THIS LANE WHEN THE ENERGY IS GONE BUT COMMITMENT REMAINS",
+        "answer": "MECHANIC TRANSLATION FINAL BOSS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }
