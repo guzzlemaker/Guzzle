@@ -1,103 +1,207 @@
 {
   "gameNumber": 43,
   "dateSeed": "2026-08-26",
-  "theme": "CAT PEOPLE KNOW",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "CAT PEOPLE KNOW",
-      "clue": "A 2 WORDS HOUSEHOLD LORE STARTING K-N: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "KEYBOARD NAP",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "CAT PEOPLE KNOW",
-      "clue": "A 2 WORDS HOUSEHOLD LORE STARTING J-S: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "JUDGMENTAL STARE",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "CAT PEOPLE KNOW",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING T-A-Z: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "THREE AM ZOOMIES",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "CAT PEOPLE KNOW",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING C-B-T: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "CARDBOARD BOX THRONE",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "CAT PEOPLE KNOW",
-      "clue": "A 2 WORDS HOUSEHOLD LORE STARTING H-W: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "HAIRBALL WARNING",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "CAT PEOPLE KNOW",
-      "clue": "A 2 WORDS HOUSEHOLD LORE STARTING L-T: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "LITTER TRACKING",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "CAT PEOPLE KNOW",
-      "clue": "A 2 WORDS HOUSEHOLD LORE STARTING S-S: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "SUNBEAM SPOT",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "CAT PEOPLE KNOW",
-      "clue": "A 2 WORDS HOUSEHOLD LORE STARTING C-I: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "CABINET INSPECTION",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "CAT PEOPLE KNOW",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING F-B-P: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "FOOD BOWL PROTEST",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "CAT PEOPLE KNOW",
-      "clue": "A 2 WORDS HOUSEHOLD LORE STARTING C-C: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "CURTAIN CLIMBING",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "CAT PEOPLE KNOW",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING L-P-C: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "LASER POINTER CHASE",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING S-B-T: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "SLOW BLINK TRUST",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "FIRST APARTMENT LIFE",
+  "daily": {
+    "theme": "FIRST APARTMENT LIFE",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "FIRST APARTMENT LIFE",
+        "clue": "THE DECOR CHOICE THAT SAID I OWN THREE FORKS AND A DREAM",
+        "answer": "MILK CRATE SHELF",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "FIRST APARTMENT LIFE",
+        "clue": "THE LIVING ROOM BED THAT CONVINCED EVERYONE THEY WERE PRACTICAL",
+        "answer": "FUTON COUCH",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "FIRST APARTMENT LIFE",
+        "clue": "THE WALL UPGRADE THAT MADE A BAND PRINT FEEL LIKE REAL ART",
+        "answer": "POSTER FRAME",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "FIRST APARTMENT LIFE",
+        "clue": "THE CABINET COLLECTION FROM FOUR RELATIVES AND ONE YARD SALE",
+        "answer": "MISMATCHED PLATES",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "FIRST APARTMENT LIFE",
+        "clue": "THE GUEST BED THAT DEFLATES LIKE IT HAS OPINIONS",
+        "answer": "AIR MATTRESS",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "FIRST APARTMENT LIFE",
+        "clue": "THE METAL CURRENCY THAT CONTROLLED YOUR ENTIRE WARDROBE",
+        "answer": "LAUNDRY QUARTERS",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "FIRST APARTMENT LIFE",
+        "clue": "THE PLASTIC BASKET THAT MADE HYGIENE FEEL LIKE CAMP",
+        "answer": "SHOWER CADDY",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "FIRST APARTMENT LIFE",
+        "clue": "THE THREE MINUTE MEAL PLAN WITH SODIUM AND CONFIDENCE",
+        "answer": "RAMEN DINNER",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "FIRST APARTMENT LIFE",
+        "clue": "THE WOBBLY FURNITURE WITH MORE HISTORY THAN STABILITY",
+        "answer": "HAND ME DOWN TABLE",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "FIRST APARTMENT LIFE",
+        "clue": "THE FIRST ENVELOPE THAT MADE LIGHT SWITCHES FEEL EXPENSIVE",
+        "answer": "UTILITY BILL",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "FIRST APARTMENT LIFE",
+        "clue": "THE TINY COLD BOX THAT HELD BEVERAGES AND ADULTHOOD TOGETHER",
+        "answer": "MINI FRIDGE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE MONTHLY PAPER GOODBYE TO MOST OF YOUR PAYCHECK",
+        "answer": "RENT CHECK",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "SNACKS THAT RAISED US",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "SNACKS THAT RAISED US",
+        "clue": "THE LUNCHBOX SUGAR GRENADE THAT CONVINCED CHILDREN THEY UNDERSTOOD FINE DINING",
+        "answer": "GUSHERS",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "SNACKS THAT RAISED US",
+        "clue": "THE COOKIE DIP CEREMONY THAT MADE FROSTING FEEL LIKE A SCHOOL SUPPLY",
+        "answer": "DUNKAROOS",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "SNACKS THAT RAISED US",
+        "clue": "THE SILVER POUCH THAT TAUGHT US PUNCTURE ANXIETY",
+        "answer": "CAPRI SUN",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "SNACKS THAT RAISED US",
+        "clue": "THE HOT LITTLE MOUTH TRAPS EVERYONE ATE BEFORE LEARNING PATIENCE",
+        "answer": "PIZZA ROLLS",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "SNACKS THAT RAISED US",
+        "clue": "THE DAIRY ROPE THAT ONLY COUNTS IF YOU PEEL IT CORRECTLY",
+        "answer": "STRING CHEESE",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "SNACKS THAT RAISED US",
+        "clue": "THE TINY COMPARTMENT MEAL THAT MADE KIDS FEEL LIKE CHARCUTERIE EXPERTS",
+        "answer": "LUNCHABLES",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "SNACKS THAT RAISED US",
+        "clue": "THE ORANGE SNACK ANIMAL THAT LIVED IN EVERY CUP HOLDER",
+        "answer": "GOLDFISH CRACKERS",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "SNACKS THAT RAISED US",
+        "clue": "THE CHOCOLATE RECTANGLE WITH SPRINKLES FROM ANOTHER PLANET",
+        "answer": "COSMIC BROWNIES",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "SNACKS THAT RAISED US",
+        "clue": "THE SUMMER WOODEN EVIDENCE LEFT AFTER A VERY COLD GOOD DECISION",
+        "answer": "POPSICLE STICKS",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "SNACKS THAT RAISED US",
+        "clue": "THE ORANGE DUSTED SPHERES THAT STAINED FINGERS AND CHILDHOODS",
+        "answer": "CHEESE BALLS",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "SNACKS THAT RAISED US",
+        "clue": "THE TINY COOKIE ZOO WHERE EVERY SPECIES TASTED EXACTLY THE SAME",
+        "answer": "ANIMAL CRACKERS",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE CARDBOARD DRINK THAT ALWAYS ENDED WITH A STRAW PROBLEM",
+        "answer": "JUICE BOX",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

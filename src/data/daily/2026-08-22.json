@@ -1,103 +1,207 @@
 {
   "gameNumber": 39,
   "dateSeed": "2026-08-22",
-  "theme": "GEN X SURVIVAL KIT",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "GEN X SURVIVAL KIT",
-      "clue": "A 2 WORDS TIME CAPSULE STARTING L-A: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "LATCHKEY AFTERNOON",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "GEN X SURVIVAL KIT",
-      "clue": "A 3 WORDS TIME CAPSULE STARTING M-S-B: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "MIXTAPE SIDE B",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "GEN X SURVIVAL KIT",
-      "clue": "A 2 WORDS TIME CAPSULE STARTING P-Q: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "PAYPHONE QUARTER",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "GEN X SURVIVAL KIT",
-      "clue": "A 3 WORDS TIME CAPSULE STARTING M-M-V: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "MTV MUSIC VIDEOS",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "GEN X SURVIVAL KIT",
-      "clue": "A 3 WORDS TIME CAPSULE STARTING R-R-B: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "ROLLER RINK BIRTHDAY",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "GEN X SURVIVAL KIT",
-      "clue": "A 3 WORDS TIME CAPSULE STARTING A-H-S: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "ARCADE HIGH SCORE",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "GEN X SURVIVAL KIT",
-      "clue": "A 3 WORDS TIME CAPSULE STARTING C-P-T: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "CASSETTE PENCIL TRICK",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "GEN X SURVIVAL KIT",
-      "clue": "A 3 WORDS TIME CAPSULE STARTING C-P-B: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "CORDLESS PHONE BATTERY",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "GEN X SURVIVAL KIT",
-      "clue": "A 3 WORDS TIME CAPSULE STARTING N-T-G: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "NEWSPAPER TV GUIDE",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "GEN X SURVIVAL KIT",
-      "clue": "A 3 WORDS TIME CAPSULE STARTING F-T-R: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "FROSTED TIPS REGRET",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "GEN X SURVIVAL KIT",
-      "clue": "A 2 WORDS TIME CAPSULE STARTING G-F: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "GRUNGE FLANNEL",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS TIME CAPSULE STARTING W-H-D: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "WATER HOSE DRINK",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "EVERYDAY NOSTALGIA",
+  "daily": {
+    "theme": "EVERYDAY NOSTALGIA",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "EVERYDAY NOSTALGIA",
+        "clue": "THE LITTLE BOOKLET THAT DECIDED YOUR NIGHT BEFORE STREAMING MADE US ALL TOO POWERFUL",
+        "answer": "TV GUIDE",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "EVERYDAY NOSTALGIA",
+        "clue": "THE PAJAMA MORNING CEREMONY BEFORE KIDS HAD THEIR OWN TABLETS",
+        "answer": "SATURDAY CARTOONS",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "EVERYDAY NOSTALGIA",
+        "clue": "THE RECORDED LOVE LANGUAGE THAT REQUIRED TIMING AND A VERY STEADY FINGER",
+        "answer": "MIXTAPE SIDE B",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "EVERYDAY NOSTALGIA",
+        "clue": "THE SCREAMING ROBOT SOUND THAT MEANT THE INTERNET WAS PUTTING ON SHOES",
+        "answer": "DIAL UP MODEM",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "EVERYDAY NOSTALGIA",
+        "clue": "THE WEEKEND RENTAL RITUAL WHERE CHOOSING THE MOVIE TOOK LONGER THAN WATCHING IT",
+        "answer": "VIDEO STORE FRIDAY",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "EVERYDAY NOSTALGIA",
+        "clue": "THE FOLDING ROAD PUZZLE THAT NEVER WENT BACK THE SAME WAY TWICE",
+        "answer": "PAPER MAP",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "EVERYDAY NOSTALGIA",
+        "clue": "THE SCREEN FIX EVERYONE ADJUSTED LIKE THEY WORKED FOR NASA",
+        "answer": "VCR TRACKING",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "EVERYDAY NOSTALGIA",
+        "clue": "THE TINY ONLINE ROSTER WHERE FRIENDSHIP LOOKED LIKE A GREEN DOT",
+        "answer": "BUDDY LIST",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "EVERYDAY NOSTALGIA",
+        "clue": "THE TWENTY FOUR SHOT GAMBLE WHERE EVERY MEMORY HAD TO WAIT",
+        "answer": "FILM ROLL",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "EVERYDAY NOSTALGIA",
+        "clue": "THE TEENAGE DINNER DETOUR THAT MADE THE WHOLE MALL SMELL LIKE SALT",
+        "answer": "PRETZEL STAND",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "EVERYDAY NOSTALGIA",
+        "clue": "THE HOUSEHOLD WALKIE TALKIE THAT ALWAYS DIED DURING IMPORTANT GOSSIP",
+        "answer": "CORDLESS PHONE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE RENTAL STORE PUNISHMENT THAT MADE FORGETTING FEEL EXPENSIVE",
+        "answer": "LATE FEES",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "PARENTING SIDE QUESTS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "PARENTING SIDE QUESTS",
+        "clue": "THE FINAL BOOK REQUEST THAT APPEARS RIGHT WHEN FREEDOM IS VISIBLE",
+        "answer": "BEDTIME STORY",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "PARENTING SIDE QUESTS",
+        "clue": "THE MORNING CURB CIRCUS WHERE EVERY CAR IS APPARENTLY THE MAIN CHARACTER",
+        "answer": "SCHOOL DROP OFF",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "PARENTING SIDE QUESTS",
+        "clue": "THE NOON MEAL YOU PREPARE LOVINGLY SO IT CAN RETURN HOME UNTOUCHED",
+        "answer": "PACKED LUNCH",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "PARENTING SIDE QUESTS",
+        "clue": "THE BACK ROW CONTRAPTION THAT MAKES NORMAL ADULTS QUESTION ENGINEERING",
+        "answer": "CAR SEAT",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "PARENTING SIDE QUESTS",
+        "clue": "THE SINGLE FOOT EMERGENCY THAT ONLY HAPPENS WHEN YOU ARE ALREADY LATE",
+        "answer": "LOST SHOE",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "PARENTING SIDE QUESTS",
+        "clue": "THE MORNING HAIR GEL CEREMONY THAT LASTS UNTIL THE PARKING LOT",
+        "answer": "PICTURE DAY",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "PARENTING SIDE QUESTS",
+        "clue": "THE BABY SUPPLY SUITCASE FOR A TWENTY MINUTE ERRAND",
+        "answer": "DIAPER BAG",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "PARENTING SIDE QUESTS",
+        "clue": "THE TINY TOILET BOOT CAMP WHERE STICKERS BECOME LEGAL TENDER",
+        "answer": "POTTY TRAINING",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "PARENTING SIDE QUESTS",
+        "clue": "THE SIDEWALK NAP MACHINE POWERED BY COFFEE AND FALSE HOPE",
+        "answer": "STROLLER WALK",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "PARENTING SIDE QUESTS",
+        "clue": "THE LIVING ROOM LANDMINE REMOVAL PROJECT NOBODY BID ON",
+        "answer": "TOY CLEANUP",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "PARENTING SIDE QUESTS",
+        "clue": "THE AFTERNOON VEHICLE PARADE WHERE PATIENCE QUIETLY LEAVES THE BODY",
+        "answer": "CARPOOL LINE",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE TINY BACKPACK MILESTONE THAT MAKES GROWN UPS ACT NORMAL POORLY",
+        "answer": "FIRST DAY OF SCHOOL",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

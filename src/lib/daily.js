@@ -83,6 +83,31 @@ export function selectDailyAndBonusTrack(sets, officialDate) {
     };
   }
 
+  const scheduledSet = sortedSets[dailyIndex];
+  const nextScheduledSet = sortedSets.find((set) => set.dateSeed > officialDate) ?? null;
+
+  if (scheduledSet.daily || scheduledSet.bonus) {
+    return {
+      daily: normalizeTrackSet(
+        {
+          ...scheduledSet.daily,
+          gameNumber: scheduledSet.daily?.gameNumber ?? scheduledSet.gameNumber,
+        },
+        DAILY_TRACK_TYPE,
+        officialDate,
+      ),
+      bonus: normalizeTrackSet(
+        {
+          ...scheduledSet.bonus,
+          gameNumber: scheduledSet.bonus?.gameNumber ?? scheduledSet.gameNumber,
+        },
+        BONUS_TRACK_TYPE,
+        officialDate,
+      ),
+      nextScheduledSet,
+    };
+  }
+
   const bonusOffset = Math.max(1, Math.ceil(sortedSets.length / 2));
   const bonusIndex = (dailyIndex + bonusOffset) % sortedSets.length;
   const bonusSet = sortedSets.length > 1 ? sortedSets[bonusIndex] : null;
@@ -90,7 +115,7 @@ export function selectDailyAndBonusTrack(sets, officialDate) {
   return {
     daily: normalizeTrackSet(sortedSets[dailyIndex], DAILY_TRACK_TYPE, officialDate),
     bonus: normalizeTrackSet(bonusSet, BONUS_TRACK_TYPE, officialDate),
-    nextScheduledSet: sortedSets.find((set) => set.dateSeed > officialDate) ?? null,
+    nextScheduledSet,
   };
 }
 

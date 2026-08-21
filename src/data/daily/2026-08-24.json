@@ -1,103 +1,207 @@
 {
   "gameNumber": 41,
   "dateSeed": "2026-08-24",
-  "theme": "HOME PROJECT REGRETS",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "HOME PROJECT REGRETS",
-      "clue": "A 4 WORDS REAL LIFE SIDE QUEST STARTING M-O-C-T: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "MEASURED ONCE CUT TWICE",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "HOME PROJECT REGRETS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING P-D-A: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "PATCH DRYWALL AGAIN",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "HOME PROJECT REGRETS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING P-S-W: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "PAINT SAMPLE WALL",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "HOME PROJECT REGRETS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING M-A-W: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "MISSING ALLEN WRENCH",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "HOME PROJECT REGRETS",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING C-S: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "CROOKED SHELF",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "HOME PROJECT REGRETS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING C-F-Q: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "CEILING FAN QUESTION",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "HOME PROJECT REGRETS",
-      "clue": "A 4 WORDS REAL LIFE SIDE QUEST STARTING L-F-R-T: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "LEAKY FAUCET ROUND TWO",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "HOME PROJECT REGRETS",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING G-C: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "GUTTER CLEANOUT",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "HOME PROJECT REGRETS",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING B-D: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "BACKSPLASH DETOUR",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "HOME PROJECT REGRETS",
-      "clue": "A 2 WORDS REAL LIFE SIDE QUEST STARTING G-S: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "GARAGE SHELVING",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "HOME PROJECT REGRETS",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING P-F-B: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "PATIO FURNITURE BOX",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS REAL LIFE SIDE QUEST STARTING B-D-S: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "BASEMENT DUST STORM",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "THINGS MOMS SAY",
+  "daily": {
+    "theme": "THINGS MOMS SAY",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "THINGS MOMS SAY",
+        "clue": "THE FOUR WORD LEGAL SYSTEM THAT REQUIRED NO FURTHER EVIDENCE",
+        "answer": "BECAUSE I SAID SO",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "THINGS MOMS SAY",
+        "clue": "THE PHONE COMMAND THAT TURNED SILENCE INTO A WELLNESS CHECK",
+        "answer": "TEXT ME BACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "THINGS MOMS SAY",
+        "clue": "THE ORIGINAL LOCATION SHARING WITH MORE GUILT AND BETTER BATTERY LIFE",
+        "answer": "CALL WHEN YOU ARRIVE",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "THINGS MOMS SAY",
+        "clue": "THE MORNING ADVICE THAT BECAME RUDELY CORRECT AFTER AGE THIRTY",
+        "answer": "EAT A REAL BREAKFAST",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "THINGS MOMS SAY",
+        "clue": "THE DOORWAY COMMAND THAT COULD HAVE SAVED THE WHOLE DAY",
+        "answer": "CHECK YOUR BAG",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "THINGS MOMS SAY",
+        "clue": "THE TRAFFIC LECTURE THAT STILL PLAYS IN YOUR HEAD AT CROSSWALKS",
+        "answer": "LOOK BOTH WAYS",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "THINGS MOMS SAY",
+        "clue": "THE MEMORY SOLUTION EVERYONE IGNORES BEFORE IMMEDIATELY FORGETTING",
+        "answer": "WRITE IT DOWN",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "THINGS MOMS SAY",
+        "clue": "THE PAPERWORK PROPHECY THAT ONLY MATTERS AFTER YOU THREW THEM AWAY",
+        "answer": "SAVE YOUR RECEIPTS",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "THINGS MOMS SAY",
+        "clue": "THE PURSE BASED SURVIVAL PLAN THAT HAS SAVED ENTIRE OUTINGS",
+        "answer": "PACK SNACKS",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "THINGS MOMS SAY",
+        "clue": "THE FURNITURE PROTECTION LAW NOBODY RESPECTED UNTIL THEY BOUGHT A TABLE",
+        "answer": "USE A COASTER",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "THINGS MOMS SAY",
+        "clue": "THE DOORWAY SAFETY LOOP THAT CAN HAPPEN THREE TIMES",
+        "answer": "CHECK THE LOCKS",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE VICTORY LAP SHE TRIES NOT TO TAKE BUT ABSOLUTELY EARNED",
+        "answer": "I TOLD YOU SO",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "STUFF DADS PRETEND TO KNOW",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "STUFF DADS PRETEND TO KNOW",
+        "clue": "THE WALL DEVICE EVERY FATHER TREATS LIKE NATIONAL SECURITY",
+        "answer": "THERMOSTAT RULES",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "STUFF DADS PRETEND TO KNOW",
+        "clue": "THE OUTDOOR NUMBER HE DISCUSSES LIKE A NASA LAUNCH WINDOW",
+        "answer": "GRILL TEMPERATURE",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "STUFF DADS PRETEND TO KNOW",
+        "clue": "THE CAR FACT HE CHECKS WITH THE ENERGY OF A PIT CREW CAPTAIN",
+        "answer": "TIRE PRESSURE",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "STUFF DADS PRETEND TO KNOW",
+        "clue": "THE INVISIBLE BORDER THAT TURNS MOWING INTO INTERNATIONAL DIPLOMACY",
+        "answer": "PROPERTY LINES",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "STUFF DADS PRETEND TO KNOW",
+        "clue": "THE BEEPING TOOL THAT ALWAYS COMES WITH THE SAME JOKE",
+        "answer": "STUD FINDER",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "STUFF DADS PRETEND TO KNOW",
+        "clue": "THE BASEMENT CYLINDER HE EXPLAINS WHILE ALSO LOOKING SLIGHTLY WORRIED",
+        "answer": "WATER HEATER",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "STUFF DADS PRETEND TO KNOW",
+        "clue": "THE VEHICLE RITUAL HE MENTIONS LIKE HE INVENTED ENGINES",
+        "answer": "OIL CHANGE",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "STUFF DADS PRETEND TO KNOW",
+        "clue": "THE CEILING BULB HE FIXES LIKE THE WHOLE HOUSE WAS HELD HOSTAGE",
+        "answer": "GARAGE LIGHT",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "STUFF DADS PRETEND TO KNOW",
+        "clue": "THE STORAGE SYSTEM THAT SOMEHOW NEEDS A SPEECH",
+        "answer": "GARAGE SHELVES",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "STUFF DADS PRETEND TO KNOW",
+        "clue": "THE COUCH COMMAND CENTER HE CLAIMS TO UNDERSTAND COMPLETELY",
+        "answer": "REMOTE CONTROL",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "STUFF DADS PRETEND TO KNOW",
+        "clue": "THE LOUD DRIVEWAY TOY THAT MAKES HIM FEEL LIKE A SUPERHERO",
+        "answer": "POWER WASHER",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE METAL CYLINDER HE TAPS LIKE IT WILL ANSWER HONESTLY",
+        "answer": "PROPANE TANK",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

@@ -1,103 +1,207 @@
 {
   "gameNumber": 47,
   "dateSeed": "2026-08-30",
-  "theme": "WEDDING SEASON",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "WEDDING SEASON",
-      "clue": "A 4 WORDS SOCIAL SURVIVAL CLUE STARTING S-T-D-M: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "SAVE THE DATE MAGNET",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "WEDDING SEASON",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING O-B-S: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "OPEN BAR STRATEGY",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "WEDDING SEASON",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING S-C-D: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "SEATING CHART DIPLOMACY",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "WEDDING SEASON",
-      "clue": "A 2 WORDS SOCIAL SURVIVAL CLUE STARTING G-T: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "GROOMSMAN TOAST",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "WEDDING SEASON",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING B-G-T: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "BRIDESMAID GROUP TEXT",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "WEDDING SEASON",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING G-R-S: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "GIFT REGISTRY SCROLL",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "WEDDING SEASON",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING D-F-C: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "DANCE FLOOR COURAGE",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "WEDDING SEASON",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING P-B-P: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "PHOTO BOOTH PROPS",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "WEDDING SEASON",
-      "clue": "A 2 WORDS SOCIAL SURVIVAL CLUE STARTING R-D: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "RSVP DEADLINE",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "WEDDING SEASON",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING C-C-C: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "CAKE CUTTING CROWD",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "WEDDING SEASON",
-      "clue": "A 3 WORDS SOCIAL SURVIVAL CLUE STARTING B-T-D: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "BOUQUET TOSS DUCK",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 2 WORDS SOCIAL SURVIVAL CLUE STARTING S-S: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "SPARKLER SENDOFF",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "THE FAMILY CALENDAR",
+  "daily": {
+    "theme": "THE FAMILY CALENDAR",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "THE FAMILY CALENDAR",
+        "clue": "THE RECTANGLE ON THE SCHEDULE THAT SOMEHOW CONTROLS THE WHOLE HOUSE",
+        "answer": "SOCCER PRACTICE",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "THE FAMILY CALENDAR",
+        "clue": "THE TINY SQUARE OF DOOM EVERYONE PRETENDS THEY DID NOT FORGET",
+        "answer": "DENTIST APPOINTMENT",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "THE FAMILY CALENDAR",
+        "clue": "THE AFTER SCHOOL ITEM THAT TURNS DINNER INTO A LOGISTICS PUZZLE",
+        "answer": "PIANO LESSON",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "THE FAMILY CALENDAR",
+        "clue": "THE WEEKEND EVENT THAT REQUIRES A GIFT BAG AND EMOTIONAL STAMINA",
+        "answer": "BIRTHDAY PARTY",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "THE FAMILY CALENDAR",
+        "clue": "THE EVENING MEETING WHERE CHAIRS ARE SMALL AND TRUTH IS LARGE",
+        "answer": "PARENT TEACHER CONFERENCE",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "THE FAMILY CALENDAR",
+        "clue": "THE WEEKLY REMINDER THAT SOMEONE STILL MISSES WITH CONFIDENCE",
+        "answer": "TRASH PICKUP",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "THE FAMILY CALENDAR",
+        "clue": "THE WAITING ROOM COMMITMENT THAT EATS HALF A DAY FOR TEN MINUTES",
+        "answer": "DOCTOR VISIT",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "THE FAMILY CALENDAR",
+        "clue": "THE SCHOOL ADVENTURE THAT NEEDS MONEY PAPERWORK AND A BAGGED MEAL",
+        "answer": "FIELD TRIP",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "THE FAMILY CALENDAR",
+        "clue": "THE FAMILY FUN SLOT THAT CAN BECOME A COURTROOM",
+        "answer": "GAME NIGHT",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "THE FAMILY CALENDAR",
+        "clue": "THE CALENDAR PROMISE MADE THREE WEEKS AFTER IT WAS NEEDED",
+        "answer": "HAIRCUT TIME",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "THE FAMILY CALENDAR",
+        "clue": "THE HAPPY LITTLE BOX THAT IMMEDIATELY ATTRACTS BILLS",
+        "answer": "PAYDAY FRIDAY",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE NUMBER EVERYONE CHECKS WHILE REAL LIFE GETS LOUDER",
+        "answer": "VACATION COUNTDOWN",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "THINGS WE ALL OVERPACK",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "THINGS WE ALL OVERPACK",
+        "clue": "THE VACATION INSURANCE POLICY EVERYONE BRINGS LIKE DISASTER IS SCHEDULED",
+        "answer": "EXTRA UNDERWEAR",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "THINGS WE ALL OVERPACK",
+        "clue": "THE FOOTWEAR BACKUP PACKED LIKE WEATHER AND FATE ARE BOTH AGAINST YOU",
+        "answer": "EXTRA SOCKS",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "THINGS WE ALL OVERPACK",
+        "clue": "THE SUITCASE WEIGHT CAUSED BY IMAGINARY PERSONALITIES",
+        "answer": "TOO MANY SHOES",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "THINGS WE ALL OVERPACK",
+        "clue": "THE CLOTHING PLAN FOR A VERSION OF YOU WITH BIGGER PLANS",
+        "answer": "BACKUP OUTFIT",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "THINGS WE ALL OVERPACK",
+        "clue": "THE TRAVEL PANTRY BUILT FOR A THREE HOUR DRIVE AND A SMALL EMERGENCY",
+        "answer": "SNACK BAG",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "THINGS WE ALL OVERPACK",
+        "clue": "THE LITTLE MEDICAL BOX THAT MAKES EVERYONE FEEL OUTDOORSY",
+        "answer": "FIRST AID KIT",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "THINGS WE ALL OVERPACK",
+        "clue": "THE BULKY FABRIC STACK THAT TAKES OVER THE ENTIRE CAR",
+        "answer": "BEACH TOWELS",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "THINGS WE ALL OVERPACK",
+        "clue": "THE WEATHER ITEM PACKED FOR A FORECAST NO ONE BELIEVES",
+        "answer": "RAIN JACKET",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "THINGS WE ALL OVERPACK",
+        "clue": "THE OPTIMISTIC READING PLAN FROM SOMEONE WHO WILL SCROLL INSTEAD",
+        "answer": "BOOK STACK",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "THINGS WE ALL OVERPACK",
+        "clue": "THE ZIPPERED BATHROOM THAT SOMEHOW WEIGHS AS MUCH AS A PET",
+        "answer": "TOILETRY BAG",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "THINGS WE ALL OVERPACK",
+        "clue": "THE NECK DONUT THAT PROMISES COMFORT AND DELIVERS A PUBLIC NAP",
+        "answer": "TRAVEL PILLOW",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE TINY AIR MACHINE PACKED BY SOMEONE WHO KNOWS HOTEL ROOMS",
+        "answer": "PORTABLE FAN",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

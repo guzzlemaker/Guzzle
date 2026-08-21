@@ -1,103 +1,207 @@
 {
   "gameNumber": 46,
   "dateSeed": "2026-08-29",
-  "theme": "AIRPORT CHAOS",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "AIRPORT CHAOS",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING S-L-S: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "SECURITY LINE SHUFFLE",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "AIRPORT CHAOS",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING B-P-R: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "BOARDING PASS REFRESH",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "AIRPORT CHAOS",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING M-S-L: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "MIDDLE SEAT LOTTERY",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "AIRPORT CHAOS",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING O-B-B: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "OVERHEAD BIN BATTLE",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "AIRPORT CHAOS",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING G-C-S: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "GATE CHANGE SPRINT",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "AIRPORT CHAOS",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING L-B-D: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "LIQUIDS BAG DRAMA",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "AIRPORT CHAOS",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING D-F-S: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "DELAYED FLIGHT SIGH",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "AIRPORT CHAOS",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING T-F-P: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "TERMINAL FOOD PRICES",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "AIRPORT CHAOS",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING L-L-C: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "LOST LUGGAGE COUNTER",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "AIRPORT CHAOS",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING N-P-P: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "NECK PILLOW PURCHASE",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "AIRPORT CHAOS",
-      "clue": "A 2 WORDS TRAVEL MEMORY STARTING T-P: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "TURBULENCE PRAYER",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING L-G-A: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "LAST GATE ANNOUNCEMENT",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "BACKSEAT MEMORIES",
+  "daily": {
+    "theme": "BACKSEAT MEMORIES",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "BACKSEAT MEMORIES",
+        "clue": "THE ROAD TRIP PEACE TREATY THAT LASTED ABOUT SEVEN SECONDS",
+        "answer": "STOP TOUCHING ME",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "BACKSEAT MEMORIES",
+        "clue": "THE FAMILY VEHICLE THRONE EVERY SIBLING BELIEVED THEY DESERVED",
+        "answer": "WINDOW SEAT",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "BACKSEAT MEMORIES",
+        "clue": "THE LONG CAR WHERE CHILDREN FACED BACKWARD LIKE TINY TOUR GUIDES",
+        "answer": "STATION WAGON",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "BACKSEAT MEMORIES",
+        "clue": "THE HIGHWAY REWARD THAT TURNED EVERY EXIT SIGN INTO HOPE",
+        "answer": "FAST FOOD STOP",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "BACKSEAT MEMORIES",
+        "clue": "THE NECK BENDING SLEEP THAT COUNTS AS BOTH REST AND INJURY",
+        "answer": "ROAD TRIP NAP",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "BACKSEAT MEMORIES",
+        "clue": "THE BORING CAR ACTIVITY THAT SOMEHOW BECAME A COMPETITION",
+        "answer": "LICENSE PLATE GAME",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "BACKSEAT MEMORIES",
+        "clue": "THE VEHICLE CUSHION WHERE OLD SNACKS WENT TO RETIRE",
+        "answer": "CRUMB SEAT",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "BACKSEAT MEMORIES",
+        "clue": "THE FAMILY CAR TERRITORY WHERE SIBLING LAW WAS WRITTEN IN CRUMBS",
+        "answer": "BACK ROW",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "BACKSEAT MEMORIES",
+        "clue": "THE EMERGENCY ITEM NO ONE WANTS BUT EVERYONE RESPECTS",
+        "answer": "CAR SICK BAG",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "BACKSEAT MEMORIES",
+        "clue": "THE WIRE HANGING FROM THE DASH THAT MADE MUSIC FEEL TECHNICAL",
+        "answer": "CASSETTE ADAPTER",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "BACKSEAT MEMORIES",
+        "clue": "THE FRONT SEAT POWER MOVE THAT ENDED EVERY AIRFLOW DREAM",
+        "answer": "WINDOW LOCK",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE SUITCASE STACK THAT LOOKED LIKE A FAMILY WAS MOVING FOREVER",
+        "answer": "TRUNK LUGGAGE",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "SUBURBAN LEGENDS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "SUBURBAN LEGENDS",
+        "clue": "THE QUIET STREET CIRCLE WHERE KIDS LEARNED BIKES AND GROWNUPS LEARNED GOSSIP",
+        "answer": "CUL DE SAC",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "SUBURBAN LEGENDS",
+        "clue": "THE WINDOW BASED SECURITY SYSTEM POWERED BY CURIOSITY",
+        "answer": "CURTAIN PEEK",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "SUBURBAN LEGENDS",
+        "clue": "THE PAPER NOTICE THAT MADE YARD HEIGHT FEEL CRIMINAL",
+        "answer": "GRASS WARNING",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "SUBURBAN LEGENDS",
+        "clue": "THE LAWN SHOWER THAT ALWAYS ATTACKS ONE SIDEWALK VICTIM",
+        "answer": "SPRINKLER SYSTEM",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "SUBURBAN LEGENDS",
+        "clue": "THE DRIVEWAY STORE WHERE EVERYONE SELLS THE SAME BABY GEAR",
+        "answer": "GARAGE SALE",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "SUBURBAN LEGENDS",
+        "clue": "THE OUTDOOR SOCIAL EVENT WHERE SOMEONE BRINGS TOO MUCH PASTA SALAD",
+        "answer": "BLOCK PARTY",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "SUBURBAN LEGENDS",
+        "clue": "THE AFTER SCHOOL TRAFFIC PATTERN THAT SHOULD HAVE ITS OWN ZIP CODE",
+        "answer": "MINIVAN PARADE",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "SUBURBAN LEGENDS",
+        "clue": "THE SMALL NEIGHBOR GESTURE THAT CAN MEAN HELLO OR I SAW THAT",
+        "answer": "PORCH WAVE",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "SUBURBAN LEGENDS",
+        "clue": "THE DRIVEWAY LANDMARK THAT SURVIVES THREE DIFFERENT OWNERS",
+        "answer": "BASKETBALL HOOP",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "SUBURBAN LEGENDS",
+        "clue": "THE GIANT FRONT YARD PILE THAT SAYS A WEEKEND HAS BEEN CLAIMED",
+        "answer": "MULCH DELIVERY",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "SUBURBAN LEGENDS",
+        "clue": "THE CURB CEREMONY WHERE EVERY BIN MUST FACE THE CORRECT DIRECTION",
+        "answer": "TRASH DAY",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE FRONT DOOR LIE THAT PRETENDS EVERYONE IS READY FOR COMPANY",
+        "answer": "WELCOME MAT",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

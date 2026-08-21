@@ -1,103 +1,207 @@
 {
   "gameNumber": 48,
   "dateSeed": "2026-08-31",
-  "theme": "FIRST WORLD PROBLEMS",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "FIRST WORLD PROBLEMS",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING D-S-W: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "DIM SCREEN WARNING",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "FIRST WORLD PROBLEMS",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING S-W-M: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "SLOW WIFI MELTDOWN",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "FIRST WORLD PROBLEMS",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING R-C-M: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "REMOTE CONTROL MISSING",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "FIRST WORLD PROBLEMS",
-      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING C-F: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "COLD FRIES",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "FIRST WORLD PROBLEMS",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING S-I-C: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "SMALL ICE CUBES",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "FIRST WORLD PROBLEMS",
-      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING S-B: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "STREAMING BUFFERING",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "FIRST WORLD PROBLEMS",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING W-C-O: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "WRONG COFFEE ORDER",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "FIRST WORLD PROBLEMS",
-      "clue": "A 2 WORDS CULTURE CHAOS CLUE STARTING P-D: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "PACKAGE DELAY",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "FIRST WORLD PROBLEMS",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING F-C-S: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "FULL CLOUD STORAGE",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "FIRST WORLD PROBLEMS",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING N-P-S: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "NO PARKING SPOT",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "FIRST WORLD PROBLEMS",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING P-T-F: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "PILLOW TOO FIRM",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS CULTURE CHAOS CLUE STARTING A-U-T: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "APP UPDATE TIMING",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "END OF SUMMER PANIC",
+  "daily": {
+    "theme": "END OF SUMMER PANIC",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "END OF SUMMER PANIC",
+        "clue": "THE FINAL SPLASH BEFORE REAL LIFE WALKS IN HOLDING A LUNCHBOX",
+        "answer": "LAST POOL DAY",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "END OF SUMMER PANIC",
+        "clue": "THE AISLE THAT MAKES AUGUST FEEL LIKE A FINANCIAL AMBUSH",
+        "answer": "SCHOOL SUPPLIES",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "END OF SUMMER PANIC",
+        "clue": "THE STICKY SUMMER OBJECT THAT IS SOMEHOW ALWAYS ALMOST EMPTY",
+        "answer": "SUNSCREEN BOTTLE",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "END OF SUMMER PANIC",
+        "clue": "THE SAND FILLED TOTE THAT KEEPS VACATION EVIDENCE FOREVER",
+        "answer": "BEACH BAG",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "END OF SUMMER PANIC",
+        "clue": "THE BLURRY SMILING PROOF THAT KIDS HAD FUN SOMEWHERE EXPENSIVE",
+        "answer": "CAMP PHOTOS",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "END OF SUMMER PANIC",
+        "clue": "THE DISTANT MUSIC THAT CAN MAKE CHILDREN MATERIALIZE OUT OF THIN AIR",
+        "answer": "ICE CREAM TRUCK",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "END OF SUMMER PANIC",
+        "clue": "THE LOW BUDGET WATER PARK THAT STILL DELIVERS CHILDHOOD",
+        "answer": "BACKYARD SPRINKLER",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "END OF SUMMER PANIC",
+        "clue": "THE ASSIGNMENT EVERYONE REMEMBERS THREE DAYS TOO LATE",
+        "answer": "SUMMER READING",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "END OF SUMMER PANIC",
+        "clue": "THE FOOTPRINT SUN MARK THAT SAYS YOU MADE CHOICES",
+        "answer": "FLIP FLOP TAN",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "END OF SUMMER PANIC",
+        "clue": "THE FOAM LOGS THAT SOMEHOW MULTIPLY IN EVERY GARAGE",
+        "answer": "POOL NOODLES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "END OF SUMMER PANIC",
+        "clue": "THE EVENING LIGHT THAT TRICKS EVERYONE INTO STAYING UP BADLY",
+        "answer": "LATE SUNSET",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE CLOSET DECISION TREATED LIKE A PERSONAL BRAND LAUNCH",
+        "answer": "FIRST DAY OUTFIT",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "LABOR DAY WEEKEND",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "LABOR DAY WEEKEND",
+        "clue": "THE OUTDOOR MEAL WHERE EVERYONE PRETENDS PAPER PLATES ARE FINE DINING",
+        "answer": "BACKYARD COOKOUT",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "LABOR DAY WEEKEND",
+        "clue": "THE PACKAGE MATH PROBLEM AMERICA REFUSES TO SOLVE",
+        "answer": "HOT DOG BUNS",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "LABOR DAY WEEKEND",
+        "clue": "THE COLD SIDE DISH EVERYONE EVALUATES LIKE A HEALTH INSPECTOR",
+        "answer": "POTATO SALAD",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "LABOR DAY WEEKEND",
+        "clue": "THE FOLDING THRONES OF LONG WEEKEND CONVERSATION",
+        "answer": "LAWN CHAIRS",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "LABOR DAY WEEKEND",
+        "clue": "THE BUTTERY SIDE QUEST THAT REQUIRES DENTAL CONFIDENCE",
+        "answer": "CORN ON THE COB",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "LABOR DAY WEEKEND",
+        "clue": "THE MELTING PARTY FOUNDATION THAT DETERMINES BEVERAGE JUSTICE",
+        "answer": "COOLER ICE",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "LABOR DAY WEEKEND",
+        "clue": "THE SHADE DEVICE THAT TURNS ONE TABLE INTO A RESORT",
+        "answer": "PATIO UMBRELLA",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "LABOR DAY WEEKEND",
+        "clue": "THE BACKYARD SIGNAL THAT SOMEONE IS ABOUT TO OVEREXPLAIN MEAT",
+        "answer": "GRILL SMOKE",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "LABOR DAY WEEKEND",
+        "clue": "THE PARTY PLATE THAT DISAPPEARS FAST AND TRAVELS WITH TOO MUCH CONFIDENCE",
+        "answer": "DEVILED EGGS",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "LABOR DAY WEEKEND",
+        "clue": "THE EVENING CIRCLE WHERE ADULTS STARE AT FLAMES LIKE TELEVISION",
+        "answer": "FIRE PIT",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "LABOR DAY WEEKEND",
+        "clue": "THE PERFUME OF PEOPLE TRYING TO ENJOY NATURE RESPONSIBLY",
+        "answer": "BUG SPRAY",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE THREE DAY MIRACLE THAT STILL SOMEHOW NEEDS ONE MORE DAY",
+        "answer": "LONG WEEKEND",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

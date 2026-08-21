@@ -1,103 +1,207 @@
 {
   "gameNumber": 40,
   "dateSeed": "2026-08-23",
-  "theme": "GEN Z TRANSLATOR",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "GEN Z TRANSLATOR",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING G-C-R: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "GROUP CHAT RECEIPTS",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "GEN Z TRANSLATOR",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING V-M-A: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "VOICE MEMO APOLOGY",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "GEN Z TRANSLATOR",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING P-S: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "PRIVATE STORY",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "GEN Z TRANSLATOR",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING A-R-H: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "ALGORITHM RABBIT HOLE",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "GEN Z TRANSLATOR",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING S-T-R: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "SCREEN TIME REPORT",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "GEN Z TRANSLATOR",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING E-D-E: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "ENERGY DRINK ERA",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "GEN Z TRANSLATOR",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING F-C-P: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "FIT CHECK PHOTO",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "GEN Z TRANSLATOR",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING D-H: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "DUPE HUNTING",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "GEN Z TRANSLATOR",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING S-L-P: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "SOFT LAUNCH POST",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "GEN Z TRANSLATOR",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING M-C-W: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "MAIN CHARACTER WALK",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "GEN Z TRANSLATOR",
-      "clue": "A 3 WORDS RELATABLE CULTURE CLUE STARTING D-C-C: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "DIGITAL CAMERA COMEBACK",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 2 WORDS RELATABLE CULTURE CLUE STARTING U-I: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "UNPAID INTERNSHIP",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "MILLENNIAL CORE",
+  "daily": {
+    "theme": "MILLENNIAL CORE",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "MILLENNIAL CORE",
+        "clue": "THE TINY HINGED BRICK YOU CLOSED LIKE YOU HAD JUST WON AN ARGUMENT",
+        "answer": "FLIP PHONE",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "MILLENNIAL CORE",
+        "clue": "THE PRE MOVIE SCREEN THAT LOOPED SO LONG IT BASICALLY MOVED IN",
+        "answer": "DVD MENU",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "MILLENNIAL CORE",
+        "clue": "THE PRINTED ROAD PLAN THAT MADE ONE MISSED TURN FEEL LIKE A COURT CASE",
+        "answer": "MAPQUEST DIRECTIONS",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "MILLENNIAL CORE",
+        "clue": "THE GLITTERY PERSONAL WEBSITE WHERE YOUR TOP FRIENDS LIST DID EMOTIONAL DAMAGE",
+        "answer": "MYSPACE PROFILE",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "MILLENNIAL CORE",
+        "clue": "THE CHAT HANDLE YOU MADE BEFORE TASTE FINISHED LOADING",
+        "answer": "AOL SCREEN NAME",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "MILLENNIAL CORE",
+        "clue": "THE TINY HAIR PLASTIC THAT MADE EVERY SCHOOL PHOTO LOOK VERY BUSY",
+        "answer": "BUTTERFLY CLIPS",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "MILLENNIAL CORE",
+        "clue": "THE BLEACHED SPIKY HAIR CHOICE THAT LOOKED LIKE A BOY BAND LOST A BET",
+        "answer": "FROSTED TIPS",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "MILLENNIAL CORE",
+        "clue": "THE THIN METAL STATUS BRICK EVERYONE SNAPPED SHUT LIKE A SOAP OPERA",
+        "answer": "MOTOROLA RAZR",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "MILLENNIAL CORE",
+        "clue": "THE 99 CENT CHORUS THAT MADE YOUR POCKET ANNOUNCE YOUR WHOLE PERSONALITY",
+        "answer": "RINGTONE DOWNLOADS",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "MILLENNIAL CORE",
+        "clue": "THE SAD AWAY MESSAGE MATERIAL FOR A TUESDAY THAT WAS TECHNICALLY FINE",
+        "answer": "EMO SONG LYRICS",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "MILLENNIAL CORE",
+        "clue": "THE SILVER POINT AND SHOOT THAT TURNED EVERY PARTY INTO RED EYE EVIDENCE",
+        "answer": "DIGITAL CAMERA",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE COMPUTER GAMBLE WHERE ONE HIT SINGLE ARRIVED WITH THREE MYSTERIES",
+        "answer": "LIMEWIRE DOWNLOADS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "KITCHEN COUNTER CHAOS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "KITCHEN COUNTER CHAOS",
+        "clue": "THE PAPER MOUNTAIN EVERY HOUSE PRETENDS IS PART OF THE DECOR",
+        "answer": "JUNK MAIL PILE",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "KITCHEN COUNTER CHAOS",
+        "clue": "THE YELLOW FRUIT TIMELINE THAT GOES FROM HEALTHY CHOICE TO BREAD INGREDIENT",
+        "answer": "BANANA GRAVEYARD",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "KITCHEN COUNTER CHAOS",
+        "clue": "THE TINY LANDING PAD THAT STILL CANNOT PREVENT A MORNING SEARCH PARTY",
+        "answer": "KEY BOWL",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "KITCHEN COUNTER CHAOS",
+        "clue": "THE CRINKLY SNACK EVIDENCE EVERYONE DENIES CREATING",
+        "answer": "OPEN CHIP BAG",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "KITCHEN COUNTER CHAOS",
+        "clue": "THE BROWN DESK CIRCLES THAT SAY A COASTER WAS TOO MUCH AMBITION",
+        "answer": "COFFEE RINGS",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "KITCHEN COUNTER CHAOS",
+        "clue": "THE ADULT PAPER TOWER THAT SOMEHOW CONTAINS BOTH COUPONS AND CONSEQUENCES",
+        "answer": "MAIL STACK",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "KITCHEN COUNTER CHAOS",
+        "clue": "THE TINY METAL COLLECTION NOBODY USES BUT EVERYONE KEEPS",
+        "answer": "LOOSE CHANGE",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "KITCHEN COUNTER CHAOS",
+        "clue": "THE THERMAL PAPER CONFETTI PROVING EGGS ARE NOW A LUXURY ITEM",
+        "answer": "GROCERY RECEIPTS",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "KITCHEN COUNTER CHAOS",
+        "clue": "THE CORD NEST WHERE EVERY HOUSEHOLD ARGUMENT EVENTUALLY BEGINS",
+        "answer": "PHONE CHARGERS",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "KITCHEN COUNTER CHAOS",
+        "clue": "THE PLASTIC ARMY THAT MIGRATES HOME FROM EVERY CAR AND SPORTS BAG",
+        "answer": "WATER BOTTLES",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "KITCHEN COUNTER CHAOS",
+        "clue": "THE TINY CONDIMENT COLLECTION SAVED LIKE THE ECONOMY DEPENDS ON IT",
+        "answer": "SAUCE PACKETS",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE TINY FOOD EVIDENCE THAT NOBODY CLAIMS BUT EVERYONE CONTRIBUTED TO",
+        "answer": "MYSTERY CRUMBS",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

@@ -1,103 +1,207 @@
 {
   "gameNumber": 44,
   "dateSeed": "2026-08-27",
-  "theme": "VACATION MODE",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "VACATION MODE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING P-C-P: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "PASSPORT CHECK PANIC",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "VACATION MODE",
-      "clue": "A 2 WORDS HOUSEHOLD LORE STARTING O-S: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "OVERPACKED SUITCASE",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "VACATION MODE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING A-S-D: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "AIRPORT SNACK DINNER",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "VACATION MODE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING P-C-C: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "POOL CHAIR CLAIM",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "VACATION MODE",
-      "clue": "A 4 WORDS HOUSEHOLD LORE STARTING H-K-C-F: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "HOTEL KEY CARD FAIL",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "VACATION MODE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING T-M-F: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "TOURIST MAP FOLD",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "VACATION MODE",
-      "clue": "A 2 WORDS HOUSEHOLD LORE STARTING S-S: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "SUNBURNED SHOULDERS",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "VACATION MODE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING B-G-D: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "BOARDING GROUP DRAMA",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "VACATION MODE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING B-T-R: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "BEACH TOWEL RESERVE",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "VACATION MODE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING M-F-T: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "MINI FRIDGE TREASURE",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "VACATION MODE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING P-G-I: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "POSTCARD GOOD INTENTIONS",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING V-L-P: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "VACATION LAUNDRY PILE",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "TARGET RUN DECISIONS",
+  "daily": {
+    "theme": "TARGET RUN DECISIONS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "TARGET RUN DECISIONS",
+        "clue": "THE FAMOUS LAST WORDS BEFORE THE CART STARTS MAKING FINANCIAL CHOICES",
+        "answer": "JUST ONE THING",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "TARGET RUN DECISIONS",
+        "clue": "THE FRONT DOOR TRAP FULL OF TINY ITEMS THAT SOMEHOW FEEL NECESSARY",
+        "answer": "DOLLAR SPOT",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "TARGET RUN DECISIONS",
+        "clue": "THE SOFT RECTANGLE THAT CONVINCES ADULTS THE ROOM HAS POTENTIAL",
+        "answer": "THROW PILLOW",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "TARGET RUN DECISIONS",
+        "clue": "THE SCENTED DETOUR WHERE EVERYONE DISCOVERS THEY NEED A NEW PERSONALITY",
+        "answer": "CANDLE AISLE",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "TARGET RUN DECISIONS",
+        "clue": "THE ROLLING BASKET THAT KNOWS YOUR BUDGET AND DOES NOT CARE",
+        "answer": "RED CART",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "TARGET RUN DECISIONS",
+        "clue": "THE SCANNING STATION WHERE YOU BECOME BOTH CUSTOMER AND EMPLOYEE",
+        "answer": "SELF CHECKOUT",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "TARGET RUN DECISIONS",
+        "clue": "THE LITTLE PURCHASE THAT JUMPS IN BECAUSE IT BELIEVES IN ITSELF",
+        "answer": "IMPULSE BUY",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "TARGET RUN DECISIONS",
+        "clue": "THE DECOR TIME MACHINE THAT IS ALWAYS TWO HOLIDAYS AHEAD",
+        "answer": "SEASONAL SECTION",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "TARGET RUN DECISIONS",
+        "clue": "THE PLASTIC PROMISE THAT YOUR HOUSE WILL BECOME ORGANIZED THIS TIME",
+        "answer": "STORAGE BINS",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "TARGET RUN DECISIONS",
+        "clue": "THE RED STICKER THAT MAKES WANTING SOMETHING FEEL RESPONSIBLE",
+        "answer": "CLEARANCE TAG",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "TARGET RUN DECISIONS",
+        "clue": "THE FINAL LEVEL WHERE YOU REMEMBER YOU BOUGHT MORE THAN YOU CAN CARRY",
+        "answer": "PARKING LOT",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE NUMBER THAT ARRIVES AFTER EVERY SMALL DECISION FORMS A UNION",
+        "answer": "RECEIPT TOTAL",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "CHILDHOOD COMMERCIALS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "CHILDHOOD COMMERCIALS",
+        "clue": "THE SHOUTY TV COMMAND THAT MADE EVERY PLASTIC TOY SOUND URGENT",
+        "answer": "CALL NOW",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "CHILDHOOD COMMERCIALS",
+        "clue": "THE SALES PHRASE THAT TURNED ONE QUESTIONABLE ITEM INTO THREE",
+        "answer": "BUT WAIT THERES MORE",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "CHILDHOOD COMMERCIALS",
+        "clue": "THE TINY APPLIANCE THAT MADE A LIGHT BULB FEEL LIKE A CHEF",
+        "answer": "EASY BAKE OVEN",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "CHILDHOOD COMMERCIALS",
+        "clue": "THE CERAMIC HEAD THAT GREW GREEN HAIR ON PURPOSE",
+        "answer": "CHIA PET",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "CHILDHOOD COMMERCIALS",
+        "clue": "THE ANKLE TOY THAT TURNED ONE LEG INTO A FULL TIME JOB",
+        "answer": "SKIP IT",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "CHILDHOOD COMMERCIALS",
+        "clue": "THE BOUNCY FOOTWEAR THAT PROMISED SPACE AND DELIVERED ANKLE CONCERN",
+        "answer": "MOON SHOES",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "CHILDHOOD COMMERCIALS",
+        "clue": "THE FOAM WEAPON SYSTEM THAT TURNED HALLWAYS INTO WAR ZONES",
+        "answer": "NERF BLASTER",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "CHILDHOOD COMMERCIALS",
+        "clue": "THE WATER CANNON THAT MADE EVERY DRIVEWAY FEEL MILITARY",
+        "answer": "SUPER SOAKER",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "CHILDHOOD COMMERCIALS",
+        "clue": "THE BOX BOTTOM TREASURE THAT MADE BREAKFAST A DIG SITE",
+        "answer": "CEREAL PRIZE",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "CHILDHOOD COMMERCIALS",
+        "clue": "THE THIRTY SECOND DREAM THAT NEVER LOOKED THAT GOOD AT HOME",
+        "answer": "TOY COMMERCIAL",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "CHILDHOOD COMMERCIALS",
+        "clue": "THE STICKER THAT MADE BAD IDEAS FEEL OFFICIALLY APPROVED",
+        "answer": "AS SEEN ON TV",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE FAKE EMERGENCY THAT SOMEHOW TARGETED CHILDREN BEFORE DINNER",
+        "answer": "LIMITED TIME OFFER",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

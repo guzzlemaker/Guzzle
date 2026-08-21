@@ -1,103 +1,207 @@
 {
   "gameNumber": 42,
   "dateSeed": "2026-08-25",
-  "theme": "DOG OWNER LIFE",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "DOG OWNER LIFE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING M-P-P: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "MUDDY PAW PRINTS",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "DOG OWNER LIFE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING S-T-A: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "SQUEAKY TOY AMBUSH",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "DOG OWNER LIFE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING T-B-R: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "TREAT BAG RUSTLE",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "DOG OWNER LIFE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING W-B-P: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "WINDOW BARK PATROL",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "DOG OWNER LIFE",
-      "clue": "A 4 WORDS HOUSEHOLD LORE STARTING F-O-B-P: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "FUR ON BLACK PANTS",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "DOG OWNER LIFE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING W-B-C: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "WALK BEFORE COFFEE",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "DOG OWNER LIFE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING M-F-S: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "MYSTERY FLOOR SNACK",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "DOG OWNER LIFE",
-      "clue": "A 4 WORDS HOUSEHOLD LORE STARTING V-B-S-S: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "VET BILL STICKER SHOCK",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "DOG OWNER LIFE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING D-P-P: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "DOG PARK POLITICS",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "DOG OWNER LIFE",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING C-O-S: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "CONE OF SHAME",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "DOG OWNER LIFE",
-      "clue": "A 2 WORDS HOUSEHOLD LORE STARTING L-T: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "LEASH TANGLE",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 3 WORDS HOUSEHOLD LORE STARTING T-W-G: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "TAIL WAG GREETING",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "SCHOOL NIGHT ENERGY",
+  "daily": {
+    "theme": "SCHOOL NIGHT ENERGY",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "SCHOOL NIGHT ENERGY",
+        "clue": "THE EVENING COMMAND THAT SOMEHOW STILL BECOMES A MORNING EMERGENCY",
+        "answer": "PACK YOUR BACKPACK",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "SCHOOL NIGHT ENERGY",
+        "clue": "THE PAPER REQUEST DISCOVERED EXACTLY WHEN THE BUS IS OUTSIDE",
+        "answer": "SIGN THE FOLDER",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "SCHOOL NIGHT ENERGY",
+        "clue": "THE OPTIMISTIC PLAN THAT DIES THE MOMENT SOMEONE CHANGES THEIR MIND",
+        "answer": "SET OUT CLOTHES",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "SCHOOL NIGHT ENERGY",
+        "clue": "THE TABLETIME NEGOTIATION WHERE ONE WORKSHEET BECOMES A HOSTAGE SITUATION",
+        "answer": "FINISH HOMEWORK",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "SCHOOL NIGHT ENERGY",
+        "clue": "THE HYGIENE SUGGESTION TREATED LIKE AN UNFAIR LABOR LAW",
+        "answer": "SHOWER BEFORE BED",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "SCHOOL NIGHT ENERGY",
+        "clue": "THE NIGHTLY PLUG IN THAT SOMEHOW STILL PRODUCES ONE PERCENT",
+        "answer": "CHARGE THE TABLET",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "SCHOOL NIGHT ENERGY",
+        "clue": "THE FOOTWEAR HUNT THAT STARTS AFTER EVERYONE IS ALREADY STRESSED",
+        "answer": "FIND YOUR SHOES",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "SCHOOL NIGHT ENERGY",
+        "clue": "THE HOMEWORK DOCUMENT WHERE FIVE MINUTES BECOMES A LEGAL CLAIM",
+        "answer": "READING LOG",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "SCHOOL NIGHT ENERGY",
+        "clue": "THE SMALL CASH EMERGENCY FROM THE ERA OF CRUMPLED BILLS",
+        "answer": "LUNCH MONEY",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "SCHOOL NIGHT ENERGY",
+        "clue": "THE SERIES OF SIMPLE STEPS THAT CAN LAST A FULL PRESIDENTIAL TERM",
+        "answer": "BEDTIME ROUTINE",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "SCHOOL NIGHT ENERGY",
+        "clue": "THE MORNING PROMISE MADE BY SOMEONE WHO HAS NEVER MET MORNING",
+        "answer": "EARLY ALARM",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE CURB WAITING ZONE WHERE EVERY MINUTE FEELS PERSONALLY LONGER",
+        "answer": "BUS STOP",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "GROUP CHAT PROBLEMS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "GROUP CHAT PROBLEMS",
+        "clue": "THE DIGITAL SILENCE THAT MAKES NORMAL PEOPLE START BUILDING A CASE",
+        "answer": "SOMEONE LEFT YOU ON READ",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "GROUP CHAT PROBLEMS",
+        "clue": "THE EMOJI AVALANCHE THAT SOMEHOW MAKES THE MESSAGE LESS CLEAR",
+        "answer": "TOO MANY REACTIONS",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "GROUP CHAT PROBLEMS",
+        "clue": "THE MODERN SOCIAL ACCIDENT WHERE ONE TEXT ENTERS THE WITNESS PROTECTION PROGRAM",
+        "answer": "WRONG THREAD",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "GROUP CHAT PROBLEMS",
+        "clue": "THE THREE LITTLE BUBBLES THAT CAN DESTROY AN AFTERNOON",
+        "answer": "TYPING DOTS",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "GROUP CHAT PROBLEMS",
+        "clue": "THE QUIET SETTING THAT FEELS LIKE EMOTIONAL SELF DEFENSE",
+        "answer": "MUTED NOTIFICATIONS",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "GROUP CHAT PROBLEMS",
+        "clue": "THE QUESTION THAT MEANS THE NUMBER WAS SAVED WITH ABSOLUTELY NO CONTEXT",
+        "answer": "WHO IS THIS",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "GROUP CHAT PROBLEMS",
+        "clue": "THE DIGITAL RECEIPT THAT TURNED A CONVERSATION INTO COURT EXHIBIT A",
+        "answer": "SCREENSHOT DRAMA",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "GROUP CHAT PROBLEMS",
+        "clue": "THE SMALLER ROOM WHERE THE REAL MEETING IMMEDIATELY HAPPENS",
+        "answer": "SIDE CHAT",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "GROUP CHAT PROBLEMS",
+        "clue": "THE MESSAGE EVERYONE STEPS OVER LIKE A RUG IN THE HALLWAY",
+        "answer": "UNANSWERED QUESTION",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "GROUP CHAT PROBLEMS",
+        "clue": "THE CHAT THREAD WHERE TEN PEOPLE DISCOVER DATES ARE HARD",
+        "answer": "VACATION PLANNING",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "GROUP CHAT PROBLEMS",
+        "clue": "THE SAVING GRACE FOR PEOPLE WHO LOVE YOU BUT ALSO FORGET EVERYTHING",
+        "answer": "BIRTHDAY REMINDER",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE ANIMATED ARGUMENT WHERE NO ONE WINS BUT EVERYONE LOSES STORAGE",
+        "answer": "GIF WAR",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }

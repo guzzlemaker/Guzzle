@@ -5,31 +5,6 @@ const startDate = '2026-08-14';
 const startGameNumber = 31;
 const outputDir = path.join('src', 'data', 'daily');
 
-const clueFrames = [
-  'THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD',
-  'A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER',
-  'THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER',
-  'A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE',
-  'THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT',
-  'A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK',
-  'THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED',
-  'A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY',
-  'THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW',
-  'A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US',
-  'THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT',
-  'FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW',
-];
-
-const trackAngles = [
-  [/NOSTALGIA|NINETIES|THOUSANDS|TENS|GEN X|MILLENNIAL/i, 'TIME CAPSULE'],
-  [/PARENT|MOM|DAD|DOG|CAT|SPORTS PARENTS/i, 'HOUSEHOLD LORE'],
-  [/ADULT|OFFICE|MONEY|HOME|CAR|GARAGE|DIESEL|JUNK|GROCERY|KITCHEN|TARGET|COSTCO/i, 'REAL LIFE SIDE QUEST'],
-  [/VACATION|ROAD TRIP|AIRPORT|PLACES/i, 'TRAVEL MEMORY'],
-  [/WEDDING|RELATIONSHIP|BIRTHDAY|HOLIDAY|SCHOOL|HIGH SCHOOL/i, 'SOCIAL SURVIVAL CLUE'],
-  [/MOVIE|TV|MUSIC|BLOCKBUSTER|OLYMPIC|BRAND/i, 'POP CULTURE MEMORY'],
-  [/CONSPIRACY|REDNECK|BRO|DUMB|RICH|FIRST WORLD|ANNOYANCES|PLOT|EXCUSES|RHYME|SAME LETTER/i, 'CULTURE CHAOS CLUE'],
-];
-
 const clueOverrides = {
   'EVERYDAY NOSTALGIA': [
     'THE WEEKEND COUCH RITUAL FROM BEFORE ON DEMAND HAD US ACTING SPOILED',
@@ -1244,31 +1219,32 @@ function difficultyValueFor(level) {
 }
 
 function clueFor(track, answer, level) {
-  const override = clueOverrides[track.theme]?.[level - 1];
-  const baseClue = override ?? fallbackClue(track.theme, answer, level);
-  return avoidAnswerWords(baseClue, answer);
+  const clueSet = clueOverrides[track.theme];
+  const override = clueSet?.[level - 1];
+
+  if (!override) {
+    throw new Error(
+      `Missing answer-specific clue override for "${track.theme}" lap ${level}: "${answer}". Generic fallback clues are forbidden by the operating manual.`,
+    );
+  }
+
+  const clue = normalizeClue(override);
+  const leaks = findAnswerWordLeaks(clue, answer);
+
+  if (leaks.length > 0) {
+    throw new Error(
+      `Answer word leak in clue for "${track.theme}" lap ${level}: "${answer}". Leaked words: ${leaks.join(', ')}`,
+    );
+  }
+
+  return clue;
 }
 
-function fallbackClue(theme, answer, level) {
-  const initials = answer
-    .split(/\s+/)
-    .filter(Boolean)
-    .map((word) => word[0])
-    .join('-');
-  const wordCount = answer.split(/\s+/).filter(Boolean).length;
-  const angle = getTrackAngle(theme);
-  const frame = clueFrames[(level - 1) % clueFrames.length];
-  const wordLabel = wordCount === 1 ? 'WORD' : 'WORDS';
-
-  return `A ${wordCount} ${wordLabel} ${angle} STARTING ${initials}: ${frame}`;
+function normalizeClue(clue) {
+  return String(clue ?? '').toUpperCase().replace(/\s+/g, ' ').trim();
 }
 
-function getTrackAngle(theme) {
-  const match = trackAngles.find(([pattern]) => pattern.test(theme));
-  return match?.[1] ?? 'RELATABLE CULTURE CLUE';
-}
-
-function avoidAnswerWords(clue, answer) {
+function findAnswerWordLeaks(clue, answer) {
   const ignoredTokens = new Set(['A', 'AN', 'AND', 'ET', 'IN', 'OF', 'ON', 'OR', 'THE', 'TO']);
   const answerTokens = answer
     .toUpperCase()
@@ -1276,13 +1252,22 @@ function avoidAnswerWords(clue, answer) {
     .split(/\s+/)
     .filter((token) => token.length >= 4 && !ignoredTokens.has(token));
 
-  let safeClue = clue.toUpperCase();
-  for (const token of answerTokens) {
-    safeClue = safeClue.replace(new RegExp(`\\b${token}\\b`, 'g'), 'THIS');
-  }
+  const clueTokens = new Set(
+    clue
+      .toUpperCase()
+      .replace(/[^A-Z0-9 ]/g, ' ')
+      .split(/\s+/)
+      .filter(Boolean),
+  );
 
-  return safeClue.replace(/\s+/g, ' ').trim();
+  return answerTokens.filter((token) => clueTokens.has(token));
 }
+
+scheduledTracks.forEach((track) => {
+  track.answers.forEach((answer, answerIndex) => {
+    clueFor(track, answer, answerIndex + 1);
+  });
+});
 
 fs.mkdirSync(outputDir, { recursive: true });
 

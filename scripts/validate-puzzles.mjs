@@ -32,40 +32,55 @@ function normalize(value) {
 const violations = [];
 const globalAnswers = new Map();
 
-for (const set of puzzleSets) {
-  if (set.puzzles.length !== 12) {
-    violations.push(`${set.theme}: expected 12 puzzles, found ${set.puzzles.length}`);
+function getTracks(set) {
+  if (set.daily || set.bonus) {
+    return [
+      set.daily ? { ...set.daily, dateSeed: set.dateSeed, trackType: 'daily' } : null,
+      set.bonus ? { ...set.bonus, dateSeed: set.dateSeed, trackType: 'bonus' } : null,
+    ].filter(Boolean);
   }
 
-  const trackAnswers = new Map();
+  return [set];
+}
 
-  for (const puzzle of set.puzzles) {
-    const clue = normalize(puzzle.clue);
-    const answer = normalize(puzzle.answer);
-    const answerTokens = answer.split(' ').filter((token) => token.length >= 4 && !ignoredTokens.has(token));
+for (const set of puzzleSets) {
+  for (const track of getTracks(set)) {
+    const trackName = `${track.dateSeed ?? set.dateSeed ?? 'undated'} ${track.trackType ?? 'track'} ${track.theme}`;
 
-    if (trackAnswers.has(answer)) {
-      violations.push(`${set.theme}: duplicate answer "${puzzle.answer}" also appears at level ${trackAnswers.get(answer)}`);
-    }
-    trackAnswers.set(answer, puzzle.level);
-
-    if (globalAnswers.has(answer)) {
-      violations.push(
-        `${set.theme} level ${puzzle.level}: duplicate monthly answer "${puzzle.answer}" also appears in ${globalAnswers.get(
-          answer,
-        )}`,
-      );
-    }
-    globalAnswers.set(answer, `${set.theme} level ${puzzle.level}`);
-
-    if (answer && clue.includes(answer)) {
-      violations.push(`${set.theme} level ${puzzle.level}: clue contains full answer "${puzzle.answer}"`);
+    if (track.puzzles.length !== 12) {
+      violations.push(`${trackName}: expected 12 puzzles, found ${track.puzzles.length}`);
     }
 
-    for (const token of answerTokens) {
-      const tokenPattern = new RegExp(`\\b${token}\\b`);
-      if (tokenPattern.test(clue)) {
-        violations.push(`${set.theme} level ${puzzle.level}: clue contains answer word "${token}"`);
+    const trackAnswers = new Map();
+
+    for (const puzzle of track.puzzles) {
+      const clue = normalize(puzzle.clue);
+      const answer = normalize(puzzle.answer);
+      const answerTokens = answer.split(' ').filter((token) => token.length >= 4 && !ignoredTokens.has(token));
+
+      if (trackAnswers.has(answer)) {
+        violations.push(`${trackName}: duplicate answer "${puzzle.answer}" also appears at level ${trackAnswers.get(answer)}`);
+      }
+      trackAnswers.set(answer, puzzle.level);
+
+      if (globalAnswers.has(answer)) {
+        violations.push(
+          `${trackName} level ${puzzle.level}: duplicate monthly answer "${puzzle.answer}" also appears in ${globalAnswers.get(
+            answer,
+          )}`,
+        );
+      }
+      globalAnswers.set(answer, `${trackName} level ${puzzle.level}`);
+
+      if (answer && clue.includes(answer)) {
+        violations.push(`${trackName} level ${puzzle.level}: clue contains full answer "${puzzle.answer}"`);
+      }
+
+      for (const token of answerTokens) {
+        const tokenPattern = new RegExp(`\\b${token}\\b`);
+        if (tokenPattern.test(clue)) {
+          violations.push(`${trackName} level ${puzzle.level}: clue contains answer word "${token}"`);
+        }
       }
     }
   }

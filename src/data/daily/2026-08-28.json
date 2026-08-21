@@ -1,103 +1,207 @@
 {
   "gameNumber": 45,
   "dateSeed": "2026-08-28",
-  "theme": "ROAD TRIP ENERGY",
-  "puzzles": [
-    {
-      "level": 1,
-      "category": "ROAD TRIP ENERGY",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING G-S-C: THE ONE YOUR BRAIN KNOWS BUT REFUSES TO SAY OUT LOUD",
-      "answer": "GAS STATION COFFEE",
-      "difficulty": "FAST START",
-      "difficultyValue": 45
-    },
-    {
-      "level": 2,
-      "category": "ROAD TRIP ENERGY",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING L-P-G: A LITTLE CULTURAL RECEIPT FROM THE SHARED MEMORY DRAWER",
-      "answer": "LICENSE PLATE GAME",
-      "difficulty": "FAST START",
-      "difficultyValue": 46
-    },
-    {
-      "level": 3,
-      "category": "ROAD TRIP ENERGY",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING B-S-C: THE ANSWER THAT SHOULD CLICK RIGHT AFTER ONE MORE LETTER",
-      "answer": "BACKSEAT SNACK CRUMBS",
-      "difficulty": "FAST START",
-      "difficultyValue": 47
-    },
-    {
-      "level": 4,
-      "category": "ROAD TRIP ENERGY",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING R-S-S: A NORMAL LIFE DETAIL WITH MAIN CHARACTER CONFIDENCE",
-      "answer": "REST STOP STRETCH",
-      "difficulty": "STEADY",
-      "difficultyValue": 48
-    },
-    {
-      "level": 5,
-      "category": "ROAD TRIP ENERGY",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING P-P-S: THE VERY SPECIFIC THING HIDING IN PLAIN SIGHT",
-      "answer": "PLAYLIST POWER STRUGGLE",
-      "difficulty": "STEADY",
-      "difficultyValue": 49
-    },
-    {
-      "level": 6,
-      "category": "ROAD TRIP ENERGY",
-      "clue": "A 2 WORDS TRAVEL MEMORY STARTING G-R: A FAMILIAR MOVE FROM THE MODERN HUMAN PLAYBOOK",
-      "answer": "GPS RECALCULATING",
-      "difficulty": "STEADY",
-      "difficultyValue": 50
-    },
-    {
-      "level": 7,
-      "category": "ROAD TRIP ENERGY",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING S-R-L: THE PHRASE THAT FEELS OBVIOUS THE SECOND IT IS REVEALED",
-      "answer": "SCENIC ROUTE LIE",
-      "difficulty": "STEADY",
-      "difficultyValue": 51
-    },
-    {
-      "level": 8,
-      "category": "ROAD TRIP ENERGY",
-      "clue": "A 2 WORDS TRAVEL MEMORY STARTING T-T: A TINY TIME CAPSULE WITH TOO MUCH PERSONALITY",
-      "answer": "TRUNK TETRIS",
-      "difficulty": "PUSH",
-      "difficultyValue": 52
-    },
-    {
-      "level": 9,
-      "category": "ROAD TRIP ENERGY",
-      "clue": "A 2 WORDS TRAVEL MEMORY STARTING S-S: THE EVERYDAY DRAMA THAT SOMEHOW EARNED A PIT CREW",
-      "answer": "SUNGLASSES SEARCH",
-      "difficulty": "PUSH",
-      "difficultyValue": 53
-    },
-    {
-      "level": 10,
-      "category": "ROAD TRIP ENERGY",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING H-C-I: A COMMON EXPERIENCE WE ALL PRETEND IS NOT ABOUT US",
-      "answer": "HOTEL CHECK IN",
-      "difficulty": "PUSH",
-      "difficultyValue": 54
-    },
-    {
-      "level": 11,
-      "category": "ROAD TRIP ENERGY",
-      "clue": "A 3 WORDS TRAVEL MEMORY STARTING E-R-R: THE ANSWER SITTING RIGHT THERE LIKE IT PAYS RENT",
-      "answer": "EXIT RAMP REGRET",
-      "difficulty": "PUSH",
-      "difficultyValue": 55
-    },
-    {
-      "level": 12,
-      "category": "FINAL LAP",
-      "clue": "A 4 WORDS TRAVEL MEMORY STARTING A-W-T-Y: FINISH LINE ENERGY FOR THE THING YOU ABSOLUTELY KNOW",
-      "answer": "ARE WE THERE YET",
-      "difficulty": "FINAL LAP",
-      "difficultyValue": 55
-    }
-  ]
+  "theme": "WEEKEND ERRANDS",
+  "daily": {
+    "theme": "WEEKEND ERRANDS",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "WEEKEND ERRANDS",
+        "clue": "THE SIMPLE TASK THAT SOMEHOW RIDES IN YOUR CAR FOR THREE WEEKS",
+        "answer": "PACKAGE RETURN",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "WEEKEND ERRANDS",
+        "clue": "THE PARKING SPOT RITUAL WHERE SOMEONE ELSE JUDGES YOUR BANANA CHOICES",
+        "answer": "GROCERY PICKUP",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "WEEKEND ERRANDS",
+        "clue": "THE CLOTHING ERRAND FOR ITEMS TOO FANCY TO MEET YOUR WASHER",
+        "answer": "DRY CLEANING",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "WEEKEND ERRANDS",
+        "clue": "THE FIVE MINUTE TUNNEL THAT MAKES A VEHICLE FEEL REBORN",
+        "answer": "CAR WASH",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "WEEKEND ERRANDS",
+        "clue": "THE PLACE YOU ENTER CONFIDENTLY AND LEAVE HOLDING THREE WRONG SCREWS",
+        "answer": "HARDWARE STORE",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "WEEKEND ERRANDS",
+        "clue": "THE SLOWEST QUEUE IN AMERICA WITH THE BRIGHTEST LIGHTING",
+        "answer": "PHARMACY LINE",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "WEEKEND ERRANDS",
+        "clue": "THE BUILDING WHERE TIME PUTS ON HEAVY BOOTS",
+        "answer": "POST OFFICE",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "WEEKEND ERRANDS",
+        "clue": "THE GOOD DEED THAT STARTS WITH CLEANING ONE CLOSET AND LOSING A SATURDAY",
+        "answer": "DONATION DROP OFF",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "WEEKEND ERRANDS",
+        "clue": "THE OLD SCHOOL MONEY MOVE THAT STILL FEELS STRANGELY OFFICIAL",
+        "answer": "BANK DEPOSIT",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "WEEKEND ERRANDS",
+        "clue": "THE CAR ERRAND WHERE YOUR VEHICLE GETS JUDGED BY A MACHINE",
+        "answer": "SMOG TEST",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "WEEKEND ERRANDS",
+        "clue": "THE HEAVY BAG PURCHASE FOR SOMEONE WHO WILL NEVER SAY THANK YOU",
+        "answer": "PET FOOD RUN",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE SMALL BRIBE THAT MAKES DOING CHORES FEEL LIKE A LIFESTYLE",
+        "answer": "COFFEE REWARD",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  },
+  "bonus": {
+    "theme": "THINGS IN EVERY GARAGE",
+    "puzzles": [
+      {
+        "level": 1,
+        "category": "THINGS IN EVERY GARAGE",
+        "clue": "THE TANGLED ORANGE SNAKE EVERYONE NEEDS AND NOBODY WINDS CORRECTLY",
+        "answer": "EXTENSION CORD",
+        "difficulty": "FAST START",
+        "difficultyValue": 45
+      },
+      {
+        "level": 2,
+        "category": "THINGS IN EVERY GARAGE",
+        "clue": "THE WALL COLOR ARCHIVE FROM SEVEN PROJECTS AGO",
+        "answer": "PAINT CANS",
+        "difficulty": "FAST START",
+        "difficultyValue": 46
+      },
+      {
+        "level": 3,
+        "category": "THINGS IN EVERY GARAGE",
+        "clue": "THE TOOL EVERYONE NEEDS EXACTLY WHEN IT CANNOT BE FOUND",
+        "answer": "BIKE PUMP",
+        "difficulty": "FAST START",
+        "difficultyValue": 47
+      },
+      {
+        "level": 4,
+        "category": "THINGS IN EVERY GARAGE",
+        "clue": "THE METAL SEATING STACK READY FOR SPORTS AND MILD DISCOMFORT",
+        "answer": "FOLDING CHAIRS",
+        "difficulty": "STEADY",
+        "difficultyValue": 48
+      },
+      {
+        "level": 5,
+        "category": "THINGS IN EVERY GARAGE",
+        "clue": "THE PLASTIC SEASONAL VAULT THAT ONLY OPENS UNDER PRESSURE",
+        "answer": "HOLIDAY TOTES",
+        "difficulty": "STEADY",
+        "difficultyValue": 49
+      },
+      {
+        "level": 6,
+        "category": "THINGS IN EVERY GARAGE",
+        "clue": "THE ICE CHEST THAT HAS SEEN MORE WEEKENDS THAN MOST PEOPLE",
+        "answer": "OLD COOLER",
+        "difficulty": "STEADY",
+        "difficultyValue": 50
+      },
+      {
+        "level": 7,
+        "category": "THINGS IN EVERY GARAGE",
+        "clue": "THE LOUD BACKPACK TOOL THAT MAKES ONE DRIVEWAY EVERYONES BUSINESS",
+        "answer": "LEAF BLOWER",
+        "difficulty": "STEADY",
+        "difficultyValue": 51
+      },
+      {
+        "level": 8,
+        "category": "THINGS IN EVERY GARAGE",
+        "clue": "THE TINY METAL COLLECTION SAVED FOR A FUTURE THAT NEVER COMES",
+        "answer": "MYSTERY NAILS",
+        "difficulty": "PUSH",
+        "difficultyValue": 52
+      },
+      {
+        "level": 9,
+        "category": "THINGS IN EVERY GARAGE",
+        "clue": "THE HALF FLAT ATHLETIC GRAVEYARD IN THE CORNER",
+        "answer": "SPORTS BALLS",
+        "difficulty": "PUSH",
+        "difficultyValue": 53
+      },
+      {
+        "level": 10,
+        "category": "THINGS IN EVERY GARAGE",
+        "clue": "THE LOUD BUCKET THAT FIXES MESSES BY SOUNDING ANGRY",
+        "answer": "SHOP VAC",
+        "difficulty": "PUSH",
+        "difficultyValue": 54
+      },
+      {
+        "level": 11,
+        "category": "THINGS IN EVERY GARAGE",
+        "clue": "THE WINTER TOOL EVERYONE RESPECTS ONLY AFTER IT IS TOO LATE",
+        "answer": "SNOW SHOVEL",
+        "difficulty": "PUSH",
+        "difficultyValue": 55
+      },
+      {
+        "level": 12,
+        "category": "FINAL LAP",
+        "clue": "THE STIFF HAND ARMOR THAT MAKES ANY JOB FEEL SERIOUS",
+        "answer": "WORK GLOVES",
+        "difficulty": "FINAL LAP",
+        "difficultyValue": 55
+      }
+    ]
+  }
 }
